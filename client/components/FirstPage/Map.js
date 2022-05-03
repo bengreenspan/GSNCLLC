@@ -18,9 +18,9 @@ import Aos from "Aos";
 
 const Map = () => {
   
-  const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyA7K_ggNwr3bS2vpzWZYuCTEcNVnidjtgw",
-  });
+  // const { isLoaded } = useLoadScript({
+  //   googleMapsApiKey: "AIzaSyA7K_ggNwr3bS2vpzWZYuCTEcNVnidjtgw",
+  // });
 
   const center = useMemo(() => ({ lat: 40.7207644, lng: -73.991498 }), []);
 

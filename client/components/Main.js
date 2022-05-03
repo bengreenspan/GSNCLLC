@@ -28,7 +28,7 @@ export const Main = () => (
     <Divider sx={{ m: 0, p: 0 }} />
     <Customers />
     <Divider sx={{ m: 0, p: 0 }} />
-    <Map />
+    {/* <Map /> */}
     {/* <Parallax bgImage={'./back7.png'} strength={400}> */}
     <Divider sx={{ m: 0, p: 0 }} />
     <Faq />
