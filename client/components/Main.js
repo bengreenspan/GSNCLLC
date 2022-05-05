@@ -11,6 +11,7 @@ import Title from "./FirstPage/Title";
 import FirstContact from "./FirstPage/FirstContact";
 import { Divider } from "@mui/material";
 import { Parallax, Background } from 'react-parallax';
+import * as BS from 'react-bootstrap'
 
 <Divider sx={{ m: 0, p: 0 }} />;
 
@@ -19,8 +20,6 @@ export const Main = () => (
     <Title />
     {/* <Parallax bgImage={'./back7.png'} strength={600}> */}
     <FirstContact />
-    <Divider sx={{ m: 0, p: 0 }} />
-
     <Desc />
     <Divider sx={{ m: 0, p: 0 }} />
     {/* </Parallax> */}
@@ -28,7 +27,7 @@ export const Main = () => (
     <Divider sx={{ m: 0, p: 0 }} />
     <Customers />
     <Divider sx={{ m: 0, p: 0 }} />
-    {/* <Map /> */}
+    <Map />
     {/* <Parallax bgImage={'./back7.png'} strength={400}> */}
     <Divider sx={{ m: 0, p: 0 }} />
     <Faq />

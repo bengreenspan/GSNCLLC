@@ -10,8 +10,9 @@ import Theme from "./Theme";
 const App = () => {
   return (
     <div className="bigBack">
-    <ThemeProvider theme={Theme}>
+
       <Navbar />
+      <ThemeProvider theme={Theme}>
       <Container>
         <Routes />
       </Container>

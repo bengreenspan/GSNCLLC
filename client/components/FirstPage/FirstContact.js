@@ -1,71 +1,95 @@
 import * as React from "react";
+import * as BS from "react-bootstrap";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import Rating from "@mui/material/Rating";
-import { Divider } from "@mui/material";
-import Form from "./Form";
-import { Link } from "react-router-dom";
-import { Button, Row, Col } from "react-bootstrap";
-import { Parallax, Background } from "react-parallax";
+
 
 const FirstContact = () => {
   return (
-    <Parallax bgImage={"./atmb1.png"} strength={150}>
-      <Container
-        sx={{ display: "flex" }}
-        data-aos="fade-left"
-        data-aos-duration="2000"
+    <Box
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        borderRadius: "15px",
+      }}
+    >
+      <video
+        autoPlay
+        loop
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          left: "50%",
+          top: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%, -50%)",
+        }}
       >
-        {/* <ThemeProvider theme={theme}> */}
-        <Box sx={{ pl: 1 }}>
+        {" "}
+        <source src="/atmvideo1.mp4" type="video/mp4" />
+      </video>
+      <BS.Container>
+        <BS.Row>
           <Box
-            sx={{ pt: 12, pb: 8, display: "flex", justifyContent: "center" }}
+            sx={{ display: "flex" }}
+            data-aos="fade-left"
+            data-aos-duration="2000"
           >
-            <Typography
-              component="h1"
-              variant="h2"
-              sx={{
-                boxShadow: 10,
-                border: "#0487cd",
-                backgroundColor: "#FFF",
-                p: 3,
-                borderRadius: 3,
-              }}
-            >
-              Reach Out Now
-            </Typography>
+            {/* <ThemeProvider theme={theme}> */}
+
+            {/* <Box> */}
+            <BS.Col>
+              <Box sx={{ display: "flex", justifyContent: "left" }}>
+
+                  <Typography sx={{ color: "black" }}>
+                    <Typography
+                      variant="h3"
+                      className="white-background"
+                      sx={{ p: 3, justifyContent: "center" }}
+                    >
+                      <div className="font">
+                      Bespoke ATM Solutions
+                      </div>
+                      <br />
+                      <br />
+                      <h3>
+                        {" "}
+                        GSNC LLC is your local New York City ATM provider.
+                        <br /> Helping small and medium size businesses install,
+                        service and maintain the highest quality ATMs available.
+                      </h3>
+                      <br />
+                    </Typography>
+                  </Typography>
+            
+              </Box>
+            </BS.Col>
+            <BS.Col></BS.Col>
+            <BS.Col>
+              {" "}
+              <Container sx={{ p: 3, alignItems: "center" }} >
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+                <button>
+                  <span>Click Here to Start</span>
+                </button>
+              </Container>
+            </BS.Col>
+
+   
+            {/* </Box> */}
           </Box>
-          <Divider sx={{ m: 0, p: 0 }} />
-          <Container>
-            <Typography component="h4" variant="h4" sx={{ pt: 10, pb: 10 }}>
-              <Typography
-                component="h3"
-                variant="h4"
-                sx={{
-                  boxShadow: 5,
-                  border: "#0487cd",
-                  backgroundColor: "#FFF",
-                  p: 3,
-                  borderRadius: 3,
-                }}
-              >
-                If you are interesting in becoming a client or would like to
-                discuss a potential partnership
-              </Typography>
-              <Typography className="text-box">
-                <a href="/info" className="btn btn-white btn-        animate">
-                  {" "}
-                  Click here
-                </a>
-              </Typography>
-            </Typography>
-          </Container>
-        </Box>
-      </Container>
-    </Parallax>
+        </BS.Row>
+      </BS.Container>
+    </Box>
   );
 };
 

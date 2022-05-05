@@ -91,9 +91,15 @@ const Form = () => {
         strength={-200}
       >
         <Box sx={{ display: "flex", justifyContent: "center", pb: 10 }}>
-          <Typography variant="h4" marginTop={13} sx={{ color: "white" }}>
+          <Typography variant="h4" marginTop={13} sx={{ color: "white", ml:4 }}>
             <div className="font">
-              <button className="white-background">Submit ATM Request</button>
+            <Typography
+                    variant="h3"
+                    className="white-background"
+                    sx={{ p: 3, justifyContent: "center" }}
+                  >
+                Submit ATM Request
+                </Typography>
             </div>
           </Typography>
         </Box>

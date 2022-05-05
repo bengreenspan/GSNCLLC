@@ -15,25 +15,6 @@ const theme = createTheme({
       dark: "#a62859",
       contrastText: "#fff",
     },
-    orangey: {
-      light: "#edb482",
-      main: "#F57D52",
-      dark: "#db5321",
-      contrastText: "#fff",
-    },
-    yellow: {
-      light: "#f5dda6",
-      main: "#FEBF30",
-      dark: "#e09c00",
-      contrastText: "#fff",
-    },
-    braun: {
-      main: "#271F1C",
-    },
-    grey: {
-      main: "#837873",
-      dark: "#383432",
-    },
     white: {
       main: "#FFFFFF",
     },
@@ -69,9 +50,11 @@ const theme = createTheme({
         {
           props: {
             variant: "link",
+            
           },
           style: {
-          color:"primary"
+          color:"primary",
+          fontSize: 40
           },
         },
         {

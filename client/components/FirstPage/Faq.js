@@ -22,9 +22,13 @@ export default function ControlledAccordions() {
     <Container sx={{pl: 10, pr: 10}}>
         <Box sx={{ display: "flex", justifyContent: "center", pb: 12 }}>
             <Typography variant="h4" marginTop={13} sx={{ color: "white" }}>
-              <div className="font">
-                <button className="white-background" >FAQ</button>
-              </div>
+            <Typography
+                    variant="h3"
+                    className="white-background"
+                    sx={{ p: 3, justifyContent: "center" }}
+                  >
+    FAQ
+                </Typography>
             </Typography>
           </Box>
       <div data-aos="fade-up"

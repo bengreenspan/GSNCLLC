@@ -17,7 +17,14 @@ const Customers = () => {
           <Box sx={{ display: "flex", justifyContent: "center", pb: 12 }}>
             <Typography variant="h4" marginTop={13} sx={{ color: "white" }}>
               <div className="font">
-                <button className="white-background" >Sample Customers</button>
+
+              <Typography
+                    variant="h3"
+                    className="white-background"
+                    sx={{ p: 3, justifyContent: "center" }}
+                  >
+                  Sample Customers
+                  </Typography>
               </div>
             </Typography>
           </Box>
