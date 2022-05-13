@@ -1,4 +1,5 @@
 import React from "react";
+import * as BS from "react-bootstrap";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
@@ -8,55 +9,84 @@ import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
 import Aos from "Aos";
 // import "aos/dist/aos.css"
 import { Parallax, Background } from "react-parallax";
+import Za from "./CustomerComp/Za";
+import Mc from "./CustomerComp/Mc";
 
 const Customers = () => {
   return (
-    <div className="customers">
-      <Parallax bgImage={"./back2.png"} strength={600} >
-        <Container>
-          <Box sx={{ display: "flex", justifyContent: "center", pb: 12 }}>
-            <Typography variant="h4" marginTop={13} sx={{ color: "white" }}>
-              <div className="font">
+    <BS.Container>
+      <Box
+        sx={{
+          pt: 10,
+          pb: 15,
+          display: "flex",
+          justifyContent: "center",
+          borderRadius: "15px",
+        }}
+      >
+        <BS.Row>
+          <BS.Col sm={5} xs={8}>
+            <div data-aos="fade-left" data-aos-duration="1000">
+              <Container sx={{ mt: 5, pl: 30, justifyContent: "center" }}>
+                <Box
+                  // variant="h3"
+                  // className="white-background"
+                  sx={{ justifyContent: "center" }}
+                >
+                  {" "}
+                  <Typography sx={{mt:10, pb:5}}>
+                    <h1 className="fontbold">
+                      
+             Customer Comes First
+                    </h1>
+                    </Typography>
+                    <img src="/number2.png" alt="one" width="300" height="225"/> 
+                    <br />
+                    <Typography sx={{mt:10, pb:0}}>
+                    <h4 className="font">
+                We are wholely committed to provided first class service to our customers. Check out some of our featured partners!
+                    </h4>
+                    </Typography>
+                    <br />
+                    <br />
+                    <br />
+ 
+                </Box>
+              </Container>
+            </div>
+          </BS.Col>
 
-              <Typography
-                    variant="h3"
-                    className="white-background"
-                    sx={{ p: 3, justifyContent: "center" }}
-                  >
-                  Sample Customers
-                  </Typography>
-              </div>
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex" }}>
-            <Box sx={{ pb: 12 }}>
-            <Parallax bgImage={"./mc1g.png"} strength={600} >
-              <a target="_blank" href="https://mcsorleysoldalehouse.nyc/">
-                <div className="container">
-                  <img src="/mcg.png" alt="Mc" className="image" />
-                  <div className="middle">
-                    <div className="text">McSorley's Ole Ale House</div>
+          <BS.Col sm={7} xs={12}>
+            <div data-aos="fade-left" data-aos-duration="1000">
+              <Container sx={{ mt: 5, justifyContent: "center" }}>
+                <Box
+                  // variant="h3"
+                  // className="white-background"
+                  sx={{ p: 3, justifyContent: "center" }}
+                >
+                  {" "}
+                  <div data-aos="fade-up">
+                    <Mc />
                   </div>
-                </div>
-              </a>
-              </Parallax>
-            </Box>
-            <Box>
-            <Parallax bgImage={"./za.png"} strength={600} >
-              <a target="_blank" href="https://grannyza.com/">
-                <div className="container">
-                  <img src="/za.png" alt="Zs" className="image" />
-                  <div className="middle">
-                    <div className="text">Granny Za's Cannabis</div>
+                  <br />
+                  <div data-aos="fade-down">
+                    <Za />
                   </div>
-                </div>
-              </a>
-              </Parallax>
-            </Box>
-          </Box>
-        </Container>
-      </Parallax>
-    </div>
+                </Box>
+              </Container>
+            </div>
+          </BS.Col>
+        </BS.Row>
+      </Box>
+    </BS.Container>
   );
 };
 export default Customers;
+
+// <div className="fontbold">Sample Partners</div>
+// <br />
+// <h2 className="font1">
+//   Check out a few of our partners. These types of businesses
+//   models lend themselves to synergies with their ATM
+//   solution.
+//   </h2>

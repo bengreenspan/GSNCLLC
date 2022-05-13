@@ -8,31 +8,40 @@ import Faq from "./FirstPage/Faq";
 import Form from "./FirstPage/Form";
 import Contact from "./FirstPage/Contact";
 import Title from "./FirstPage/Title";
+import Carousel from "./FirstPage/Carousel";
 import FirstContact from "./FirstPage/FirstContact";
 import { Divider } from "@mui/material";
-import { Parallax, Background } from 'react-parallax';
-import * as BS from 'react-bootstrap'
+import { Parallax, Background } from "react-parallax";
+import * as BS from "react-bootstrap";
+
 
 <Divider sx={{ m: 0, p: 0 }} />;
 
 export const Main = () => (
-  <div>
+<div>
     <Title />
-    {/* <Parallax bgImage={'./back7.png'} strength={600}> */}
     <FirstContact />
+
     <Desc />
-    <Divider sx={{ m: 0, p: 0 }} />
-    {/* </Parallax> */}
-    <Form />
+    {/* <div className="gray"> */}
+    {/* <Parallax bgImage={"./new2.png"} strength={450}> */}
+      <Form />
+    {/* </div> */}
+
     <Divider sx={{ m: 0, p: 0 }} />
     <Customers />
-    <Divider sx={{ m: 0, p: 0 }} />
-    <Map />
-    {/* <Parallax bgImage={'./back7.png'} strength={400}> */}
-    <Divider sx={{ m: 0, p: 0 }} />
-    <Faq />
-    <Contact />
-    {/* </Parallax> */}
 
-  </div>
+    <Divider sx={{ m: 0, p: 0 }} />
+
+    <Map />
+
+    <Carousel />
+    <Divider sx={{ m: 0, pb: 0 }} />
+
+    <Faq />
+
+    <Contact />
+
+{/* </Parallax> */}
+</div>
 );

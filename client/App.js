@@ -9,18 +9,20 @@ import Theme from "./Theme";
 
 const App = () => {
   return (
-    <div className="bigBack">
+    <>
 
       <Navbar />
       <ThemeProvider theme={Theme}>
       <Container>
+ 
         <Routes />
+ 
       </Container>
       <Container>
         <Footer />
       </Container>
     </ThemeProvider>
-    </div>
+    </>
   );
 };
 

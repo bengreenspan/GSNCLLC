@@ -10,6 +10,7 @@ import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Rating from "@mui/material/Rating";
 import { Divider } from "@mui/material";
+import { Parallax, Background } from "react-parallax";
 // import theme from "../../Theme";
 import Title from "./Title";
 import Aos from "Aos";
@@ -21,93 +22,99 @@ const Desc = () => {
   }, []);
 
   return (
-    <Box
-      sx={{
-        pt: 34,
-        pb: 15,
-        display: "flex",
-        justifyContent: "center",
-        borderRadius: "15px",
-      }}
-    >
-      <BS.Container>
-        <Box>
-          <BS.Row>
-            <BS.Col>
-              <img src="/hysoun.png" height={530} />
-            </BS.Col>
-            <BS.Col>
-              <div className="orangeBack">
-                <Typography sx={{ pb: 5 }}>
-                  <div className="font">
-                    What can GSNC LLC do for my small business?
-                  </div>
-                  <Box sx={{ pb: 9, pt: 9, display: "flex" }}>
-                    <Typography component="h4" variant="subtitle1">
-                      {" "}
-                      <div className="font">
+    <BS.Container>
+      <Box
+        sx={{
+          pt: 50,
+          pb: 15,
+          display: "flex",
+          justifyContent: "center",
+          borderRadius: "15px",
+        }}
+      >
+        <BS.Row>
+          <BS.Col sm={5}>
+            <div data-aos="fade-right" data-aos-duration="1000">
+              <Parallax bgImage={"/hysoun1.png"} strength={-150}>
+                <div className="transparent">
+                  {" "}
+                  <img src="/hysoun2.png" height={630} />
+                </div>
+              </Parallax>
+            </div>
+          </BS.Col>
+
+          <BS.Col sm={7} xs={7}>
+            <div data-aos="fade-left" data-aos-duration="1000">
+              <Container sx={{ mt: 5, pl:21, justifyContent: "center" }}>
+                <Box
+                  // variant="h3"
+                  // className="white-background"
+                  sx={{ p: 3, justifyContent: "center" }}
+                >
+                  {" "}
+                  <Typography>
+                    <h1 className="fontbold">
+                      What can GSNC LLC do for my small business?
+                    </h1>
+                    <br />
+                    <br />
+                    <div className="font">
                       A flawlessly installed ATM can provide seamless customer
                       convience for cash transactions as well as provide
                       supplementary income to the business
-                      </div>
-                    </Typography>
-                  </Box>
-                </Typography>
-
-                <Typography
-                  component="h4"
-                  variant="subtitle1"
-                  sx={{ pb: 5, pl: 5, pr: 5 }}
-                >
-                                <div className="font">
-                  {" "}
-                  For small business is the NYC area GSNC can provide a full
-                  service ATM for your customers. Our industry experts can
-                  create bespoke ATM services for any small business.
-                  </div>
-                </Typography>
-                
-              </div>
-            </BS.Col>
-          </BS.Row>
-        </Box>
-      </BS.Container>
-    </Box>
+                    </div>
+                    <br />
+                    <div className="font">
+                      {" "}
+                      For a small business in the NYC area, GSNC can provide a
+                      full service ATM for your customers. Our industry experts
+                      can create custom ATM services for any small business.
+                    </div>
+                    <br />
+                    <br />
+                    <br />
+                    <button>
+                      <span>Click Here to Start</span>
+                    </button>
+                  </Typography>
+                </Box>
+              </Container>
+            </div>
+          </BS.Col>
+        </BS.Row>
+      </Box>
+    </BS.Container>
   );
 };
 export default Desc;
 
-//       <Box
-//         sx={{ display: "flex" }}
-//         data-aos="fade-right"
-//         data-aos-duration="2000"
-//       >
-//         <Container className="aboutUs">
 
-//               </BS.Col>
 
-//               <BS.Col>
+// <BS.Col sm={5}>
+// <div data-aos="fade-up" data-aos-duration="2000">
+//   <Typography>
+//     <Typography
+//       variant="h3"
+//       className="white-background"
+//       sx={{
+//         pt: 3,
+//         pl: 3,
+//         pr: 3,
+//         pb: 3,
+//         justifyContent: "center",
+//       }}
+//     >
+//       <div className="fontbold">Bespoke ATM Solutions</div>
 
-//               </BS.Col>
-
-//               {/* <Container
-//                 sx={{ display: "flex", alignItems: "left", minWidth: "15" }}
-//               > */}
-//                 {" "}
-
-//               {/* </Container> */}
-//             </Box>
-//             {/* <Box sx={{ pb: 2, pl: 2, display: "flex", alignItems: "center" }}> */}
-//               <Typography component="legend">
-//                 <div className="font">
-//                   <LockOutlinedIcon fontSize="small" /> Secure Five Star Service
-//                   Providers <LockOutlinedIcon fontSize="small" />
-//                   &nbsp; &nbsp; &nbsp;
-//                 </div>
-//               </Typography>
-//               <Rating name="read-only" value={5} readOnly />
-
-//         </Container>
-
-//       </Box>
-//       </Box>
+//       <br />
+//       <h4 className="font">
+//         {" "}
+//         GSNC LLC is your local New York City ATM provider.
+//         <br /> Helping small and medium size businesses install,
+//         service and maintain the highest quality ATMs available.
+//       </h4>
+//     </Typography>
+//   </Typography>
+// </div>
+// </BS.Col>

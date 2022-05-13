@@ -32,15 +32,15 @@ function Copyright() {
 
 export const Footer = () => {
   return (
+    <div className="white">
     <Box>
-      <Divider sx={{ m: 0, p: 0 }} />
       <Typography
         component="footer"
         sx={{
           display: "flex",
         }}
       >
-        <Container sx={{ mt: 4, mb: 4, display: "flex" }}>
+        <Container sx={{ mt: 7, mb: 7, display: "flex" }}>
           <Grid container spacing={5}>
             <Grid item xs={6} sm={4} md={3}>
               <Grid
@@ -83,7 +83,7 @@ export const Footer = () => {
               </Box>
             </Grid>
             <Box sx={{ pt: 2, pl: 3 }}>
-              <img src="/logo.png" height={120} />
+              <img src="/logo2.png" height={120} />
             </Box>
             <Grid item>
               <Typography variant="caption">
@@ -97,7 +97,7 @@ export const Footer = () => {
         </Container>
       </Typography>
     </Box>
-    // </I18nProvider>
+    </div>
   );
 };
 export default Footer;

@@ -1,19 +1,70 @@
+/* #cd4a04 orange */
+/* #0487cd blue */
+/* #f4f3f2  gray*/
+
 * {
   font-family: "Raleway", sans-serif;
 }
 
 .bigBack {
-  border: dotted 1px black;
+  background: url(back1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.orangeBack{
+.grayCard {
+  background: #f4f3f2;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-radius: 15px;
+}
+.gray {
+  background: #f4f3f2;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* border-radius: 15px; */
+}
 
-    background: url(orangey.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.blue {
+  background: #0487cd;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* border-radius: 15px; */
+  color: white
+}
 
+.orange {
+  background: #cd4a04;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  border-radius: 15px;
+}
+
+.white {
+  background: url(white.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.orangeBack {
+  background: url(orangey.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
@@ -24,6 +75,17 @@ body {
 .font {
   font-family: "Raleway", sans-serif;
   color: black;
+}
+
+.fontbold {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.guy {
+  width: 450px;
+  height: 200px;
+  /* width: 200; */
 }
 
 /* From uiverse.io by @adamgiebl */
@@ -38,7 +100,7 @@ body {
   /* border: solid 1px black; */
 }
 
-.image {
+.image1 {
   opacity: 1;
   display: cover;
   width: 550px;
@@ -49,7 +111,7 @@ body {
   object-fit: contain;
 }
 
-.middle {
+.middle1 {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
@@ -61,15 +123,55 @@ body {
   border-radius: 18px;
 }
 
-.container:hover .image {
+.container1:hover .image1 {
   opacity: 0;
 }
 
-.container:hover .middle {
+.container1:hover .middle1 {
   opacity: 1;
 }
 
-.text {
+.text1 {
+  background-color: #cd4a04;
+  color: White;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 18px;
+}
+
+.image2 {
+  opacity: 1;
+  display: cover;
+  width: 550px;
+  height: 300px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  /* border-radius: 20px; */
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.middle2 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 18px;
+}
+
+.container2:hover .image2 {
+  opacity: 0;
+}
+
+.container2:hover .middle2 {
+  opacity: 1;
+}
+
+.text2 {
   background-color: #cd4a04;
   color: White;
   font-size: 16px;
@@ -82,8 +184,8 @@ body {
 }
 
 .map-container {
-  width: 100%;
-  height: 100vh;
+  width: 60vw;
+  height: 60vh;
 }
 
 .app {
@@ -302,4 +404,35 @@ button:hover {
 button:hover:after {
   opacity: 1;
   right: 10px;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+}
+
+img.image1 {
+  border-radius: 20px;
+}
+
+.font1 {
+  font-size: 20px;
+}
+
+/* .sticker{
+  position:fixed;
+  top: 200px;;
+
+} */
+
+.faqpic {
+  height: 200px;
+  width: auto;
+  /* border: 3px solid black */
 }

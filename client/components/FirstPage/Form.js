@@ -11,6 +11,7 @@ import Backdrop from "@mui/material/Backdrop";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import { Parallax, Background } from "react-parallax";
+import * as BS from "react-bootstrap";
 
 const style = {
   position: "absolute",
@@ -84,165 +85,198 @@ const Form = () => {
   };
 
   return (
-    <Container className="form" >
-      <Parallax
-        bgImage={"./back1.png"}
-        blur={{ min: -20, max: 30 }}
-        strength={-200}
-      >
-        <Box sx={{ display: "flex", justifyContent: "center", pb: 10 }}>
-          <Typography variant="h4" marginTop={13} sx={{ color: "white", ml:4 }}>
-            <div className="font">
-            <Typography
-                    variant="h3"
-                    className="white-background"
-                    sx={{ p: 3, justifyContent: "center" }}
-                  >
-                Submit ATM Request
+    // <div className="gray">
+      <BS.Container>
+        <Container className="form" sx={{ pt: 15 }}>
+          <BS.Row>
+            <BS.Col md={7}>
+              <div data-aos="zoom-in" data-aos-duration="1000">
+                <Typography variant="h3" component="h3" sx={{ pb: 8, pl: 5 }}>
+                  <div className="fontbold">ATM Submission Form</div>
                 </Typography>
-            </div>
-          </Typography>
-        </Box>
-        <Box
-          component="form"
-          sx={{
-            "& .MuiTextField-root": { m: 1, width: "25ch" },
-          }}
-          autoComplete="off"
-          onSubmit={onSubmit}
-        >
-          <Container>
-            <Box
-              className="inputs"
-              sx={{ display: "flex", justifyContent: "center" }}
-            >
-              <TextField
-                required
-                id="outlined-name-input"
-                label="Name"
-                type="name"
-                autoComplete="name"
-                value={toSend.name}
-                onChange={handleChange}
-                name="name"
-                helperText={errors.name}
-              />
-              <TextField
-                required
-                id="outlined-business-input"
-                label="Business Name"
-                type="business"
-                autoComplete="Business"
-                // sx={{ flex: 50 }}
-                value={toSend.business}
-                onChange={handleChange}
-                name="business"
-                helperText={errors.business}
-              />
-            </Box>
-            <Box
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-                "& > :not(style)": { m: 0 },
-              }}
-            >
-              <TextField
-                required
-                id="outlined-email-input"
-                label="Email"
-                type="email"
-                autoComplete="email"
-                value={toSend.email}
-                onChange={handleChange}
-                name="email"
-                helperText={errors.email}
-              />
-              <TextField
-                required
-                id="outlined-phonenumber-input"
-                label="Phone Number"
-                // type="number"
-                autoComplete="phone"
-                value={toSend.phone}
-                onChange={handleChange}
-                name="phone"
-                helperText={errors.phone}
-              />
-            </Box>
 
-            <Box sx={{ display: "flex", justifyContent: "center" }}>
-              <TextField
-                id="outlined-message-input"
-                label="Message"
-                type="message"
-                autoComplete="message"
-                value={toSend.message}
-                onChange={handleChange}
-                name="message"
-                multiline={true}
-                rows={3}
-                sx={{ height: "100%", width: 10, fontSize: 33 }}
-                helperText="Enter any other details you'd like to mention"
-              ></TextField>
-            </Box>
-          </Container>
+                <Box
+                  component="form"
+                  sx={{
+                    "& .MuiTextField-root": { m: 1, width: "25ch" },
+                  }}
+                  autoComplete="off"
+                  onSubmit={onSubmit}
+                >
+                  <Container>
+                    <Box
+                      className="font"
+                      sx={{ display: "flex", justifyContent: "center" }}
+                    >
+                      <TextField
+                        required
+                        id="outlined-name-input"
+                        label="Name"
+                        type="name"
+                        autoComplete="name"
+                        value={toSend.name}
+                        onChange={handleChange}
+                        name="name"
+                        helperText={errors.name}
+                      />
+                      <TextField
+                        required
+                        id="outlined-business-input"
+                        label="Business Name"
+                        type="business"
+                        autoComplete="Business"
+                        // sx={{ flex: 50 }}
+                        value={toSend.business}
+                        onChange={handleChange}
+                        name="business"
+                        helperText={errors.business}
+                      />
+                    </Box>
+                    <Box
+                      sx={{
+                        display: "flex",
+                        justifyContent: "center",
+                        "& > :not(style)": { m: 0 },
+                      }}
+                    >
+                      <TextField
+                        required
+                        id="outlined-email-input"
+                        label="Email"
+                        type="email"
+                        autoComplete="email"
+                        value={toSend.email}
+                        onChange={handleChange}
+                        name="email"
+                        helperText={errors.email}
+                      />
+                      <TextField
+                        required
+                        id="outlined-phonenumber-input"
+                        label="Phone Number"
+                        // type="number"
+                        autoComplete="phone"
+                        value={toSend.phone}
+                        onChange={handleChange}
+                        name="phone"
+                        helperText={errors.phone}
+                      />
+                    </Box>
 
-          <Box
-            sx={{ display: "flex", justifyContent: "center", pt: 8, pb: 12 }}
-          >
-            <button className="formbutton" onClick={onSubmit}>
-              <div className="svg-wrapper-1">
-                <div className="svg-wrapper">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    height="24"
+                    <Box sx={{ display: "flex", justifyContent: "center" }}>
+                      <TextField
+                        id="outlined-message-input"
+                        label="Message"
+                        type="message"
+                        autoComplete="message"
+                        value={toSend.message}
+                        onChange={handleChange}
+                        name="message"
+                        multiline={true}
+                        rows={3}
+                        sx={{ height: "100%", width: 10, fontSize: 33 }}
+                        helperText="Enter any other details you'd like to mention"
+                      ></TextField>
+                    </Box>
+                  </Container>
+
+                  <Box
+                    sx={{
+                      display: "flex",
+                      justifyContent: "center",
+                      pt: 8,
+                      pb: 12,
+                    }}
                   >
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                    <path
-                      fill="currentColor"
-                      d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-              <span>Submit</span>
-            </button>
-            {/* <p className="message">{message}</p> */}
+                    <button className="formbutton" onClick={onSubmit}>
+                      <div className="svg-wrapper-1">
+                        <div className="svg-wrapper">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                          >
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path
+                              fill="currentColor"
+                              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <span>Submit</span>
+                    </button>
+                    {/* <p className="message">{message}</p> */}
 
-            <Modal
-              aria-labelledby="transition-modal-title"
-              aria-describedby="transition-modal-description"
-              open={open}
-              onClose={resetForm}
-              closeAfterTransition
-              BackdropComponent={Backdrop}
-              BackdropProps={{
-                timeout: 500,
-              }}
-            >
-              <Fade in={open}>
-                <Box sx={style}>
-                  <Typography
-                    id="transition-modal-title"
-                    variant="h6"
-                    component="h2"
-                  >
-                    Thanks for submitting your details
-                  </Typography>
-                  <Typography id="transition-modal-description" sx={{ mt: 2 }}>
-                    Thank you for reaching out. We will contact you shortly.
-                  </Typography>
+                    <Modal
+                      aria-labelledby="transition-modal-title"
+                      aria-describedby="transition-modal-description"
+                      open={open}
+                      onClose={resetForm}
+                      closeAfterTransition
+                      BackdropComponent={Backdrop}
+                      BackdropProps={{
+                        timeout: 500,
+                      }}
+                    >
+                      <Fade in={open}>
+                        <Box sx={style}>
+                          <Typography
+                            id="transition-modal-title"
+                            variant="h6"
+                            component="h2"
+                          >
+                            Thanks for submitting your details
+                          </Typography>
+                          <Typography
+                            id="transition-modal-description"
+                            sx={{ mt: 2 }}
+                          >
+                            Thank you for reaching out. We will contact you
+                            shortly.
+                          </Typography>
+                        </Box>
+                      </Fade>
+                    </Modal>
+                  </Box>
                 </Box>
-              </Fade>
-            </Modal>
-          </Box>
-        </Box>
-      </Parallax>
-    </Container>
+              </div>
+            </BS.Col>
+            <BS.Col>
+              
+              <BS.Row>
+              
+                <Typography
+                  variant="h3"
+                  marginTop={0}
+                  sx={{ pl: 9, pt: 9, pb: 3, justifyContent: "center" }}
+                >
+                  <h4 className="font">
+                    Submit your contact and business information here and we
+                    will do our best to get back to you within a day
+                  </h4>
+                </Typography>{" "}
+              </BS.Row>
+              <BS.Row>
+                <img src="/plane.png" alt="guy"/> 
+              </BS.Row>
+            </BS.Col>
+          </BS.Row>
+        </Container>
+      </BS.Container>
+    // </div>
   );
 };
 
 export default Form;
+
+{
+  /* <Typography component="legend">
+<div className="font">
+  <LockOutlinedIcon fontSize="small" /> Secure Five Star Service
+  Providers <LockOutlinedIcon fontSize="small" />
+  &nbsp; &nbsp; &nbsp;
+</div>
+</Typography> */
+}
