@@ -13,7 +13,6 @@ import { Divider } from "@mui/material";
 import { Parallax, Background } from "react-parallax";
 // import theme from "../../Theme";
 import Title from "./Title";
-import Aos from "Aos";
 // import 'aos/dist/aos.css;'
 
 const FirstContact = () => {

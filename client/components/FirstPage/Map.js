@@ -15,11 +15,10 @@ import {
   useLoadScript,
 } from "@react-google-maps/api";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
-import Aos from "Aos";
+
 // import "aos/dist/aos.css"
 import { Parallax, Background } from "react-parallax";
-import Za from "./CustomerComp/Za";
-import Mc from "./CustomerComp/Mc";
+
 
 const Map = () => {
   const key = ["AIzaSyDifmaQTSJR0CKm", "7", 'yniqQxCbB152sIAceQ'] ;

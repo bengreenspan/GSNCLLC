@@ -9,7 +9,6 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import Aos from "Aos";
 import { Divider } from "@mui/material";
 import { Parallax, Background } from "react-parallax";
 

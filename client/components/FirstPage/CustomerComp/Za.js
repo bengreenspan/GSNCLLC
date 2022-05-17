@@ -5,8 +5,6 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { Container } from "@mui/material";
 import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
-import Aos from "Aos";
-// import "aos/dist/aos.css"
 import { Parallax, Background } from "react-parallax";
 
 const Za = () => {
