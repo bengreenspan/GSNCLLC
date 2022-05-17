@@ -32,50 +32,55 @@ const Contact = () => {
 
   return (
     <Container sx={{ pt: 10 }}>
-      <div>
-        {/* <input value={value}
-            onChange={({target: {value}}) => {
-            // setValue(value);
-            setCopied(false);
-      }}
-            /> */}
+      <div className="contact">
+        <div className="font">
+          <Box sx={{ display: "flex", justifyContent: "center", pb: 3 }}>
+            <Typography variant="h4" marginTop={3}>
+              <button onClick={handleOpen}>Contact Us Here</button>
+            </Typography>
+          </Box>
+          <Modal
+            open={open}
+            onClose={handleClose}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+            <Box sx={style}
+            >
+              <Typography
+                id="modal-modal-title"
+                variant="h6"
+                component="h2"
+               
+              >
+                To fill out an ATM form:
+                <br/>
+                 <Link to={"/info#"}>Click here</Link>    <br/>
+                or    <br/>
+                 Email us at: GSNC@GSNC.edu
+              </Typography>
+              <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                <CopyToClipboard text={value} onCopy={() => setCopied(true)}>
+                  <Button>Copy email to clipboard</Button>
+                </CopyToClipboard>
+
+                {copied ? (
+                  <span style={{ color: "black", background: "white" }}>
+                    <br/>
+                    Email succesfully copied.
+                  </span>
+                ) : null}
+              </Typography>
+            </Box>
+          </Modal>
+          <Box sx={{ display: "flex", justifyContent: "space-evenly", pb: 6 }}>
+            <Typography
+              variant="h6"
+              sx={{ display: "flex", justifyContent: "space-evenly", pb: 6 }}
+            ></Typography>
+          </Box>
+        </div>
       </div>
-
-      <Box sx={{ display: "flex", justifyContent: "center", pb: 3 }}>
-        <Typography variant="h4" marginTop={3}>
-
-          <button  className="third " onClick={handleOpen}><span>Get In Touch </span></button>
-        </Typography>
-      </Box>
-      <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={style}>
-          <Typography id="modal-modal-title" variant="h6" component="h2" sx={{justifyContent: "center"}}>
-          &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; To fill out an ATM form click <Link to={"/info"}>here</Link> 
-            <br/> 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or
-            <br/> 
-            &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email us at: GSNC@GSNC.edu
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            <CopyToClipboard text={value} onCopy={() => setCopied(true)}>
-              <Button>Copy email to clipboard</Button>
-            </CopyToClipboard>
-            <br/> 
-            {copied ? <span style={{ color: "black", background: "white" }}>&nbsp;&nbsp;Email succesfully copied.</span> : null}
-          </Typography>
-        </Box>
-      </Modal>
-      <Box sx={{ display: "flex", justifyContent: "space-evenly", pb: 6 }}>
-        <Typography
-          variant="h6"
-          sx={{ display: "flex", justifyContent: "space-evenly", pb: 6 }}
-        ></Typography>
-      </Box>
     </Container>
   );
 };

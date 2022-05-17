@@ -18,7 +18,7 @@ import Aos from "Aos";
 
 const FirstContact = () => {
   return (
-    <div>
+    <div className="firstbutton ">
       <video
         autoPlay
         loop
@@ -45,7 +45,7 @@ const FirstContact = () => {
           }}
         >
           <BS.Row>
-            <BS.Col sm={5}>
+            <BS.Col sm={6}>
               <div data-aos="fade-up" data-aos-duration="2000">
                 <Typography>
                   <Typography
@@ -68,6 +68,29 @@ const FirstContact = () => {
                       <br /> Helping small and medium size businesses install,
                       service and maintain the highest quality ATMs available.
                     </h4>
+                    <Typography sx={{ pt: 4 }}>
+                      <div
+                        data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-duration="2000"
+                      >
+
+
+
+<Link to="/info"       href="#">
+                        <button className="learn-more" >
+                          <span className="circle" aria-hidden="true">
+                            <span className="icon arrow"></span>
+                          </span>
+                          <span className="button-text">
+                    
+                       Get Started
+                        
+                          </span>
+                        </button>
+                        </Link>
+                      </div>
+                    </Typography>
                   </Typography>
                 </Typography>
               </div>
@@ -82,11 +105,6 @@ const FirstContact = () => {
                     sx={{ p: 3, justifyContent: "center" }}
                   >
                     {" "}
-                    <Typography>
-                      <button>
-                        <span>Click Here to Start</span>
-                      </button>
-                    </Typography>
                   </Box>
                 </Container>
               </div>
@@ -95,46 +113,6 @@ const FirstContact = () => {
         </Box>
       </BS.Container>
     </div>
-
-    // <Box
-    //   sx={{
-    //     display: "flex",
-    //     justifyContent: "center",
-    //     borderRadius: "15px",
-    //   }}
-    // >
-
-    //   <BS.Container md={7}>
-    //     <BS.Row>
-    //       <Box
-    //         sx={{ display: "flex" }}
-
-    //       >
-    //         <BS.Col>
-    //           <Box sx={{ display: "flex", justifyContent: "left" }}>
-
-    //           </Box>
-    //         </BS.Col>
-    //         <BS.Col md={1}></BS.Col>
-    //         <BS.Col md={4}>
-    //           {" "}
-    //           <Container sx={{ p: 3, alignItems: "center" }} >
-    //           <br />
-    //           <br />
-    //           <br />
-    //           <br />
-    //           <br />
-    //           <br />
-    //           <br />
-
-    //           </Container>
-    //         </BS.Col>
-
-    //         {/* </Box> */}
-    //       </Box>
-    //     </BS.Row>
-    //   </BS.Container>
-    // </Box>
   );
 };
 

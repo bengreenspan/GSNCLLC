@@ -23,23 +23,24 @@ export const Main = () => (
     <FirstContact />
 
     <Desc />
-    {/* <div className="gray"> */}
+    <div className="gray">
     {/* <Parallax bgImage={"./new2.png"} strength={450}> */}
       <Form />
-    {/* </div> */}
+    </div>
 
     <Divider sx={{ m: 0, p: 0 }} />
     <Customers />
 
     <Divider sx={{ m: 0, p: 0 }} />
-
+    <div className="gray">
     <Map />
+    </div>
 
     <Carousel />
     <Divider sx={{ m: 0, pb: 0 }} />
-
+    <div className="gray">
     <Faq />
-
+    </div>
     <Contact />
 
 {/* </Parallax> */}

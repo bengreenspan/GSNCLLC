@@ -83,7 +83,7 @@ export const Footer = () => {
               </Box>
             </Grid>
             <Box sx={{ pt: 2, pl: 3 }}>
-              <img src="/logo2.png" height={120} />
+              <img src="/logo3.png" height={120} />
             </Box>
             <Grid item>
               <Typography variant="caption">

@@ -1,6 +1,11 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {authenticate} from '../../store'
+import * as BS from "react-bootstrap";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+
 
 /**
  * COMPONENT
@@ -9,7 +14,12 @@ const AuthForm = props => {
   const {name, displayName, handleSubmit, error} = props
 
   return (
-    <div>
+    <div className="login">
+    <Container sx={{pt:20}}>
+      <input placeholder="Username" className="input" name="text" type="text"></input>
+      <br/>
+      <br/>
+      <input placeholder="Password" className="input" name="text" type="text"></input>
       <form onSubmit={handleSubmit} name={name}>
         <div>
           <label htmlFor="username">
@@ -28,6 +38,7 @@ const AuthForm = props => {
         </div>
         {error && error.response && <div> {error.response.data} </div>}
       </form>
+    </Container>
     </div>
   )
 }

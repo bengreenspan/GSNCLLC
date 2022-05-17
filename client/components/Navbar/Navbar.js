@@ -63,6 +63,7 @@ const ResponsiveAppBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
+ 
       if (window.scrollY > 360) {
         setNavBackground(navTen);
       } else if (window.scrollY > 320 && window.scrollY <= 360) {
@@ -92,6 +93,8 @@ const ResponsiveAppBar = () => {
       document.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  // console.log(process.env)
 
   return (
     <AppBar position="fixed" sx={{ bgcolor: navRef.current, color: "black" }}>
@@ -175,12 +178,8 @@ const ResponsiveAppBar = () => {
             </Menu>
           </Box>
 
-       
-            {/* <Link to="/#" >
-              {" "}
-              Home
-            </Link>
-          </Typography> */}
+
+
 
           {select ? (
                <Typography variant="h5" style={{ ml: 10 }}>

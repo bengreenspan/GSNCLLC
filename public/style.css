@@ -6,6 +6,16 @@
   font-family: "Raleway", sans-serif;
 }
 
+
+
+.formpage{
+  background: url(gray.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .bigBack {
   background: url(back1.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -184,7 +194,7 @@ body {
 }
 
 .map-container {
-  width: 60vw;
+  width: 600px;
   height: 60vh;
 }
 
@@ -255,56 +265,124 @@ body {
 .link_wrapper {
   position: relative;
 }
-
-.firstContact {
-  display: block;
-  width: 250px;
-  height: 50px;
-  line-height: 50px;
-  font-weight: bold;
+.firstbutton button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
   text-decoration: none;
-  background: #333;
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border: 3px solid #333;
-  transition: all 0.35s;
-}
-
-.icon {
-  width: 50px;
-  height: 50px;
-  border: 3px solid transparent;
-  position: absolute;
-  transform: rotate(45deg);
-  right: 0;
-  top: 0;
-  z-index: -1;
-  transition: all 0.35s;
-}
-
-.icon svg {
-  width: 30px;
-  position: absolute;
-  top: calc(50% - 15px);
-  left: calc(50% - 15px);
-  transform: rotate(-45deg);
-  fill: #2ecc71;
-  transition: all 0.35s;
-}
-
-.firstContact:hover {
-  width: 200px;
-  border: 3px solid #2ecc71;
   background: transparent;
-  color: #2ecc71;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+ }
+ 
+ .firstbutton button.learn-more {
+  width: 12rem;
+  height: auto;
+ }
+ 
+ .firstbutton button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #cd4a04;
+  border-radius: 1.625rem;
+ }
+ 
+ .firstbutton button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+ }
+ 
+ .firstbutton button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+ }
+ 
+ .firstbutton button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+ }
+ 
+ .firstbutton button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+ }
+ 
+ .firstbutton button:hover .circle {
+  width: 100%;
+ }
+ 
+ .firstbutton button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+ }
+ 
+ .firstbutton button:hover .button-text {
+  color: #fff;
+ }
+
+
+ .desc button {
+  padding: 1.3em 3em;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #FFF;
+  background-color: #cd4a04;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 10px 10px 5px #0487cd;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
 }
 
-.firstContact:hover + .icon {
-  border: 3px solid #2ecc71;
-  right: -25%;
+.desc button:hover {
+  background-color: #cd4a04;
+  box-shadow: 5px 5px 2px #0487cd;
+  color: #000;
+  transform: translateY(-7px);
 }
+
+.desc button:active {
+  transform: translateY(-1px);
+}
+
+
+
 
 .text-box {
   margin-left: 44vw;
@@ -323,33 +401,7 @@ body {
   }
 }
 
-button span {
-  display: block;
-  margin-left: 0.3em;
-  transition: all 0.3s ease-in-out;
-}
 
-button svg {
-  display: block;
-  transform-origin: center center;
-  transition: transform 0.3s ease-in-out;
-}
-
-.formbutton:hover .svg-wrapper {
-  animation: fly-1 0.6s ease-in-out infinite alternate;
-}
-
-.formbutton:hover svg {
-  transform: translateX(1.2em) rotate(45deg) scale(1.1);
-}
-
-.formbutton:hover span {
-  transform: translateX(5em);
-}
-
-.formbutton:active {
-  transform: scale(0.95);
-}
 
 @keyframes fly-1 {
   from {
@@ -360,51 +412,8 @@ button svg {
     transform: translateY(-0.1em);
   }
 }
-/*  */
 
-button {
-  border-radius: 15px;
-  background-color: #cd4a04;
 
-  border: none;
-  color: #fff;
-  text-align: center;
-  font-size: 75px;
-  padding: 16px;
-  width: 220px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 36px;
-  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
-}
-
-button {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  border-radius: 15px;
-}
-
-button:after {
-  content: "»";
-  position: absolute;
-  opacity: 0;
-  top: 14px;
-  right: -20px;
-  transition: 0.5s;
-  border-radius: 15px;
-}
-
-button:hover {
-  padding-right: 24px;
-  padding-left: 8px;
-}
-
-button:hover:after {
-  opacity: 1;
-  right: 10px;
-}
 
 .transparent {
   opacity: 0;
@@ -436,3 +445,219 @@ img.image1 {
   width: auto;
   /* border: 3px solid black */
 }
+
+
+.cssbuttons-io-button {
+  background: #A370F0;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #714da6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em;
+ }
+ 
+ .cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+  right: 0.3em;
+  transition: all 0.3s;
+ }
+ 
+ .cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+ }
+ 
+ .cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+ }
+ 
+ .cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+ }
+ 
+ .cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+ }
+  
+
+.graycard button {
+  font-family: inherit;
+  font-size: 35px;
+  background: #cd4a04;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+ }
+ 
+ .graycard button span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+ }
+ 
+ .graycard button svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+ }
+ 
+ button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+ }
+ 
+ .formpage button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+ }
+ 
+ .formpage button:hover span {
+  transform: translateX(5em);
+ }
+ 
+ .formpage button:active {
+  transform: scale(0.95);
+ }
+ 
+ @keyframes fly-1 {
+  from {
+   transform: translateY(0.1em);
+  }
+ 
+  to {
+   transform: translateY(-0.1em);
+  }
+ }
+ 
+ 
+
+ .contact button {
+  color: hsl(0, 0%, 100%);
+    font-family: "Raleway", sans-serif;
+  padding: 17px 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: #cd4a04;
+  -webkit-box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+          box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 25px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+ }
+ 
+ .contact button:hover {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 3px;
+  background-color: #cd4a04;
+  color: black;
+  -webkit-box-shadow: #c487cd 0px 7px 29px 0px;
+          box-shadow: #c487cd 0px 7px 29px 0px;
+ }
+ 
+ .contact button:active {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 3px;
+  background-color: #0487cd;
+  color: hsl(0, 0%, 100%);
+  -webkit-box-shadow: #0487cd 0px 0px 0px 0px;
+          box-shadow: #0487cd 0px 0px 0px 0px;
+  -webkit-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+          transform: translateY(10px);
+  -webkit-transition: 100ms;
+  transition: 100ms;
+ }
+
+ .borderRad{
+background-color:#f4f3f2 ;
+border-radius:20px;
+display:flex;
+border: black solid 1px;
+ }
+
+
+ .borderRad1{
+  background-color:#f4f3f2 ;
+  border-radius:20px;
+  display:flex;
+  border: black solid 1px;
+  padding: 30px;
+   }
+   .borderRad2{
+    background-color:#f4f3f2 ;
+    border-radius:20px;
+    display:flex;
+    border: black solid 1px;
+    padding: 30px;
+     }
+
+
+   
+ 
+ img {
+  border-radius:20px;
+ }
+
+
+ .login .input {
+  max-width: 190px;
+  height: 30px;
+  border: 2px solid transparent;
+  outline: none;
+  border-bottom: 2px solid #3f3f3f;
+  caret-color: #cd4a04;
+  background-color: #f4f3f2;
+  padding: 5px;
+  transition: .5s linear;
+  font-family: monospace;
+  letter-spacing: 1px;
+}
+
+.login .input:focus {
+  border: 2px solid #cd4a04;
+  caret-color: #cd4a04;
+  color: #cd4a04;
+
+  box-shadow: 4px 4px 10px #0487cd;
+}
+
+.input:focus::placeholder {
+  color: #cd4a04;
+}
+
+.peopleback{
+  background: url(back1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+

@@ -13,6 +13,7 @@ import Za from "./CustomerComp/Za";
 import Mc from "./CustomerComp/Mc";
 
 const Customers = () => {
+  console.log('tits')
   return (
     <BS.Container>
       <Box
@@ -37,10 +38,10 @@ const Customers = () => {
                   <Typography sx={{mt:10, pb:5}}>
                     <h1 className="fontbold">
                       
-             Customer Comes First
+             Customer Comes 1st
                     </h1>
                     </Typography>
-                    <img src="/number2.png" alt="one" width="300" height="225"/> 
+                    <img src="/one1.png" alt="one" width="300" height="225"/> 
                     <br />
                     <Typography sx={{mt:10, pb:0}}>
                     <h4 className="font">

@@ -22,10 +22,11 @@ const Desc = () => {
   }, []);
 
   return (
+    <div className="desc"> 
     <BS.Container>
       <Box
         sx={{
-          pt: 50,
+          pt: 40,
           pb: 15,
           display: "flex",
           justifyContent: "center",
@@ -46,7 +47,7 @@ const Desc = () => {
 
           <BS.Col sm={7} xs={7}>
             <div data-aos="fade-left" data-aos-duration="1000">
-              <Container sx={{ mt: 5, pl:21, justifyContent: "center" }}>
+              <Container sx={{ mt: 5, pl: 21, justifyContent: "center" }}>
                 <Box
                   // variant="h3"
                   // className="white-background"
@@ -74,9 +75,11 @@ const Desc = () => {
                     <br />
                     <br />
                     <br />
-                    <button>
-                      <span>Click Here to Start</span>
-                    </button>
+                    <Link to="/info">
+
+                    <button> Click Here to Start</button>
+</Link>
+
                   </Typography>
                 </Box>
               </Container>
@@ -85,36 +88,8 @@ const Desc = () => {
         </BS.Row>
       </Box>
     </BS.Container>
+    </div>
   );
 };
 export default Desc;
 
-
-
-// <BS.Col sm={5}>
-// <div data-aos="fade-up" data-aos-duration="2000">
-//   <Typography>
-//     <Typography
-//       variant="h3"
-//       className="white-background"
-//       sx={{
-//         pt: 3,
-//         pl: 3,
-//         pr: 3,
-//         pb: 3,
-//         justifyContent: "center",
-//       }}
-//     >
-//       <div className="fontbold">Bespoke ATM Solutions</div>
-
-//       <br />
-//       <h4 className="font">
-//         {" "}
-//         GSNC LLC is your local New York City ATM provider.
-//         <br /> Helping small and medium size businesses install,
-//         service and maintain the highest quality ATMs available.
-//       </h4>
-//     </Typography>
-//   </Typography>
-// </div>
-// </BS.Col>
