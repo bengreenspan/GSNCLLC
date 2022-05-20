@@ -14,7 +14,7 @@ const ContactUs = () => {
 
   return (
     <BS.Container>
-      <Container sx={{ pt: 10 }}>
+      <Container sx={{ pt: 10, pb: 20 }}>
         <Box sx={{ pt: 10, pb: 15, display: "flex", justifyContent: "center" }}>
           <Typography component="h1" variant="h2">
             <div
@@ -30,25 +30,25 @@ const ContactUs = () => {
           <div className="border123">
             <Form />
           </div>
-          </div>
-          <BS.Row>
-            <BS.Col sm={7}></BS.Col>
-            <BS.Col>
-              <Typography sx={{ pl: 5, pr: 3, mt: 5, pb: 10 }}>
-                <h1 className="font">
-                  <div
-                    className="borderRad2"
-                    // data-aos="zoom-in"
-                    // data-aos-duration="1000"
-                  >
-                    Contact Us by email at: GSNCLLC@EDdfdU.com
-                  </div>
-                </h1>
-                
-              </Typography>
-            </BS.Col>
-          </BS.Row>
-      
+
+        </div>
+        <br /> <br /> <br />     <br /> <br /> <br />
+        <BS.Row>
+          <BS.Col sm={7}></BS.Col>
+          <BS.Col>
+            <Typography component={"span"} sx={{ pl: 5, pr: 3 }}>
+              <h1 className="font">
+                <div
+                  className="borderRad2"
+                  // data-aos="zoom-in"
+                  // data-aos-duration="1000"
+                >
+                  Contact Us by email at: GSNCLLC@EDdfdU.com
+                </div>
+              </h1>
+            </Typography>
+          </BS.Col>
+        </BS.Row>
       </Container>
     </BS.Container>
   );

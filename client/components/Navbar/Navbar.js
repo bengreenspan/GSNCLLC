@@ -178,14 +178,14 @@ const ResponsiveAppBar = () => {
 
 
           {select ? (
-               <Typography variant="h5" style={{ ml: 10 }}>
+               <Typography component={'span'}  variant="h5" style={{ ml: 10 }}>
             <Link color="inherit" onClick={logoutButton} style={{ textDecoration: "none", color: "black" }}>
               {" "}
               Log Out
             </Link>
             </Typography>
           ) : (
-            <Typography variant="h5" style={{ ml: 10 }}>
+            <Typography  component={'span'} variant="h5" style={{ ml: 10 }}>
               <Link
                 to="/login"
                 style={{ textDecoration: "none", color: "black" }}

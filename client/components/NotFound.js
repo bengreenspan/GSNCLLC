@@ -13,61 +13,60 @@ const NotFound = () => {
   // }, []);
 
   return (
-    <div className="atmback">
-      <BS.Container>
-        <BS.Col>
-          <Container sx={{ mt: 25, pl: 0, justifyContent: "center" }}>
-            <Typography component="h1" variant="h2" sx={{ pt: 10 }}>
-              <div
-                className="borderRad2"
-                // data-aos="slide-left"
-                // data-aos-duration="1000"
-              >
-                Page Not Found!
-              </div>
-            </Typography>
-            <Typography
-              component="h1"
-              variant="h2"
-              sx={{ pl: 0, pr: 0, mt: 10, pb: 0 }}
-            >
-              <div
-                // data-aos="slide-right"
-                // data-aos-duration="1000"
-                className="borderRad2"
-              >
-                To get back to a working page
-              </div>
-            </Typography>
-            <Typography
-              component="h1"
-              variant="h1"
-              sx={{ pl: 0, pr: 0, mt: 10, pb: 0 }}
-            >
-              {" "}
-              <Link to="/"  style={{ textDecoration: "none" }}>
+    <div>
+      <div className="desc">
+        <BS.Container>
+          <Box
+            sx={{
+              pt: 30,
+              pb: 15,
+              display: "flex",
+              justifyContent: "center",
+              borderRadius: "15px",
+            }}
+          >
+            <BS.Row>
+              <BS.Col sm={5}>
                 <div
-                  // className="borderRad2"
-                  className="borderRad2"
-                  // data-aos="slide-left"
-                  // data-aos-duration="1000"
+                // data-aos="fade-right" data-aos-duration="1000"
                 >
-                  Click Here
+                  <img src="/NotFound.png" alt="Mc" />
                 </div>
-              </Link>
-            </Typography>{" "}
-            <Typography sx={{ pl: 0, pr: 0, mt: 10, pb:10 }}>
-              <div
-                // data-aos="slide-right"
-                // data-aos-duration="1000"
-                // className="borderRad2"
-              >
-                <img src="/NotFound.png" alt="Mc" />
-              </div>
-            </Typography>
-          </Container>
-        </BS.Col>
-      </BS.Container>
+              </BS.Col>
+
+              <BS.Col sm={7} xs={7}>
+                <div
+                // data-aos="fade-left" data-aos-duration="1000"
+                >
+                  <Container sx={{ mt: 5, pl: 21, justifyContent: "center" }}>
+                    <Box
+                      // variant="h3"
+                      // className="white-background"
+                      sx={{ p: 3, justifyContent: "center" }}
+                    >
+                      {" "}
+                      <Typography component={"span"}>
+                        <h1 className="fontbold">Page Not Found!</h1>
+                        <br />
+                        <br />
+                        <h1 className="font">To get back to a working page</h1>
+                        <br />
+
+                        <br />
+                        <br />
+                        <br />
+                        <Link to="/">
+                          <button> Click Here</button>
+                        </Link>
+                      </Typography>
+                    </Box>
+                  </Container>
+                </div>
+              </BS.Col>
+            </BS.Row>
+          </Box>
+        </BS.Container>
+      </div>
     </div>
   );
 };

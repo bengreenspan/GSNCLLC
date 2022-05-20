@@ -127,11 +127,11 @@ const Map = () => {
                     sx={{ justifyContent: "center" }}
                   >
                     {" "}
-                    <Typography sx={{ mt: 10, pb: 0 }}>
+                    <Typography component={'span'}  sx={{ mt: 10, pb: 0 }}>
                       <h2 className="fontbold">Partner Locations</h2>
                     </Typography>
                     <br />
-                    <Typography sx={{ mt: 5, pb: 0 }}>
+                    <Typography component={'span'}  sx={{ mt: 5, pb: 0 }}>
                       <h4 className="font">
                         As our expansion continues outside of Lower Manhattan,
                         we are still committed to the highest levels of service.

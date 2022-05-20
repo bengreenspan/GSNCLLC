@@ -8,7 +8,6 @@ import Za from "./CustomerComp/Za";
 import Mc from "./CustomerComp/Mc";
 
 const Customers = () => {
-  console.log('tits')
   return (
     <BS.Container>
       <Box
@@ -22,7 +21,7 @@ const Customers = () => {
       >
         <BS.Row>
           <BS.Col sm={5} xs={8}>
-            <div 
+            <div
             // data-aos="fade-left" data-aos-duration="1000"
             >
               <Container sx={{ mt: 5, pl: 30, justifyContent: "center" }}>
@@ -32,23 +31,24 @@ const Customers = () => {
                   sx={{ justifyContent: "center" }}
                 >
                   {" "}
-                  <Typography sx={{mt:10, pb:5}}>
-                    <h1 className="fontbold">
-                      
-             Customer Comes 1st
-                    </h1>
-                    </Typography>
-                    <img src="/one1.png" alt="one" width="300" height="225"/> 
+                  <Typography component={"span"} sx={{ mt: 10, pb: 5 }}>
+                    <h1 className="fontbold">Customer Comes 1st</h1>
                     <br />
-                    <Typography sx={{mt:10, pb:0}}>
+                  </Typography>
+                  <img src="/one1.png" alt="one" width="300" height="225" />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <Typography component={"span"} sx={{ mt: 10, pb: 0 }}>
                     <h4 className="font">
-                We are wholely committed to provided first class service to our customers. Check out some of our featured partners!
+                      We are wholely committed to provided first class service
+                      to our customers. Check out some of our featured partners!
                     </h4>
-                    </Typography>
-                    <br />
-                    <br />
-                    <br />
- 
+                  </Typography>
+                  <br />
+                  <br />
+                  <br />
                 </Box>
               </Container>
             </div>
@@ -57,7 +57,7 @@ const Customers = () => {
           <BS.Col sm={7} xs={12}>
             <div
             //  data-aos="fade-left" data-aos-duration="1000"
-             >
+            >
               <Container sx={{ mt: 5, justifyContent: "center" }}>
                 <Box
                   // variant="h3"
@@ -66,11 +66,11 @@ const Customers = () => {
                 >
                   {" "}
                   {/* <div data-aos="fade-up"> */}
-                    <Mc />
+                  <Mc />
                   {/* </div> */}
                   <br />
                   {/* <div data-aos="fade-down"> */}
-                    <Za />
+                  <Za />
                   {/* </div> */}
                 </Box>
               </Container>

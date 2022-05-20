@@ -1,6 +1,7 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Box, Grid, Container, Typography } from "@mui/material";
+import { useLocation } from "react-router-dom";
 
 function Copyright() {
   return (
@@ -14,6 +15,11 @@ function Copyright() {
 }
 
 export const Footer = () => {
+  const location = useLocation();
+  useEffect(() => {
+    console.log(location.pathname);
+  });
+
   return (
     <div className="white">
       <Box>
@@ -43,23 +49,32 @@ export const Footer = () => {
                 </Grid>
               </Grid>
               <Grid item xs={6} sm={4} md={2}>
-                <Typography variant="h6" marked="left" gutterBottom>
+                <Typography
+                  component={"span"}
+                  variant="h6"
+                  marked="left"
+                  gutterBottom
+                >
                   Navigate
                 </Typography>
                 <Box component="ul" sx={{ m: 0, listStyle: "none", p: 0 }}>
                   <Box>
-                    <a href="#"> Return to Top</a>
+                    {location.pathname === "/" ? (
+                   <a href="#"> Return to Top</a>
+                    ) : (
+                      <Link to="/" style={{ textDecoration: "none" }}>
+                        Return Home
+                      </Link>
+                    )}
                   </Box>
 
                   <Link
-                    to="#"
-                    onClick={(e) => {
-                      window.location.href = "mailto:no-reply@example.com";
-                      e.preventDefault();
-                    }}
+                    to="/info"
+                    style={{ textDecoration: "none"}}
                   >
-                    <Box>Contact Us</Box>
+                    Contact Us
                   </Link>
+
                   <Link to={"/login"}>
                     <Box>Log In</Box>
                   </Link>

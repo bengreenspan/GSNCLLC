@@ -1,11 +1,16 @@
 import React, { useState } from "react";
+import { send } from "emailjs-com";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Container from "@mui/material/Container";
+import Stack from "@mui/material/Stack";
+import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import MuiPhoneNumber from "material-ui-phone-number";
 import Backdrop from "@mui/material/Backdrop";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
+import { Parallax, Background } from "react-parallax";
 import * as BS from "react-bootstrap";
 
 const style = {
@@ -80,9 +85,7 @@ const Form = () => {
   };
 
   return (
-    <div className="graycard" 
-    // data-aos="zoom-in" data-aos-duration="1000"
-    >
+    <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
       <BS.Container>
         <Container className="form" sx={{ pt: 15 }}>
           <BS.Row>
@@ -185,60 +188,58 @@ const Form = () => {
                       pb: 12,
                     }}
                   >
-                    <div 
-                    // data-aos="zoom-in" data-aos-duration="1000"
-                    >
-                      <button className="formbutton" onClick={onSubmit}>
-                        <div className="svg-wrapper-1">
-                          <div className="svg-wrapper">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 24 24"
-                              width="24"
-                              height="24"
-                            >
-                              <path fill="none" d="M0 0h24v24H0z"></path>
-                              <path
-                                fill="currentColor"
-                                d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
-                              ></path>
-                            </svg>
-                          </div>
+                    {/* <div data-aos="zoom-in" data-aos-duration="1000"> */}
+                    <button>
+                      <div class="svg-wrapper-1">
+                        <div class="svg-wrapper">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                          >
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path
+                              fill="currentColor"
+                              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                            ></path>
+                          </svg>
                         </div>
-                        <span>Submit</span>
-                      </button>
+                      </div>
+                      <span>Submit</span>
+                    </button>
 
-                      <Modal
-                        aria-labelledby="transition-modal-title"
-                        aria-describedby="transition-modal-description"
-                        open={open}
-                        onClose={resetForm}
-                        closeAfterTransition
-                        BackdropComponent={Backdrop}
-                        BackdropProps={{
-                          timeout: 500,
-                        }}
-                      >
-                        <Fade in={open}>
-                          <Box sx={style}>
-                            <Typography
-                              id="transition-modal-title"
-                              variant="h6"
-                              component="h2"
-                            >
-                              Thanks for submitting your details
-                            </Typography>
-                            <Typography
-                              id="transition-modal-description"
-                              sx={{ mt: 2 }}
-                            >
-                              Thank you for reaching out. We will contact you
-                              shortly.
-                            </Typography>
-                          </Box>
-                        </Fade>
-                      </Modal>
-                    </div>
+                    <Modal
+                      aria-labelledby="transition-modal-title"
+                      aria-describedby="transition-modal-description"
+                      open={open}
+                      onClose={resetForm}
+                      closeAfterTransition
+                      BackdropComponent={Backdrop}
+                      BackdropProps={{
+                        timeout: 500,
+                      }}
+                    >
+                      <Fade in={open}>
+                        <Box sx={style}>
+                          <Typography
+                            id="transition-modal-title"
+                            variant="h6"
+                            component="h2"
+                          >
+                            Thanks for submitting your details
+                          </Typography>
+                          <Typography
+                            id="transition-modal-description"
+                            sx={{ mt: 2 }}
+                          >
+                            Thank you for reaching out. We will contact you
+                            shortly.
+                          </Typography>
+                        </Box>
+                      </Fade>
+                    </Modal>
+                    {/* </div> */}
                   </Box>
                 </Box>
               </div>
@@ -257,17 +258,12 @@ const Form = () => {
                 </Typography>{" "}
               </BS.Row>
               <BS.Row>
-                {/* <Parallax bgImage={"/plane.png"} strength={-50}> */}
-                  {/* <div className="transparent"> */}
+                <Parallax bgImage={"/plane.png"} strength={-50}>
+                  <div className="transparent">
                     {" "}
-                    <img
-                      src="/plane.png"
-                      height={330}
-                      width={330}
-                 
-                    />
-                  {/* </div> */}
-                {/* </Parallax> */}
+                    <img src="/hysoun2.png" height={330} width={300} />
+                  </div>
+                </Parallax>
               </BS.Row>
             </BS.Col>
           </BS.Row>

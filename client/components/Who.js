@@ -6,40 +6,37 @@ import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
 // import Aos from "Aos";
 
-
 const Who = () => {
   // useEffect(() => {
   //   Aos.init({});
   // }, []);
 
   return (
-
-      <BS.Container>
- <Box sx={{ pt: 20, pb: 10, display: "flex", justifyContent: "center" }}>
-          <Typography component="h1" variant="h2">
-            <div
-              className="fontbold"
-              // data-aos="fade-right"
-              // data-aos-duration="1000"
-            >
-    Who Are We?
-            </div>
-          </Typography>
-        </Box>
-        <Box
-          sx={{
-            pt: 5,
-            pb: 10,
-            display: "flex",
-            justifyContent: "center",
-            borderRadius: "15px",
-          }}
-        >
-          
-              <div className="gray">
+    <BS.Container>
+      <Box sx={{ pt: 20, pb: 10, display: "flex", justifyContent: "center" }}>
+        <Typography component="h1" variant="h2">
+          <div
+            className="fontbold"
+            // data-aos="fade-right"
+            // data-aos-duration="1000"
+          >
+            Who Are We?
+          </div>
+        </Typography>
+      </Box>
+      <Box
+        sx={{
+          pt: 5,
+          pb: 20,
+          display: "flex",
+          justifyContent: "center",
+          borderRadius: "15px",
+        }}
+      >
+        <div className="gray">
           <BS.Row>
             <BS.Col>
-              <div 
+              <div
               // data-aos="fade-left" data-aos-duration="1000"
               >
                 <Container sx={{ mt: 5, justifyContent: "center" }}>
@@ -49,14 +46,14 @@ const Who = () => {
                     sx={{ justifyContent: "center" }}
                   >
                     {" "}
-                    <Typography sx={{ mt: 13 }}>
+                    <Typography component={"span"} sx={{ mt: 13 }}>
                       <div className="borderRad1">
                         <h2 className="fontbold">Meet our team</h2>
                       </div>
                     </Typography>
                     <br />
                     <BS.Col md={12} sm={12} xs={12}>
-                      <Typography sx={{ mt: 5, pb: 0 }}>
+                      <Typography component={"span"} sx={{ mt: 5, pb: 0 }}>
                         <h5 className="font">
                           <div className="borderRad1">
                             Cameron and Nathaniel are two entrepreneurial
@@ -66,8 +63,8 @@ const Who = () => {
                             Manhattan.
                             <br />
                             <br />
-                            We are always looking for further opportunites to expand
-                            our operation with growing local businesses. 
+                            We are always looking for further opportunites to
+                            expand our operation with growing local businesses.
                           </div>
                         </h5>
                       </Typography>
@@ -81,7 +78,7 @@ const Who = () => {
             </BS.Col>
 
             <BS.Col sm={7} xs={12}>
-              <div 
+              <div
               // data-aos="fade-left" data-aos-duration="1000"
               >
                 <Container sx={{ mt: 5, justifyContent: "center" }}>
@@ -90,45 +87,62 @@ const Who = () => {
                     // className="white-background"
                     sx={{ p: 3, pt: 8, justifyContent: "center" }}
                   >
+                       <Box
+                    // variant="h3"
+                    // className="white-background"
+                    sx={{ pb: 8, justifyContent: "center" }}
+                  >
                     {" "}
                     {/* <div data-aos="fade-up"> */}
-                      <div className="borderRad">
-                        <Typography variant="h3" sx={{ pl: 5, pt: 3, pb: 1 }}>
-                          <img src="/cam.jpeg" height={130} /> Cameron
-                        </Typography>
-                      </div>
+                    <div className="borderRad">
+                      <Typography
+                        component={"span"}
+                        variant="h3"
+                        sx={{ pl: 5, pt: 3, pb: 1 }}
+                      >
+                        <img src="/cam.jpeg" height={130} /> Cameron
+                      </Typography>
+                    </div>
                     {/* </div> */}
                     <br />
                     {/* <div data-aos="fade-down"> */}
-                      <div className="borderRad">
-                        <Typography variant="h3" sx={{ pl: 5, pt: 3, pb: 1 }}>
-                          <img src="/nate.jpeg" height={130} /> Nathaniel
-                        </Typography>
-                      </div>
-                    {/* </div> */}
-                    <Typography sx={{ pt: 4 }}>
-                      <div
-                        // data-aos="fade-right"
-                        // data-aos-duration="500"
+                    <div className="borderRad">
+                      <Typography
+                        component={"span"}
+                        variant="h3"
+                        sx={{ pl: 5, pt: 3, pb: 1 }}
                       >
+                        <img src="/nate.jpeg" height={130} /> Nathaniel
+                      </Typography>
+                    </div>
+                    {/* </div> */}
 
-<div className="desc">
-<Link to="/info">
+                    </Box>
 
-<button> Click Here to Start</button>
-</Link>
+
+                    <Box component={"span"} sx={{ mt: 24, pb:10 }}>
+                      <div
+                      // data-aos="fade-right"
+                      // data-aos-duration="500"
+                      >
+                        <div className="desc">
+                          <Link to="/info">
+                            <button> Click Here to Start</button>
+                          </Link>
+                        </div>
                       </div>
-                      </div>
-                    </Typography>
+                      <br/>
+                      <br/>
+                      <br/>
+                    </Box>
                   </Box>
                 </Container>
               </div>
             </BS.Col>
           </BS.Row>
-          </div>
-        </Box>
-      </BS.Container>
-
+        </div>
+      </Box>
+    </BS.Container>
 
     // <BS.Container>
     //   <Box

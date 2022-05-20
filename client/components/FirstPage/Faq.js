@@ -64,18 +64,18 @@ export default function ControlledAccordions() {
                       aria-controls="panel1bh-content"
                       id="panel1bh-header"
                     >
-                      <Typography sx={{ width: "78%", flexShrink: 0 }}>
+                      <Typography component={'span'}  sx={{ width: "78%", flexShrink: 0 }}>
                         <div className="fontbold">
                           What is the cost structure to set up an ATM?
                         </div>
                       </Typography>
 
-                      <Typography sx={{ color: "text.secondary" }}>
+                      <Typography component={'span'} sx={{ color: "text.secondary" }}>
                         <div className="font">Two Choices</div>
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                      <Typography>
+                      <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
                           Businesses can opt to either pay zero upfront cost and
@@ -96,15 +96,15 @@ export default function ControlledAccordions() {
                       aria-controls="panel2bh-content"
                       id="panel2bh-header"
                     >
-                      <Typography sx={{ width: "100%", flexShrink: 0 }}>
+                      <Typography component={'span'}  sx={{ width: "100%", flexShrink: 0 }}>
                         <div className="fontbold">
                           What is the transaction fee to the customer?
                         </div>
                       </Typography>
-                      <Typography sx={{ color: "text.secondary" }}></Typography>
+                      <Typography component={'span'}  sx={{ color: "text.secondary" }}></Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                      <Typography>
+                      <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
                           The standard transaction fee is typically between $2
@@ -123,15 +123,15 @@ export default function ControlledAccordions() {
                       aria-controls="panel6bh-content"
                       id="panel2bh-header"
                     >
-                      <Typography sx={{ width: "100%", flexShrink: 0 }}>
+                      <Typography component={'span'} sx={{ width: "100%", flexShrink: 0 }}>
                         <div className="fontbold">
                           How long does it take to set up?
                         </div>
                       </Typography>
-                      <Typography sx={{ color: "text.secondary" }}></Typography>
+                      <Typography component={'span'} sx={{ color: "text.secondary" }}></Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                      <Typography>
+                      <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
                           Your state of the art ATM can be installed by our
@@ -150,14 +150,14 @@ export default function ControlledAccordions() {
                       aria-controls="panel4bh-content"
                       id="panel4bh-header"
                     >
-                      <Typography sx={{ width: "100%", flexShrink: 0 }}>
+                      <Typography component={'span'}  sx={{ width: "100%", flexShrink: 0 }}>
                         <div className="fontbold">
                           How frequently will our ATM be serviced?
                         </div>
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                      <Typography>
+                      <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
                           Our local team will always be monitoring the reserves,

@@ -52,17 +52,17 @@ useEffect(() =>{
     <Container sx={{ display: "flex"}}>
       {" "}
       <MenuItem onClick={handleCloseNavMenu}>
-        <Typography  variant='h5' style={{ml:10}}>
+        <Typography component={'span'}  variant='h5' style={{ml:10}}>
           <Link to="/#"  style={{ textDecoration: 'none',  color:'black'}}> Home</Link>
         </Typography>
       </MenuItem>
       <MenuItem onClick={handleCloseNavMenu}>
-        <Typography  variant='h5' >
+        <Typography  component={'span'}  variant='h5' >
           <Link to="/who" style={{textDecoration: 'none', color:'black'}}>About Us</Link>
         </Typography>
       </MenuItem>
       <MenuItem onClick={handleCloseNavMenu}>
-        <Typography variant='h5' >
+        <Typography component={'span'}  variant='h5' >
         <Link to="/info" style={{textDecoration: 'none',  color:'black'}}>Contact Us</Link>
         </Typography>
       </MenuItem>
