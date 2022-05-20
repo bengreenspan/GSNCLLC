@@ -1,7 +1,5 @@
 import React, { useMemo } from "react";
 import * as BS from "react-bootstrap";
-import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { Container } from "@mui/material";
@@ -14,10 +12,10 @@ import {
   withGoogleMap,
   useLoadScript,
 } from "@react-google-maps/api";
-import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
+
 
 // import "aos/dist/aos.css"
-import { Parallax, Background } from "react-parallax";
+
 
 
 const Map = () => {
@@ -47,8 +45,8 @@ const Map = () => {
             <BS.Col md={7} sm={12} xs={12}>
               <div
                 className="formpage"
-                data-aos="zoom-in"
-                data-aos-duration="1000"
+                // data-aos="zoom-in"
+                // data-aos-duration="1000"
               >
                 <section>
                   <Box
@@ -118,8 +116,8 @@ const Map = () => {
             </BS.Col>
             <BS.Col md={5} sm={12} xs={12}>
               <div
-                data-aos="fade-left"
-                data-aos-duration="1000"
+                // data-aos="fade-left"
+                // data-aos-duration="1000"
                 className="gray"
               >
                 <Container sx={{ mt: 5, pl: 15, justifyContent: "center" }}>

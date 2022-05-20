@@ -1,9 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import * as BS from "react-bootstrap";
-import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
+
 
 /**
  * COMPONENT

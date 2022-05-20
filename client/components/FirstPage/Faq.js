@@ -5,12 +5,9 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import { Divider } from "@mui/material";
-import { Parallax, Background } from "react-parallax";
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -34,7 +31,9 @@ export default function ControlledAccordions() {
           >
             <BS.Row>
               <BS.Col sm={3}>
-                <div data-aos="fade-up-right" data-aos-duration="1000">
+                <div 
+                // data-aos="fade-up-right" data-aos-duration="1000"
+                >
                   <Container sx={{ mt: 0, pl: 0, justifyContent: "center" }}>
                     <Box
                       variant="h2"
@@ -52,7 +51,9 @@ export default function ControlledAccordions() {
 
               <BS.Col md={6}>
                 <Box sx={{ pb: 10, pt: 5 }}>
-                <div data-aos="fade-up" data-aos-duration="1000">
+                <div
+                // data-aos="fade-up" data-aos-duration="1000"
+                >
                   <Accordion
                     expanded={expanded === "panel1"}
                     onChange={handleChange("panel1")}
@@ -171,7 +172,9 @@ export default function ControlledAccordions() {
               </BS.Col>
               <BS.Col md={3}>
               <Box sx={{ pb: 10, pt: 8, pl:5 }}>
-              <div data-aos="fade-up-left" data-aos-duration="1000">
+              <div 
+              // data-aos="fade-up-left" data-aos-duration="1000"
+              >
               <img src="/faq3.png" height={150} width={150} />
               </div>
            </Box>

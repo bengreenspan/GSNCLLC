@@ -4,15 +4,6 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
-import { styled } from "@mui/material/styles";
-import Customers from "./Customers";
-import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import Rating from "@mui/material/Rating";
-import { Divider } from "@mui/material";
-import { Parallax, Background } from "react-parallax";
-// import theme from "../../Theme";
-import Title from "./Title";
 // import 'aos/dist/aos.css;'
 
 const FirstContact = () => {
@@ -45,7 +36,9 @@ const FirstContact = () => {
         >
           <BS.Row>
             <BS.Col sm={6}>
-              <div data-aos="fade-up" data-aos-duration="2000">
+              <div
+              //  data-aos="fade-up" data-aos-duration="2000"
+               >
                 <Typography>
                   <Typography
                     variant="h3"
@@ -69,24 +62,17 @@ const FirstContact = () => {
                     </h4>
                     <Typography sx={{ pt: 4 }}>
                       <div
-                        data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-duration="2000"
+                        // data-aos="fade-right"
+                        // data-aos-offset="300"
+                        // data-aos-duration="2000"
                       >
-
-
-
-<Link to="/info"       href="#">
-                        <button className="learn-more" >
-                          <span className="circle" aria-hidden="true">
-                            <span className="icon arrow"></span>
-                          </span>
-                          <span className="button-text">
-                    
-                       Get Started
-                        
-                          </span>
-                        </button>
+                        <Link to="/info" href="#">
+                          <button className="learn-more">
+                            <span className="circle" aria-hidden="true">
+                              <span className="icon arrow"></span>
+                            </span>
+                            <span className="button-text">Get Started</span>
+                          </button>
                         </Link>
                       </div>
                     </Typography>
@@ -96,7 +82,9 @@ const FirstContact = () => {
             </BS.Col>
 
             <BS.Col sm={7}>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div 
+              // data-aos="fade-left" data-aos-duration="1000"
+              >
                 <Container sx={{ mt: 5, justifyContent: "center" }}>
                   <Box
                     variant="h3"

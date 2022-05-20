@@ -1,16 +1,11 @@
 import React, { useState } from "react";
-import { send } from "emailjs-com";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Container from "@mui/material/Container";
-import Stack from "@mui/material/Stack";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import MuiPhoneNumber from "material-ui-phone-number";
 import Backdrop from "@mui/material/Backdrop";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
-import { Parallax, Background } from "react-parallax";
 import * as BS from "react-bootstrap";
 
 const style = {
@@ -85,7 +80,9 @@ const Form = () => {
   };
 
   return (
-    <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
+    <div className="graycard" 
+    // data-aos="zoom-in" data-aos-duration="1000"
+    >
       <BS.Container>
         <Container className="form" sx={{ pt: 15 }}>
           <BS.Row>
@@ -188,7 +185,9 @@ const Form = () => {
                       pb: 12,
                     }}
                   >
-                    <div data-aos="zoom-in" data-aos-duration="1000">
+                    <div 
+                    // data-aos="zoom-in" data-aos-duration="1000"
+                    >
                       <button className="formbutton" onClick={onSubmit}>
                         <div className="svg-wrapper-1">
                           <div className="svg-wrapper">

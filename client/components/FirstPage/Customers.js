@@ -1,13 +1,9 @@
 import React from "react";
 import * as BS from "react-bootstrap";
-import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { Container } from "@mui/material";
-import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
 // import "aos/dist/aos.css"
-import { Parallax, Background } from "react-parallax";
 import Za from "./CustomerComp/Za";
 import Mc from "./CustomerComp/Mc";
 
@@ -26,7 +22,9 @@ const Customers = () => {
       >
         <BS.Row>
           <BS.Col sm={5} xs={8}>
-            <div data-aos="fade-left" data-aos-duration="1000">
+            <div 
+            // data-aos="fade-left" data-aos-duration="1000"
+            >
               <Container sx={{ mt: 5, pl: 30, justifyContent: "center" }}>
                 <Box
                   // variant="h3"
@@ -57,7 +55,9 @@ const Customers = () => {
           </BS.Col>
 
           <BS.Col sm={7} xs={12}>
-            <div data-aos="fade-left" data-aos-duration="1000">
+            <div
+            //  data-aos="fade-left" data-aos-duration="1000"
+             >
               <Container sx={{ mt: 5, justifyContent: "center" }}>
                 <Box
                   // variant="h3"
@@ -65,13 +65,13 @@ const Customers = () => {
                   sx={{ p: 3, justifyContent: "center" }}
                 >
                   {" "}
-                  <div data-aos="fade-up">
+                  {/* <div data-aos="fade-up"> */}
                     <Mc />
-                  </div>
+                  {/* </div> */}
                   <br />
-                  <div data-aos="fade-down">
+                  {/* <div data-aos="fade-down"> */}
                     <Za />
-                  </div>
+                  {/* </div> */}
                 </Box>
               </Container>
             </div>

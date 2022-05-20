@@ -4,19 +4,13 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
-import { styled } from "@mui/material/styles";
-import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import Rating from "@mui/material/Rating";
-import { Divider } from "@mui/material";
-import { Parallax, Background } from "react-parallax";
 import Aos from "Aos";
-import Contact from "./FirstPage/Contact";
+
 
 const Who = () => {
-  useEffect(() => {
-    Aos.init({});
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({});
+  // }, []);
 
   return (
 
@@ -25,8 +19,8 @@ const Who = () => {
           <Typography component="h1" variant="h2">
             <div
               className="fontbold"
-              data-aos="fade-right"
-              data-aos-duration="1000"
+              // data-aos="fade-right"
+              // data-aos-duration="1000"
             >
     Who Are We?
             </div>
@@ -45,7 +39,9 @@ const Who = () => {
               <div className="gray">
           <BS.Row>
             <BS.Col>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div 
+              // data-aos="fade-left" data-aos-duration="1000"
+              >
                 <Container sx={{ mt: 5, justifyContent: "center" }}>
                   <Box
                     // variant="h3"
@@ -85,7 +81,9 @@ const Who = () => {
             </BS.Col>
 
             <BS.Col sm={7} xs={12}>
-              <div data-aos="fade-left" data-aos-duration="1000">
+              <div 
+              // data-aos="fade-left" data-aos-duration="1000"
+              >
                 <Container sx={{ mt: 5, justifyContent: "center" }}>
                   <Box
                     // variant="h3"
@@ -93,26 +91,25 @@ const Who = () => {
                     sx={{ p: 3, pt: 8, justifyContent: "center" }}
                   >
                     {" "}
-                    <div data-aos="fade-up">
+                    {/* <div data-aos="fade-up"> */}
                       <div className="borderRad">
                         <Typography variant="h3" sx={{ pl: 5, pt: 3, pb: 1 }}>
                           <img src="/cam.jpeg" height={130} /> Cameron
                         </Typography>
                       </div>
-                    </div>
+                    {/* </div> */}
                     <br />
-                    <div data-aos="fade-down">
+                    {/* <div data-aos="fade-down"> */}
                       <div className="borderRad">
                         <Typography variant="h3" sx={{ pl: 5, pt: 3, pb: 1 }}>
                           <img src="/nate.jpeg" height={130} /> Nathaniel
                         </Typography>
                       </div>
-                    </div>
+                    {/* </div> */}
                     <Typography sx={{ pt: 4 }}>
                       <div
-                        data-aos="fade-right"
-                        // data-aos-offset="3"
-                        data-aos-duration="500"
+                        // data-aos="fade-right"
+                        // data-aos-duration="500"
                       >
 
 <div className="desc">

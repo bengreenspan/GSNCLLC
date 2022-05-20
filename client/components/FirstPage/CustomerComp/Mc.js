@@ -1,10 +1,4 @@
 import React from "react";
-import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import { Container } from "@mui/material";
-import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
 import { Parallax, Background } from "react-parallax";
 
 const Mc = () => {

@@ -14,22 +14,7 @@ const Desc = () => {
         borderRadius: "15px",
       }}
     >
-      {/* <video
-        autoPlay
-        loop
-        muted
-        style={{
-          position: "absolute",
-          width: "100%",
-          left: "50%",
-          top: "50%",
-          height: "100%",
-          objectFit: "cover",
-          transform: "translate(-50%, -50%)",
-        }}
-      >
-        <source src="/atmvideo1.mp4" type="video/mp4" />
-      </video> */}
+    
     </Box>
     // </section>
   );

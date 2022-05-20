@@ -1,25 +1,17 @@
 import React, { useEffect } from "react";
 import * as BS from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { styled } from "@mui/material/styles";
-import Customers from "./Customers";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import Rating from "@mui/material/Rating";
-import { Divider } from "@mui/material";
 import { Parallax, Background } from "react-parallax";
-// import theme from "../../Theme";
-import Title from "./Title";
-import Aos from "Aos";
+// import Aos from "Aos";
 // import 'aos/dist/aos.css;'
 
 const Desc = () => {
-  useEffect(() => {
-    Aos.init({});
-  }, []);
+  // useEffect(() => {
+  //   Aos.init({});
+  // }, []);
 
   return (
     <div className="desc"> 
@@ -35,7 +27,9 @@ const Desc = () => {
       >
         <BS.Row>
           <BS.Col sm={5}>
-            <div data-aos="fade-right" data-aos-duration="1000">
+            <div 
+            // data-aos="fade-right" data-aos-duration="1000"
+            >
               <Parallax bgImage={"/hysoun1.png"} strength={-150}>
                 <div className="transparent">
                   {" "}
@@ -46,7 +40,9 @@ const Desc = () => {
           </BS.Col>
 
           <BS.Col sm={7} xs={7}>
-            <div data-aos="fade-left" data-aos-duration="1000">
+            <div 
+            // data-aos="fade-left" data-aos-duration="1000"
+            >
               <Container sx={{ mt: 5, pl: 21, justifyContent: "center" }}>
                 <Box
                   // variant="h3"

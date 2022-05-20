@@ -6,7 +6,13 @@
   font-family: "Raleway", sans-serif;
 }
 
-
+.atmback{
+  background: url(back1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .formpage{
   background: url(gray.png) no-repeat center center fixed;

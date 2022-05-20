@@ -1,13 +1,11 @@
 import React, { useRef } from "react";
-import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { Container } from "@mui/material";
 import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
 import { Parallax, Background } from "react-parallax";
 import Carousel from "react-elastic-carousel";
-import * as BS from "react-bootstrap";
+
 
 const Carousely = () => {
   const carouselRef = useRef(null);
@@ -24,8 +22,8 @@ const Carousely = () => {
         }}
       >
         <div
-          data-aos="fade-right"
-          data-aos-duration="1000"
+          // data-aos="fade-right"
+          // data-aos-duration="1000"
           className="fontbold"
         >
           Client Testimonies
@@ -34,8 +32,10 @@ const Carousely = () => {
       </Typography>
 
       <Container sx={{ mt: 4 }}>
-        <div           data-aos="fade-left"
-          data-aos-duration="1000">
+        <div           
+        // data-aos="fade-left"
+        //   data-aos-duration="1000"
+          >
 
  
         <Carousel
