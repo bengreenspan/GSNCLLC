@@ -6,7 +6,7 @@
   font-family: "Raleway", sans-serif;
 }
 
-.atmback{
+.atmback {
   background: url(back1.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,7 +14,7 @@
   background-size: cover;
 }
 
-.formpage{
+.formpage {
   background: url(gray.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -54,7 +54,7 @@
   -o-background-size: cover;
   background-size: cover;
   /* border-radius: 15px; */
-  color: white
+  color: white;
 }
 
 .orange {
@@ -283,14 +283,14 @@ body {
   padding: 0;
   font-size: inherit;
   font-family: inherit;
- }
- 
- .firstbutton button.learn-more {
+}
+
+.firstbutton button.learn-more {
   width: 12rem;
   height: auto;
- }
- 
- .firstbutton button.learn-more .circle {
+}
+
+.firstbutton button.learn-more .circle {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: relative;
   display: block;
@@ -299,26 +299,26 @@ body {
   height: 3rem;
   background: #cd4a04;
   border-radius: 1.625rem;
- }
- 
- .firstbutton button.learn-more .circle .icon {
+}
+
+.firstbutton button.learn-more .circle .icon {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
   bottom: 0;
   margin: auto;
   background: #fff;
- }
- 
- .firstbutton button.learn-more .circle .icon.arrow {
+}
+
+.firstbutton button.learn-more .circle .icon.arrow {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   left: 0.625rem;
   width: 1.125rem;
   height: 0.125rem;
   background: none;
- }
- 
- .firstbutton button.learn-more .circle .icon.arrow::before {
+}
+
+.firstbutton button.learn-more .circle .icon.arrow::before {
   position: absolute;
   content: "";
   top: -0.29rem;
@@ -328,9 +328,9 @@ body {
   border-top: 0.125rem solid #fff;
   border-right: 0.125rem solid #fff;
   transform: rotate(45deg);
- }
- 
- .firstbutton button.learn-more .button-text {
+}
+
+.firstbutton button.learn-more .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
   top: 0;
@@ -344,29 +344,28 @@ body {
   line-height: 1.6;
   text-align: center;
   text-transform: uppercase;
- }
- 
- .firstbutton button:hover .circle {
+}
+
+.firstbutton button:hover .circle {
   width: 100%;
- }
- 
- .firstbutton button:hover .circle .icon.arrow {
+}
+
+.firstbutton button:hover .circle .icon.arrow {
   background: #fff;
   transform: translate(1rem, 0);
- }
- 
- .firstbutton button:hover .button-text {
+}
+
+.firstbutton button:hover .button-text {
   color: #fff;
- }
+}
 
-
- .desc button {
+.desc button {
   padding: 1.3em 3em;
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
-  color: #FFF;
+  color: #fff;
   background-color: #cd4a04;
   border: none;
   border-radius: 45px;
@@ -387,9 +386,6 @@ body {
   transform: translateY(-1px);
 }
 
-
-
-
 .text-box {
   margin-left: 44vw;
   margin-top: 42vh;
@@ -407,8 +403,6 @@ body {
   }
 }
 
-
-
 @keyframes fly-1 {
   from {
     transform: translateY(0.1em);
@@ -418,8 +412,6 @@ body {
     transform: translateY(-0.1em);
   }
 }
-
-
 
 .transparent {
   opacity: 0;
@@ -452,9 +444,8 @@ img.image1 {
   /* border: 3px solid black */
 }
 
-
 .cssbuttons-io-button {
-  background: #A370F0;
+  background: #a370f0;
   color: white;
   font-family: inherit;
   padding: 0.35em;
@@ -471,9 +462,9 @@ img.image1 {
   position: relative;
   height: 2.8em;
   padding-right: 3.3em;
- }
- 
- .cssbuttons-io-button .icon {
+}
+
+.cssbuttons-io-button .icon {
   background: white;
   margin-left: 1em;
   position: absolute;
@@ -486,32 +477,30 @@ img.image1 {
   box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
   right: 0.3em;
   transition: all 0.3s;
- }
- 
- .cssbuttons-io-button:hover .icon {
+}
+
+.cssbuttons-io-button:hover .icon {
   width: calc(100% - 0.6em);
- }
- 
- .cssbuttons-io-button .icon svg {
+}
+
+.cssbuttons-io-button .icon svg {
   width: 1.1em;
   transition: transform 0.3s;
   color: #7b52b9;
- }
- 
- .cssbuttons-io-button:hover .icon svg {
+}
+
+.cssbuttons-io-button:hover .icon svg {
   transform: translateX(0.1em);
- }
- 
- .cssbuttons-io-button:active .icon {
+}
+
+.cssbuttons-io-button:active .icon {
   transform: scale(0.95);
- }
-  
+}
 
-
- .graycard button {
+.graycard button {
   font-family: inherit;
   font-size: 40px;
-  background: #cd4a04 ;
+  background: #cd4a04;
   color: white;
   padding: 0.7em 1em;
   padding-left: 0.9em;
@@ -519,161 +508,146 @@ img.image1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   border-radius: 16px;
   overflow: hidden;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
- }
- 
- .graycard button span {
+}
+
+.graycard button span {
   display: block;
   margin-left: 0.3em;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
- }
- 
- .graycard button svg {
+}
+
+.graycard button svg {
   display: block;
   -webkit-transform-origin: center center;
-      -ms-transform-origin: center center;
-          transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
- }
- 
- .graycard button:hover .svg-wrapper {
+}
+
+.graycard button:hover .svg-wrapper {
   -webkit-animation: fly-1 0.6s ease-in-out infinite alternate;
-          animation: fly-1 0.6s ease-in-out infinite alternate;
- }
- 
- .graycard button:hover svg {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.graycard button:hover svg {
   -webkit-transform: translateX(1.2em) rotate(45deg) scale(1.1);
-      -ms-transform: translateX(1.2em) rotate(45deg) scale(1.1);
-          transform: translateX(1.2em) rotate(45deg) scale(1.1);
- }
- 
- .graycard button:hover span {
+  -ms-transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.graycard button:hover span {
   -webkit-transform: translateX(5em);
-      -ms-transform: translateX(5em);
-          transform: translateX(5em);
- }
- 
- .graycard button:active {
+  -ms-transform: translateX(5em);
+  transform: translateX(5em);
+}
+
+.graycard button:active {
   -webkit-transform: scale(0.95);
-      -ms-transform: scale(0.95);
-          transform: scale(0.95);
- }
- 
- @-webkit-keyframes fly-1 {
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+@-webkit-keyframes fly-1 {
   from {
-   -webkit-transform: translateY(0.1em);
-           transform: translateY(0.1em);
+    -webkit-transform: translateY(0.1em);
+    transform: translateY(0.1em);
   }
- 
+
   to {
-   -webkit-transform: translateY(-0.1em);
-           transform: translateY(-0.1em);
+    -webkit-transform: translateY(-0.1em);
+    transform: translateY(-0.1em);
   }
- }
- 
- @keyframes fly-1 {
+}
+
+@keyframes fly-1 {
   from {
-   -webkit-transform: translateY(0.1em);
-           transform: translateY(0.1em);
+    -webkit-transform: translateY(0.1em);
+    transform: translateY(0.1em);
   }
- 
+
   to {
-   -webkit-transform: translateY(-0.1em);
-           transform: translateY(-0.1em);
+    -webkit-transform: translateY(-0.1em);
+    transform: translateY(-0.1em);
   }
- }
- 
- 
+}
 
-
-
-
- 
-
-
- 
-
- .contact button {
+.contact button {
   color: hsl(0, 0%, 100%);
-    font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
   padding: 17px 40px;
   border-radius: 50px;
   border: 0;
   background-color: #cd4a04;
   -webkit-box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-          box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   font-size: 25px;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
- }
- 
- .contact button:hover {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.contact button:hover {
   font-family: "Raleway", sans-serif;
   letter-spacing: 3px;
   background-color: #cd4a04;
   color: black;
   -webkit-box-shadow: #c487cd 0px 7px 29px 0px;
-          box-shadow: #c487cd 0px 7px 29px 0px;
- }
- 
- .contact button:active {
+  box-shadow: #c487cd 0px 7px 29px 0px;
+}
+
+.contact button:active {
   font-family: "Raleway", sans-serif;
   letter-spacing: 3px;
   background-color: #0487cd;
   color: hsl(0, 0%, 100%);
   -webkit-box-shadow: #0487cd 0px 0px 0px 0px;
-          box-shadow: #0487cd 0px 0px 0px 0px;
+  box-shadow: #0487cd 0px 0px 0px 0px;
   -webkit-transform: translateY(10px);
-      -ms-transform: translateY(10px);
-          transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
   -webkit-transition: 100ms;
   transition: 100ms;
- }
+}
 
- .borderRad{
-background-color:#f4f3f2 ;
-border-radius:20px;
-display:flex;
-border: black solid 1px;
- }
+.borderRad {
+  background-color: #f4f3f2;
+  border-radius: 20px;
+  display: flex;
+  border: black solid 1px;
+}
 
-
- .borderRad1{
-  background-color:#f4f3f2 ;
-  border-radius:20px;
-  display:flex;
+.borderRad1 {
+  background-color: #f4f3f2;
+  border-radius: 20px;
+  display: flex;
   border: black solid 1px;
   padding: 30px;
-   }
-   .borderRad2{
-    background-color:#f4f3f2 ;
-    border-radius:20px;
-    display:flex;
-    border: black solid 1px;
-    padding: 30px;
-     }
+}
+.borderRad2 {
+  background-color: #f4f3f2;
+  border-radius: 20px;
+  display: flex;
+  border: black solid 1px;
+  padding: 30px;
+}
 
+img {
+  border-radius: 20px;
+}
 
-   
- 
- img {
-  border-radius:20px;
- }
-
-
- .login .input {
+.login .input {
   max-width: 190px;
   height: 30px;
   border: 2px solid transparent;
@@ -682,7 +656,7 @@ border: black solid 1px;
   caret-color: #cd4a04;
   background-color: #f4f3f2;
   padding: 5px;
-  transition: .5s linear;
+  transition: 0.5s linear;
   font-family: monospace;
   letter-spacing: 1px;
 }
@@ -699,16 +673,13 @@ border: black solid 1px;
   color: #cd4a04;
 }
 
-.peopleback{
+.peopleback {
   background: url(back1.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-
-
-
 
 .white a:link {
   color: yellow;
@@ -723,7 +694,7 @@ border: black solid 1px;
 
 /* mouse over link */
 .white a:hover {
-  color: #0487cd ;
+  color: #0487cd;
   text-decoration: none;
 }
 
@@ -733,6 +704,29 @@ border: black solid 1px;
   text-decoration: none;
 }
 
+.login button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #FFF;
+  background-color: #cd4a04;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
 
+.login button:hover {
+  background-color: #0487cd;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
 
-
+.login button:active {
+  transform: translateY(-1px);
+}
