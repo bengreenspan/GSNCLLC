@@ -11,12 +11,22 @@ const Carousely = () => {
   let resetTimeout;
   return (
     <Container sx={{ pb: 10 }}>
+      <Box       sx={{
+          pt: 10,
+          pl: 10,
+          justifyContent: "center",
+          alignItems: "center",
+          display: "flex",
+        }}> 
+      <img src="/5star.png" alt="one" width="300" height="225" />
+      </Box>
       <Typography
         component={"span"}
-        variant="h3"
+        variant="h5"
         sx={{
           pt: 10,
           pl: 10,
+          
           justifyContent: "center",
           alignItems: "center",
         }}
@@ -55,50 +65,50 @@ const Carousely = () => {
           >
             <Box
               sx={{
-                pr: 5,
+                // pr: 5,
                 justifyContent: "center",
                 alignItems: "center",
                 borderRadius: 5,
               }}
             >
-              <h3>
+              <h5>
                 <Typography
                   component={"span"}
-                  sx={{ pl: 10, pt: 3, pb: 3, pr: 8 }}
+                  // sx={{ pl: 10, pt: 3, pb: 3, pr: 8 }}
                 >
-                  <h3>
+                  <p>
                     “I couldn’t believe how fast and easy installation was with
                     these guys.”
-                  </h3>
+                  </p>
                   <br />
                   <br />
-                  <h3>-Julian V.</h3>
+                  <h5>-Julian V.</h5>
                 </Typography>
-              </h3>
+              </h5>
             </Box>
 
             <Box
               sx={{
-                pr: 5,
-                justifyContent: "center",
-                alignItems: "center",
+                // pr: 5,
+                // justifyContent: "center",
+                // alignItems: "center",
                 borderRadius: 5,
               }}
             >
-              <h3>
+              <h5>
                 <Typography
                   component={"span"}
-                  sx={{ pl: 10, pt: 3, pb: 3, pr: 3 }}
+                  // sx={{ pl: 10, pt: 3, pb: 3, pr: 8 }}
                 >
-                  <h3>
+                  <p>
                     “They service it once every few days, I do not think it has
                     even gotten close to malfunctioning or running empty.”
-                  </h3>
+                  </p>
                   <br />
                   <br />
-                  <h3>-Shoon R.</h3>
+                  <h5>-Shoon R.</h5>
                 </Typography>
-              </h3>
+              </h5>
             </Box>
             <Box
               sx={{
@@ -111,15 +121,15 @@ const Carousely = () => {
               <div>
                 <Typography
                   component={"span"}
-                  sx={{ pl: 10, pt: 3, pb: 3, pr: 3 }}
+                  // sx={{ pl: 10, pt: 3, pb: 3, pr: 18 }}
                 >
-                  <h3>
+                  <p>
                     “GSNC supplies the paperwork monthly and are professional in
                     communicating”
-                  </h3>
+                  </p>
                   <br />
                   <br />
-                  <h3>-Conor W.</h3>
+                  <h5>-Conor W.</h5>
                 </Typography>
               </div>
             </Box>
@@ -132,20 +142,20 @@ const Carousely = () => {
                 borderRadius: 5,
               }}
             >
-              <h3>
+              <h5>
                 <Typography
                   component={"span"}
-                  sx={{ pl: 10, pt: 3, pb: 3, pr: 3 }}
+                  // sx={{ pl: 10, pt: 3, pb: 3, pr: 8 }}
                 >
-                  <h3>
+                  <p>
                     “Running an all cash business has never been easier. Plus I
                     get a cut of the action.”
-                  </h3>
+                  </p>
                   <br />
                   <br />
-                  <h3>-Janet L.</h3>
+                  <h5>-Janet L.</h5>
                 </Typography>
-              </h3>
+              </h5>
             </Box>
             <Box
               sx={{
@@ -155,17 +165,17 @@ const Carousely = () => {
                 borderRadius: 5,
               }}
             >
-              <h3>
+              <h5>
                 <Typography
                   component={"span"}
-                  sx={{ pl: 10, pt: 3, pb: 3, pr: 3 }}
+                  // sx={{ pl: 10, pt: 3, pb: 3, pr: 3 }}
                 >
-                  <h3>"Kind, caring and punctual"</h3>
+                  <p>"Kind, caring and punctual"</p>
                   <br />
                   <br />
-                  <h3>-Lee C.</h3>
+                  <h5>-Lee C.</h5>
                 </Typography>
-              </h3>
+              </h5>
             </Box>
 
             <Box
@@ -176,17 +186,17 @@ const Carousely = () => {
                 borderRadius: 5,
               }}
             >
-              <h3>
+              <h5>
                 <Typography
                   component={"span"}
-                  sx={{ pl: 10, pt: 3, pb: 3, pr: 3 }}
+                  // sx={{ pl: 10, pt: 3, pb: 3, pr: 3 }}
                 >
-                  <h3>“I have my business, and they take care of the rest”</h3>
+                  <p>“I have my business, and they take care of the rest”</p>
                   <br />
                   <br />
-                  <h3>-Alex G.</h3>
+                  <h5>-Alex G.</h5>
                 </Typography>
-              </h3>
+              </h5>
             </Box>
           </Carousel>
         </div>

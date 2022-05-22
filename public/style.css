@@ -730,3 +730,8 @@ img {
 .login button:active {
   transform: translateY(-1px);
 }
+
+
+.outline{
+  border-top: 1px solid black
+}

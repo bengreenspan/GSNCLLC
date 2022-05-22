@@ -249,21 +249,25 @@ const Form = () => {
                 <Typography
                   variant="h3"
                   marginTop={0}
-                  sx={{ pl: 9, pt: 9, pb: 3, justifyContent: "center" }}
+                  sx={{ pl: 9, pt: 9, pb: 0, justifyContent: "center" }}
                 >
+           
                   <h4 className="font">
                     Submit your contact and business information here and we
                     will do our best to get back to you within a day
                   </h4>
+              
                 </Typography>{" "}
               </BS.Row>
               <BS.Row>
-                <Parallax bgImage={"/plane.png"} strength={-50}>
+              {/* <div className="outline"> */}
+                <Parallax bgImage={"/plane.png"} strength={140}>
                   <div className="transparent">
                     {" "}
-                    <img src="/hysoun2.png" height={330} width={300} />
+                    <img src="/hysoun2.png" width={200} />
                   </div>
                 </Parallax>
+                {/* </div> */}
               </BS.Row>
             </BS.Col>
           </BS.Row>
