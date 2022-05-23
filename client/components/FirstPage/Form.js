@@ -85,7 +85,9 @@ const Form = () => {
   };
 
   return (
-    <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
+    <div className="graycard" 
+    // data-aos="zoom-in" data-aos-duration="1000"
+    >
       <BS.Container>
         <Container className="form" sx={{ pt: 15 }}>
           <BS.Row>
