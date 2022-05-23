@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const FirstContact = () => {
   return (
     <div className="firstbutton ">
-      <video
+      <video className="video"
         autoPlay
         loop
         muted

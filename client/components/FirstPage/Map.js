@@ -114,7 +114,7 @@ const Map = () => {
                 </section>
               </div>
             </BS.Col>
-            <BS.Col md={5} sm={12} xs={12}>
+            <BS.Col md={7} sm={12} xs={12}>
               <div
                 // data-aos="fade-left"
                 // data-aos-duration="1000"
