@@ -10,6 +10,8 @@ import Carousel from "./FirstPage/Carousel";
 import FirstContact from "./FirstPage/FirstContact";
 import { Divider } from "@mui/material";
 
+
+
 <Divider sx={{ m: 0, p: 0 }} />;
 
 export const Main = () => (
