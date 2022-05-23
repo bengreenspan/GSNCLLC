@@ -18,7 +18,7 @@ const Desc = () => {
       <BS.Container>
         <Box
           sx={{
-            pt: 40,
+            pt: 30,
             pb: 15,
             display: "flex",
             justifyContent: "center",
