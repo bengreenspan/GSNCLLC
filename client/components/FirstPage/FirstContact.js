@@ -39,7 +39,9 @@ const FirstContact = () => {
               <div
               //  data-aos="fade-up" data-aos-duration="2000"
                >
-                <Typography>
+                <Typography sx={{
+                      pt: 10
+                    }}>
                   <Typography
                     variant="h3"
                     className="white-background"

@@ -43,7 +43,7 @@ const ContactUs = () => {
                   // data-aos="zoom-in"
                   // data-aos-duration="1000"
                 >
-                  Contact Us by email at: GSNCLLC@EDdfdU.com
+                  Contact Us by email at: GSNC@GSNCLLC.com
                 </div>
               </h1>
             </Typography>

@@ -261,12 +261,12 @@ const Form = () => {
               </BS.Row>
               <BS.Row>
               {/* <div className="outline"> */}
-                <Parallax bgImage={"/plane.png"} strength={140}>
-                  <div className="transparent">
+                {/* <Parallax bgImage={"/plane.png"} strength={140}> */}
+                  {/* <div className="transparent"> */}
                     {" "}
-                    <img src="/hysoun2.png" width={200} />
-                  </div>
-                </Parallax>
+                    <img src="/plane.png" width={200} />
+                  {/* </div> */}
+                {/* </Parallax> */}
                 {/* </div> */}
               </BS.Row>
             </BS.Col>

@@ -55,7 +55,7 @@ const Contact = () => {
                 <br/>
                  <Link to={"/info#"}>Click here</Link>    <br/>
                 or    <br/>
-                 Email us at: GSNC@GSNC.edu
+                 Email us at: GSNC@GSNCLLC.com
               </Typography>
               <Typography component={'span'}  id="modal-modal-description" sx={{ mt: 2 }}>
                 <CopyToClipboard text={value} onCopy={() => setCopied(true)}>
