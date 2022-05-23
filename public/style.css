@@ -682,13 +682,13 @@ img {
 }
 
 .white a:link {
-  color: yellow;
+  color: #cd4a04;
   text-decoration: none;
 }
 
 /* visited link */
 .white a:visited {
-  color: black;
+  color: #cd4a04;
   text-decoration: none;
 }
 
@@ -700,7 +700,7 @@ img {
 
 /* selected link */
 .white a:active {
-  color: blue;
+  color: #0487cd;
   text-decoration: none;
 }
 
