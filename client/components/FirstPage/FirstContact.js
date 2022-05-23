@@ -38,7 +38,7 @@ const FirstContact = () => {
           <BS.Row>
             <BS.Col sm={6}>
               <div
-               data-aos="fade-up" data-aos-duration="2000"
+              //  data-aos="fade-up" data-aos-duration="2000"
                >
                 <Typography >
                   <Typography
@@ -63,9 +63,9 @@ const FirstContact = () => {
                     </h4>
                     <Typography sx={{ pt: 4 }}>
                       <div
-                        data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-duration="2000"
+                        // data-aos="fade-right"
+                        // data-aos-offset="300"
+                        // data-aos-duration="2000"
                       >
                         <Link to="/info" href="#">
                           <button className="learn-more">
