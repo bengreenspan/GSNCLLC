@@ -19,7 +19,14 @@ const Carousely = () => {
           alignItems: "center",
           display: "flex",
         }}> 
+
+<div
+          data-aos="flip-down"
+          data-aos-duration="1000"
+          className="fontbold"
+        >
       <img src="/5star.png" alt="one" width="300" height="225" />
+      </div>
       </Box>
       <Typography
         component={"span"}

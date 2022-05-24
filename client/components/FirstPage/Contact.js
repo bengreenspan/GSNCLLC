@@ -30,9 +30,9 @@ const Contact = () => {
   return (
     <Container sx={{ pt: 10 }}>
       <div className="contact">
-        <div className="font">
+        <div className="font" data-aos="zoom-out-up" data-aos-duration="1000">
           <Box sx={{ display: "flex", justifyContent: "center", pb: 3 }}>
-            <Typography component={'span'}  variant="h4" marginTop={3}>
+            <Typography component={"span"} variant="h4" marginTop={3}>
               <button onClick={handleOpen}>Contact Us Here</button>
             </Typography>
           </Box>
@@ -42,29 +42,26 @@ const Contact = () => {
             aria-labelledby="modal-modal-title"
             aria-describedby="modal-modal-description"
           >
-            <Box sx={style}
-            >
-              <Typography
-               component="h2"
-                id="modal-modal-title"
-                variant="h6"
-               
-               
-              >
+            <Box sx={style}>
+              <Typography component="h2" id="modal-modal-title" variant="h6">
                 To fill out an ATM form:
-                <br/>
-                 <Link to={"/info#"}>Click here</Link>    <br/>
-                or    <br/>
-                 Email us at: GSNC@GSNCLLC.com
+                <br />
+                <Link to={"/info#"}>Click here</Link> <br />
+                or <br />
+                Email us at: GSNC@GSNCLLC.com
               </Typography>
-              <Typography component={'span'}  id="modal-modal-description" sx={{ mt: 2 }}>
+              <Typography
+                component={"span"}
+                id="modal-modal-description"
+                sx={{ mt: 2 }}
+              >
                 <CopyToClipboard text={value} onCopy={() => setCopied(true)}>
                   <Button>Copy email to clipboard</Button>
                 </CopyToClipboard>
 
                 {copied ? (
                   <span style={{ color: "black", background: "white" }}>
-                    <br/>
+                    <br />
                     Email succesfully copied.
                   </span>
                 ) : null}
@@ -73,7 +70,7 @@ const Contact = () => {
           </Modal>
           <Box sx={{ display: "flex", justifyContent: "space-evenly", pb: 6 }}>
             <Typography
-            component={'span'} 
+              component={"span"}
               variant="h6"
               sx={{ display: "flex", justifyContent: "space-evenly", pb: 6 }}
             ></Typography>
