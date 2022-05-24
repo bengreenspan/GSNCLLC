@@ -4,12 +4,12 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
-// import Aos from "Aos";
+import Aos from "Aos";
 
 const Who = () => {
-  // useEffect(() => {
-  //   Aos.init({});
-  // }, []);
+  useEffect(() => {
+    Aos.init({});
+  }, []);
 
   return (
     <BS.Container>
@@ -17,8 +17,8 @@ const Who = () => {
         <Typography component="h1" variant="h2">
           <div
             className="fontbold"
-            // data-aos="fade-right"
-            // data-aos-duration="1000"
+            data-aos="fade-right"
+            data-aos-duration="1000"
           >
             Who Are We?
           </div>
@@ -37,7 +37,7 @@ const Who = () => {
           <BS.Row>
             <BS.Col>
               <div
-              // data-aos="fade-left" data-aos-duration="1000"
+              data-aos="fade-left" data-aos-duration="1000"
               >
                 <Container sx={{ mt: 5, justifyContent: "center" }}>
                   <Box
@@ -79,7 +79,7 @@ const Who = () => {
 
             <BS.Col sm={7} xs={12}>
               <div
-              // data-aos="fade-left" data-aos-duration="1000"
+              data-aos="fade-left" data-aos-duration="1000"
               >
                 <Container sx={{ mt: 5, justifyContent: "center" }}>
                   <Box
@@ -93,7 +93,7 @@ const Who = () => {
                     sx={{ pb: 8, justifyContent: "center" }}
                   >
                     {" "}
-                    {/* <div data-aos="fade-up"> */}
+                    <div data-aos="fade-up">
                     <div className="borderRad">
                       <Typography
                         component={"span"}
@@ -103,9 +103,9 @@ const Who = () => {
                         <img src="/cam.jpeg" height={130} /> Cameron
                       </Typography>
                     </div>
-                    {/* </div> */}
+                    </div>
                     <br />
-                    {/* <div data-aos="fade-down"> */}
+                    <div data-aos="fade-down">
                     <div className="borderRad">
                       <Typography
                         component={"span"}
@@ -115,15 +115,15 @@ const Who = () => {
                         <img src="/nate.jpeg" height={130} /> Nathaniel
                       </Typography>
                     </div>
-                    {/* </div> */}
+                    </div>
 
                     </Box>
 
 
                     <Box component={"span"} sx={{ mt: 24, pb:10 }}>
                       <div
-                      // data-aos="fade-right"
-                      // data-aos-duration="500"
+                      data-aos="fade-right"
+                      data-aos-duration="500"
                       >
                         <div className="desc">
                           <Link to="/info">

@@ -8,6 +8,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import { Divider } from "@mui/material";
+import Aos from "aos";
 
 export default function ControlledAccordions() {
   const [expanded, setExpanded] = React.useState(false);
@@ -32,7 +33,7 @@ export default function ControlledAccordions() {
             <BS.Row>
               <BS.Col  md={3} sm={3}>
                 <div 
-                // data-aos="fade-up-right" data-aos-duration="1000"
+                data-aos="fade-up-right" data-aos-duration="1000"
                 >
                   <Container sx={{ mt: 0, pl: 0, mr:9, justifyContent: "center" }}>
                     <Box
@@ -52,7 +53,7 @@ export default function ControlledAccordions() {
               <BS.Col md={6}>
                 <Box sx={{ pb: 10, pt: 5 }}>
                 <div
-                // data-aos="fade-up" data-aos-duration="1000"
+                data-aos="fade-up" data-aos-duration="1000"
                 >
                   <Accordion
                     expanded={expanded === "panel1"}
@@ -173,7 +174,7 @@ export default function ControlledAccordions() {
               <BS.Col md={2}>
               <Box sx={{ pb: 10, pt: 8, pl:0 }}>
               <div 
-              // data-aos="fade-up-left" data-aos-duration="1000"
+              data-aos="fade-up-left" data-aos-duration="1000"
               >
               <img src="/faq3.png" height={150} width={150} />
               </div>

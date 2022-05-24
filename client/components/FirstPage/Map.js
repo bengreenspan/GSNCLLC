@@ -12,7 +12,7 @@ import {
   withGoogleMap,
   useLoadScript,
 } from "@react-google-maps/api";
-
+import Aos from "aos";
 
 // import "aos/dist/aos.css"
 
@@ -44,9 +44,9 @@ const Map = () => {
           <BS.Row>
             <BS.Col md={5} sm={12} xs={12}>
               <div
-                // className="formpage"
-                // data-aos="zoom-in"
-                // data-aos-duration="1000"
+                className="formpage"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
               >
                 <section>
                   <Box
@@ -116,8 +116,8 @@ const Map = () => {
             </BS.Col>
             <BS.Col md={7} sm={12} xs={12}>
               <div
-                // data-aos="fade-left"
-                // data-aos-duration="1000"
+                data-aos="fade-left"
+                data-aos-duration="1000"
                 className="gray"
               >
                 <Container sx={{ mt: 5, pl: 15, justifyContent: "center" }}>

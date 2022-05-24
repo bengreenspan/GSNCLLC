@@ -5,6 +5,7 @@ import { Container } from "@mui/material";
 import { createTheme, ThemeProvider, styled } from "@mui/material/styles";
 import { Parallax, Background } from "react-parallax";
 import Carousel from "react-elastic-carousel";
+import Aos from "aos";
 
 const Carousely = () => {
   const carouselRef = useRef(null);
@@ -32,8 +33,8 @@ const Carousely = () => {
         }}
       >
         <div
-          // data-aos="fade-right"
-          // data-aos-duration="1000"
+          data-aos="fade-right"
+          data-aos-duration="1000"
           className="fontbold"
         >
           Client Testimonies
@@ -43,8 +44,8 @@ const Carousely = () => {
 
       <Container sx={{ mt: 4 }}>
         <div
-        // data-aos="fade-left"
-        //   data-aos-duration="1000"
+        data-aos="fade-left"
+          data-aos-duration="1000"
         >
           <Carousel
             itemsToShow={1}

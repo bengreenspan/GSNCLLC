@@ -6,6 +6,7 @@ import { Container } from "@mui/material";
 // import "aos/dist/aos.css"
 import Za from "./CustomerComp/Za";
 import Mc from "./CustomerComp/Mc";
+import Aos from "aos";
 
 const Customers = () => {
   return (
@@ -22,7 +23,7 @@ const Customers = () => {
         <BS.Row>
           <BS.Col sm={5} xs={8}>
             <div
-            // data-aos="fade-left" data-aos-duration="1000"
+            data-aos="fade-left" data-aos-duration="1000"
             >
               <Container sx={{ mt: 5, pl: 30, justifyContent: "center" }}>
                 <Box
@@ -56,7 +57,7 @@ const Customers = () => {
 
           <BS.Col sm={7} xs={12}>
             <div
-            //  data-aos="fade-left" data-aos-duration="1000"
+             data-aos="fade-left" data-aos-duration="1000"
             >
               <Container sx={{ mt: 5, justifyContent: "center" }}>
                 <Box
@@ -65,13 +66,13 @@ const Customers = () => {
                   sx={{ p: 3, justifyContent: "center" }}
                 >
                   {" "}
-                  {/* <div data-aos="fade-up"> */}
+                  <div data-aos="fade-up">
                   <Mc />
-                  {/* </div> */}
+                  </div>
                   <br />
-                  {/* <div data-aos="fade-down"> */}
+                  <div data-aos="fade-down">
                   <Za />
-                  {/* </div> */}
+                  </div>
                 </Box>
               </Container>
             </div>

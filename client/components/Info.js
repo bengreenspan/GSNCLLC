@@ -4,13 +4,13 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Form from "./FirstPage/Form";
 import { Link } from "react-router-dom";
-// import Aos from "aos";
+import Aos from "aos";
 import * as BS from "react-bootstrap";
 
 const ContactUs = () => {
-  // useEffect(() => {
-  //   Aos.init({});
-  // }, []);
+  useEffect(() => {
+    Aos.init({});
+  }, []);
 
   return (
     <BS.Container>
@@ -19,8 +19,8 @@ const ContactUs = () => {
           <Typography component="h1" variant="h2">
             <div
               className="fontbold"
-              // data-aos="fade-right"
-              // data-aos-duration="1000"
+              data-aos="fade-right"
+              data-aos-duration="1000"
             >
               Reach Out
             </div>
