@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
-// import aos from "aos";
+import aos from "aos";
 // import 'aos/dist/aos.css;'
 
 const FirstContact = () => {
@@ -38,7 +38,7 @@ const FirstContact = () => {
           <BS.Row>
             <BS.Col sm={6}>
               <div
-              //  data-aos="fade-up" data-aos-duration="2000"
+               data-aos="fade-up" data-aos-duration="2000"
                >
                 <Typography >
                   <Typography

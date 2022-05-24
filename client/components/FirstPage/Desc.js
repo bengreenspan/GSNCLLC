@@ -5,13 +5,12 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { Parallax, Background } from "react-parallax";
-// import aos from "Aos";
-// import 'aos/dist/aos.css;'
+import Aos from "Aos";
 
 const Desc = () => {
-  // useEffect(() => {
-  //   aos.init({});
-  // }, []);
+  useEffect(() => {
+    Aos.init({});
+  }, []);
 
   return (
     <div className="desc">
@@ -28,7 +27,7 @@ const Desc = () => {
           <BS.Row>
             <BS.Col sm={5}>
               <div
-              // data-aos="fade-right" data-aos-duration="1000"
+              data-aos="fade-right" data-aos-duration="1000"
               >
                 <Parallax bgImage={"/hysoun1.png"} strength={-150}>
                   <div className="transparent">
