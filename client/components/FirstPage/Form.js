@@ -87,7 +87,7 @@ const Form = () => {
   return (
     <div
       className="graycard"
-      // data-aos="zoom-in" data-aos-duration="1000"
+      data-aos="zoom-in" data-aos-duration="1000"
     >
       <BS.Container>
         <Container className="form" sx={{ pt: 15 }}>
@@ -205,7 +205,7 @@ const Form = () => {
                       pb: 12,
                     }}
                   >
-                    {/* <div data-aos="zoom-in" data-aos-duration="1000"> */}
+                    <div data-aos="zoom-in" data-aos-duration="1000">
                     <button>
                       <div className="svg-wrapper-1">
                         <div className="svg-wrapper">
@@ -256,7 +256,7 @@ const Form = () => {
                         </Box>
                       </Fade>
                     </Modal>
-                    {/* </div> */}
+                    </div>
                   </Box>
                 </Box>
               </div>
