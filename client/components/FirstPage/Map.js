@@ -42,7 +42,7 @@ const Map = () => {
           }}
         >
           <BS.Row>
-            <BS.Col md={6} sm={12} xs={12}>
+            <BS.Col md={12} sm={12} xs={12}>
               <div
                 className="formpage"
                 // data-aos="zoom-in"
@@ -114,7 +114,7 @@ const Map = () => {
                 </section>
               </div>
             </BS.Col>
-            <BS.Col md={6} sm={12} xs={12}>
+            <BS.Col md={12} sm={12} xs={12}>
               <div
                 // data-aos="fade-left"
                 // data-aos-duration="1000"
