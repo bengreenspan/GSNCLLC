@@ -85,18 +85,33 @@ const Form = () => {
   };
 
   return (
-    <div className="graycard" 
-    // data-aos="zoom-in" data-aos-duration="1000"
+    <div
+      className="graycard"
+      // data-aos="zoom-in" data-aos-duration="1000"
     >
       <BS.Container>
         <Container className="form" sx={{ pt: 15 }}>
           <BS.Row>
             <BS.Col md={7}>
-              <div>
-                <Typography variant="h3" component="h3" sx={{ pb: 8, pl: 8 }}>
-                  <div className="fontbold">ATM Submission Form</div>
-                </Typography>
+              <Typography>
+                <Typography
+                  variant="h4"
+                  // className="white-background"
+                  sx={{
+                    pt: 3,
+                    pl: 3,
+                    pr: 3,
+                    pb: 3,
+                    justifyContent: "center",
+                  }}
+                >
+                  <div className="fontbold">ATM Submission Form </div>
 
+                  <br />
+                </Typography>
+              </Typography>
+
+              <div>
                 <Box
                   component="form"
                   sx={{
@@ -253,21 +268,18 @@ const Form = () => {
                   marginTop={0}
                   sx={{ pl: 9, pt: 9, pb: 0, justifyContent: "center" }}
                 >
-           
                   <h4 className="font">
                     Submit your contact and business information here and we
                     will do our best to get back to you within a day
                   </h4>
-              
                 </Typography>{" "}
               </BS.Row>
               <BS.Row>
-              {/* <div className="outline"> */}
+                {/* <div className="outline"> */}
                 {/* <Parallax bgImage={"/plane.png"} strength={140}> */}
-                  {/* <div className="transparent"> */}
-                    {" "}
-                    <img src="/plane.png" width={200} />
-                  {/* </div> */}
+                {/* <div className="transparent"> */}{" "}
+                <img src="/plane.png" width={200} />
+                {/* </div> */}
                 {/* </Parallax> */}
                 {/* </div> */}
               </BS.Row>

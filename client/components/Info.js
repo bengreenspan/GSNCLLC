@@ -30,25 +30,39 @@ const ContactUs = () => {
           <div className="border123">
             <Form />
           </div>
-
         </div>
-        <br /> <br /> <br />     <br /> <br /> <br />
-        <BS.Row>
-          <BS.Col sm={7}></BS.Col>
-          <BS.Col>
-            <Typography component={"span"} sx={{ pl: 5, pr: 3 }}>
-              <h1 className="font">
-                <div
-                  className="borderRad2"
-                  // data-aos="zoom-in"
-                  // data-aos-duration="1000"
-                >
-                  Contact Us by email at: GSNC@GSNCLLC.com
-                </div>
-              </h1>
-            </Typography>
-          </BS.Col>
-        </BS.Row>
+        <br /> <br /> <br /> <br /> <br /> <br />
+        <Box      sx={{
+              pt: 3,
+              pl: 3,
+              pr: 3,
+              pb: 3,
+              // justifyContent: "center",
+              display: "flex", justifyContent: "center" 
+            }}
+            >
+          <Typography
+            variant="h3"
+            className="white-background"
+            sx={{
+              pt: 3,
+              pl: 3,
+              pr: 3,
+              pb: 3,
+              justifyContent: "center",
+            }}
+          >
+            <div className="fontbold">
+              {" "}
+              Contact us by email at:
+              <br />
+              <Typography>
+                <h4>GSNC@GSNCLLC.com</h4>
+              </Typography>
+            </div>
+          </Typography>
+        </Box>
+       
       </Container>
     </BS.Container>
   );

@@ -11,6 +11,7 @@ const FirstContact = () => {
   return (
     <div className="firstbutton ">
       <video className="video"
+      playsInLine
         autoPlay
         loop
         muted

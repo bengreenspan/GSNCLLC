@@ -30,15 +30,15 @@ export default function ControlledAccordions() {
             }}
           >
             <BS.Row>
-              <BS.Col sm={3}>
+              <BS.Col  md={3} sm={3}>
                 <div 
                 // data-aos="fade-up-right" data-aos-duration="1000"
                 >
-                  <Container sx={{ mt: 0, pl: 0, justifyContent: "center" }}>
+                  <Container sx={{ mt: 0, pl: 0, mr:9, justifyContent: "center" }}>
                     <Box
-                      variant="h2"
+                      variant="h3"
                       // className="white-background"
-                      sx={{ p: 3, justifyContent: "center" }}
+                      sx={{ p: 0, justifyContent: "center" }}
                     >
                       {" "}
                       <Typography variant="h2" component="h2" sx={{ pb: 5, pt:10 }}>
@@ -170,8 +170,8 @@ export default function ControlledAccordions() {
                   </div>
                 </Box>
               </BS.Col>
-              <BS.Col md={3}>
-              <Box sx={{ pb: 10, pt: 8, pl:5 }}>
+              <BS.Col md={2}>
+              <Box sx={{ pb: 10, pt: 8, pl:0 }}>
               <div 
               // data-aos="fade-up-left" data-aos-duration="1000"
               >
