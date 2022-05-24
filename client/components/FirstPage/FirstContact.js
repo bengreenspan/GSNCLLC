@@ -70,9 +70,9 @@ const FirstContact = () => {
                     </h4>
                     <Typography sx={{ pt: 4 }}>
                       <div
-                        // data-aos="fade-right"
-                        // data-aos-offset="300"
-                        // data-aos-duration="2000"
+                        data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-duration="2000"
                       >
                         <Link to="/info" href="#">
                           <button className="learn-more">
@@ -91,7 +91,7 @@ const FirstContact = () => {
 
             <BS.Col sm={7}>
               <div 
-              // data-aos="fade-left" data-aos-duration="1000"
+              data-aos="fade-left" data-aos-duration="1000"
               >
                 <Container sx={{ mt: 5, justifyContent: "center" }}>
                   <Box
