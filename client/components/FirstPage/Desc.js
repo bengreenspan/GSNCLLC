@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import { Parallax, Background } from "react-parallax";
-import aos from "Aos";
+import Aos from "aos";
 
 const Desc = () => {
   useEffect(() => {

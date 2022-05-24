@@ -205,7 +205,7 @@ const Form = () => {
                       pb: 12,
                     }}
                   >
-                    <div data-aos="zoom-in" data-aos-duration="1000">
+                    <div data-aos="zoom-out" data-aos-duration="2000">
                     <button>
                       <div className="svg-wrapper-1">
                         <div className="svg-wrapper">
