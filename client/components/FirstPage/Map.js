@@ -42,9 +42,9 @@ const Map = () => {
           }}
         >
           <BS.Row>
-            <BS.Col md={12} sm={12} xs={12}>
+            <BS.Col md={5} sm={12} xs={12}>
               <div
-                className="formpage"
+                // className="formpage"
                 // data-aos="zoom-in"
                 // data-aos-duration="1000"
               >
@@ -56,7 +56,7 @@ const Map = () => {
                       pt: 10,
                     }}
                   >
-                    <div className="sticker">
+                    <div >
                       {" "}
                       <GoogleMap
                         zoom={13}
@@ -114,7 +114,7 @@ const Map = () => {
                 </section>
               </div>
             </BS.Col>
-            <BS.Col md={12} sm={12} xs={12}>
+            <BS.Col md={7} sm={12} xs={12}>
               <div
                 // data-aos="fade-left"
                 // data-aos-duration="1000"
