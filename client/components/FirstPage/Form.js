@@ -85,10 +85,7 @@ const Form = () => {
   };
 
   return (
-    <div
-      className="graycard"
-      data-aos="zoom-in" data-aos-duration="1000"
-    >
+    <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
       <BS.Container>
         <Container className="form" sx={{ pt: 15 }}>
           <BS.Row>
@@ -105,7 +102,7 @@ const Form = () => {
                     justifyContent: "center",
                   }}
                 >
-                  <div className="fontbold">ATM Submission Form </div>
+                  <div className="fontbold">Interested in joining CBS Happenings? </div>
 
                   <br />
                 </Typography>
@@ -136,27 +133,7 @@ const Form = () => {
                         name="name"
                         helperText={errors.name}
                       />
-                      <TextField
-                        required
-                        id="outlined-business-input"
-                        label="Business Name"
-                        type="business"
-                        autoComplete="Business"
-                        // sx={{ flex: 50 }}
-                        value={toSend.business}
-                        onChange={handleChange}
-                        name="business"
-                        helperText={errors.business}
-                      />
-                    </Box>
-                    <Box
-                      sx={{
-                        display: "flex",
-                        justifyContent: "center",
-                        "& > :not(style)": { m: 0 },
-                      }}
-                    >
-                      <TextField
+              <TextField
                         required
                         id="outlined-email-input"
                         label="Email"
@@ -167,17 +144,16 @@ const Form = () => {
                         name="email"
                         helperText={errors.email}
                       />
-                      <TextField
-                        required
-                        id="outlined-phonenumber-input"
-                        label="Phone Number"
-                        // type="number"
-                        autoComplete="phone"
-                        value={toSend.phone}
-                        onChange={handleChange}
-                        name="phone"
-                        helperText={errors.phone}
-                      />
+                    </Box>
+                    <Box
+                      sx={{
+                        display: "flex",
+                        justifyContent: "center",
+                        "& > :not(style)": { m: 0 },
+                      }}
+                    >
+                   
+                
                     </Box>
 
                     <Box sx={{ display: "flex", justifyContent: "center" }}>
@@ -206,56 +182,56 @@ const Form = () => {
                     }}
                   >
                     <div data-aos="zoom-out" data-aos-duration="2000">
-                    <button>
-                      <div className="svg-wrapper-1">
-                        <div className="svg-wrapper">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            width="24"
-                            height="24"
-                          >
-                            <path fill="none" d="M0 0h24v24H0z"></path>
-                            <path
-                              fill="currentColor"
-                              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
-                            ></path>
-                          </svg>
+                      <button>
+                        <div className="svg-wrapper-1">
+                          <div className="svg-wrapper">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              width="24"
+                              height="24"
+                            >
+                              <path fill="none" d="M0 0h24v24H0z"></path>
+                              <path
+                                fill="currentColor"
+                                d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                              ></path>
+                            </svg>
+                          </div>
                         </div>
-                      </div>
-                      <span>Submit</span>
-                    </button>
+                        <span>Submit</span>
+                      </button>
 
-                    <Modal
-                      aria-labelledby="transition-modal-title"
-                      aria-describedby="transition-modal-description"
-                      open={open}
-                      onClose={resetForm}
-                      closeAfterTransition
-                      BackdropComponent={Backdrop}
-                      BackdropProps={{
-                        timeout: 500,
-                      }}
-                    >
-                      <Fade in={open}>
-                        <Box sx={style}>
-                          <Typography
-                            id="transition-modal-title"
-                            variant="h6"
-                            component="h2"
-                          >
-                            Thanks for submitting your details
-                          </Typography>
-                          <Typography
-                            id="transition-modal-description"
-                            sx={{ mt: 2 }}
-                          >
-                            Thank you for reaching out. We will contact you
-                            shortly.
-                          </Typography>
-                        </Box>
-                      </Fade>
-                    </Modal>
+                      <Modal
+                        aria-labelledby="transition-modal-title"
+                        aria-describedby="transition-modal-description"
+                        open={open}
+                        onClose={resetForm}
+                        closeAfterTransition
+                        BackdropComponent={Backdrop}
+                        BackdropProps={{
+                          timeout: 500,
+                        }}
+                      >
+                        <Fade in={open}>
+                          <Box sx={style}>
+                            <Typography
+                              id="transition-modal-title"
+                              variant="h6"
+                              component="h2"
+                            >
+                              Thanks for submitting your details
+                            </Typography>
+                            <Typography
+                              id="transition-modal-description"
+                              sx={{ mt: 2 }}
+                            >
+                              Thank you for reaching out. We will contact you
+                              shortly.
+                            </Typography>
+                          </Box>
+                        </Fade>
+                      </Modal>
                     </div>
                   </Box>
                 </Box>
@@ -269,8 +245,7 @@ const Form = () => {
                   sx={{ pl: 9, pt: 9, pb: 0, justifyContent: "center" }}
                 >
                   <h4 className="font">
-                    Submit your contact and business information here and we
-                    will do our best to get back to you within a day
+We would love any help we can get in making this site more comprehensive for the business school or additional Columbia schools
                   </h4>
                 </Typography>{" "}
               </BS.Row>

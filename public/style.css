@@ -1,10 +1,12 @@
-/* #cd4a04 orange */
+/* #187fc2 orange */
 /* #0487cd blue */
 /* #f4f3f2  gray*/
 
 * {
-  font-family: "Raleway", sans-serif;
+font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+
 }
+
 
 .video {
   background: url(back1.png) no-repeat center center fixed;
@@ -62,7 +64,7 @@
 }
 
 .orange {
-  background: #cd4a04;
+  background: #187fc2;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -89,16 +91,17 @@
 
 body {
   max-width: 100%;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
 }
 
 .font {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
   color: black;
 }
 
 .fontbold {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+
   font-weight: bold;
 }
 
@@ -152,7 +155,7 @@ body {
 }
 
 .text1 {
-  background-color: #cd4a04;
+  background-color: #187fc2;
   color: White;
   font-size: 16px;
   padding: 16px 32px;
@@ -192,7 +195,7 @@ body {
 }
 
 .text2 {
-  background-color: #cd4a04;
+  background-color: #187fc2;
   color: White;
   font-size: 16px;
   padding: 16px 32px;
@@ -261,7 +264,7 @@ body {
   border-radius: 10px;
   color: black;
   /* opacity: 0.5; */
-  /* color: #cd4a04; */
+  /* color: #187fc2; */
   box-shadow: 10;
 }
 
@@ -301,7 +304,7 @@ body {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #cd4a04;
+  background: #187fc2;
   border-radius: 1.625rem;
 }
 
@@ -370,7 +373,7 @@ body {
   letter-spacing: 2.5px;
   font-weight: 500;
   color: #fff;
-  background-color: #cd4a04;
+  background-color: #187fc2;
   border: none;
   border-radius: 45px;
   box-shadow: 10px 10px 5px #0487cd;
@@ -380,7 +383,7 @@ body {
 }
 
 .desc button:hover {
-  background-color: #cd4a04;
+  background-color: #187fc2;
   box-shadow: 5px 5px 2px #0487cd;
   color: #000;
   transform: translateY(-7px);
@@ -504,7 +507,7 @@ img.image1 {
 .graycard button {
   font-family: inherit;
   font-size: 40px;
-  background: #cd4a04;
+  background: #187fc2;
   color: white;
   padding: 0.7em 1em;
   padding-left: 0.9em;
@@ -588,11 +591,12 @@ img.image1 {
 
 .contact button {
   color: hsl(0, 0%, 100%);
-  font-family: "Raleway", sans-serif;
+  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+
   padding: 17px 40px;
   border-radius: 50px;
   border: 0;
-  background-color: #cd4a04;
+  background-color: #187fc2;
   -webkit-box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   letter-spacing: 1.5px;
@@ -603,16 +607,18 @@ img.image1 {
 }
 
 .contact button:hover {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+
   letter-spacing: 3px;
-  background-color: #cd4a04;
+  background-color: #187fc2;
   color: black;
   -webkit-box-shadow: #c487cd 0px 7px 29px 0px;
   box-shadow: #c487cd 0px 7px 29px 0px;
 }
 
 .contact button:active {
-  font-family: "Raleway", sans-serif;
+font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+
   letter-spacing: 3px;
   background-color: #0487cd;
   color: hsl(0, 0%, 100%);
@@ -657,7 +663,7 @@ img {
   border: 2px solid transparent;
   outline: none;
   border-bottom: 2px solid #3f3f3f;
-  caret-color: #cd4a04;
+  caret-color: #187fc2;
   background-color: #f4f3f2;
   padding: 5px;
   transition: 0.5s linear;
@@ -666,15 +672,15 @@ img {
 }
 
 .login .input:focus {
-  border: 2px solid #cd4a04;
-  caret-color: #cd4a04;
-  color: #cd4a04;
+  border: 2px solid #187fc2;
+  caret-color: #187fc2;
+  color: #187fc2;
 
   box-shadow: 4px 4px 10px #0487cd;
 }
 
 .input:focus::placeholder {
-  color: #cd4a04;
+  color: #187fc2;
 }
 
 .peopleback {
@@ -686,13 +692,13 @@ img {
 }
 
 .white a:link {
-  color: #cd4a04;
+  color: #187fc2;
   text-decoration: none;
 }
 
 /* visited link */
 .white a:visited {
-  color: #cd4a04;
+  color: #187fc2;
   text-decoration: none;
 }
 
@@ -715,7 +721,7 @@ img {
   letter-spacing: 2.5px;
   font-weight: 500;
   color: #fff;
-  background-color: #cd4a04;
+  background-color: #187fc2;
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);

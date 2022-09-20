@@ -18,7 +18,7 @@ export default function ControlledAccordions() {
   };
 
   return (
-    <Container sx={{ pl: -10, pr: 0 }}>
+    <Container sx={{ pl: -10, pr: 0, pt:10 }}>
       <div className="desc">
         <BS.Container>
           <Box
@@ -67,23 +67,21 @@ export default function ControlledAccordions() {
                     >
                       <Typography component={'span'}  sx={{ width: "78%", flexShrink: 0 }}>
                         <div className="fontbold">
-                          What is the cost structure to set up an ATM?
+                    What is this website?
                         </div>
                       </Typography>
 
-                      <Typography component={'span'} sx={{ color: "text.secondary" }}>
+                      {/* <Typography component={'span'} sx={{ color: "text.secondary" }}>
                         <div className="font">Two Choices</div>
-                      </Typography>
+                      </Typography> */}
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
-                          Businesses can opt to either pay zero upfront cost and
-                          share in the transaction fee,
+                   Ben and Haas wanted to put together resources for Columbia Business School students to be aware of the many happenings at Columbia.
                           <br />
-                          or purchase the ATM through GSNC LLC and receive the
-                          full transaction fee from usage
+                      We hope this website helps 
                         </div>
                       </Typography>
                     </AccordionDetails>
@@ -99,7 +97,7 @@ export default function ControlledAccordions() {
                     >
                       <Typography component={'span'}  sx={{ width: "100%", flexShrink: 0 }}>
                         <div className="fontbold">
-                          What is the transaction fee to the customer?
+                  Can I help?
                         </div>
                       </Typography>
                       <Typography component={'span'}  sx={{ color: "text.secondary" }}></Typography>
@@ -108,8 +106,7 @@ export default function ControlledAccordions() {
                       <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
-                          The standard transaction fee is typically between $2
-                          and $4
+                         Heck ya you can. Click on the form above to reach out
                         </div>
                       </Typography>
                     </AccordionDetails>
@@ -126,7 +123,7 @@ export default function ControlledAccordions() {
                     >
                       <Typography component={'span'} sx={{ width: "100%", flexShrink: 0 }}>
                         <div className="fontbold">
-                          How long does it take to set up?
+                        How often is the site updated?
                         </div>
                       </Typography>
                       <Typography component={'span'} sx={{ color: "text.secondary" }}></Typography>
@@ -135,8 +132,7 @@ export default function ControlledAccordions() {
                       <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
-                          Your state of the art ATM can be installed by our
-                          professionals within a couple of days
+                      We are going to start with Haas' weekly updates but would love to do it daily.
                         </div>
                       </Typography>
                     </AccordionDetails>
@@ -153,7 +149,7 @@ export default function ControlledAccordions() {
                     >
                       <Typography component={'span'}  sx={{ width: "100%", flexShrink: 0 }}>
                         <div className="fontbold">
-                          How frequently will our ATM be serviced?
+               I go a different school. Can you show me my events?
                         </div>
                       </Typography>
                     </AccordionSummary>
@@ -161,8 +157,7 @@ export default function ControlledAccordions() {
                       <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
-                          Our local team will always be monitoring the reserves,
-                          refilling when approiate
+                        I am thinking we get good at CBS info, expand to other schools if people want to contribute. Maybe undergrad eventually but idk. 
                         </div>
                       </Typography>
                     </AccordionDetails>

@@ -28,12 +28,14 @@ const Contact = () => {
   };
 
   return (
-    <Container sx={{ pt: 10 }}>
+    <Container sx={{ pt: 0}}>
       <div className="contact">
-        <div className="font" data-aos="zoom-out-up" data-aos-duration="1000">
+        <div className="font" data-aos="zoom-out-down" data-aos-duration="1000">
           <Box sx={{ display: "flex", justifyContent: "center", pb: 3 }}>
             <Typography component={"span"} variant="h4" marginTop={3}>
-              <button onClick={handleOpen}>Contact Us Here</button>
+            <Link to="/blog">
+              <button to="/Blog" >Go To Happenings</button>
+              </Link>
             </Typography>
           </Box>
           <Modal
@@ -46,7 +48,7 @@ const Contact = () => {
               <Typography component="h2" id="modal-modal-title" variant="h6">
                 To fill out an ATM form:
                 <br />
-                <Link to={"/info#"}>Click here</Link> <br />
+                <Link to={"/Blog#"}>Click here</Link> <br />
                 or <br />
                 Email us at: GSNC@GSNCLLC.com
               </Typography>

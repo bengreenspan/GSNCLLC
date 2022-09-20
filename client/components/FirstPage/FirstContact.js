@@ -59,27 +59,28 @@ const FirstContact = () => {
                       justifyContent: "center",
                     }}
                   >
-                    <div className="fontbold">Bespoke ATM Solutions</div>
+                    <div className="fontbold">Columbia Business School Happenings</div>
 
                     <br />
                     <h4 className="font">
                       {" "}
-                      GSNC LLC is your local New York City ATM provider.
-                      <br /> Helping small and medium size businesses install,
-                      service and maintain the highest quality ATMs available.
+                  Overloaded by everything happening at Columbia Business School? 
+                      <br /> 
+                      <br /> 
+                      We here at CBS Happenings will try to consolidate and accentuate the most prominent and helpful events coming up so you can make the most of your time here 
                     </h4>
                     <Typography sx={{ pt: 4 }}>
                       <div
                         data-aos="fade-right"
-                        data-aos-offset="300"
+                        // data-aos-offset="300"
                         data-aos-duration="2000"
                       >
-                        <Link to="/info" href="#">
+                        <Link to="/Blog" href="#">
                           <button className="learn-more">
                             <span className="circle" aria-hidden="true">
                               <span className="icon arrow"></span>
                             </span>
-                            <span className="button-text">Get Started</span>
+                            <span className="button-text">To Blog</span>
                           </button>
                         </Link>
                       </div>

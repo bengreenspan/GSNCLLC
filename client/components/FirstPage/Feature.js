@@ -5,15 +5,16 @@ import Typography from "@mui/material/Typography";
 import { Container } from "@mui/material";
 // import "aos/dist/aos.css"
 import Za from "./CustomerComp/Za";
-import Mc from "./CustomerComp/Mc";
+import CBS from "./CustomerComp/CBS";
 import Aos from "aos";
+import { Link } from "react-router-dom";
 
 const Customers = () => {
   return (
     <BS.Container>
       <Box
         sx={{
-          pt: 10,
+          pt: 30,
           pb: 15,
           display: "flex",
           justifyContent: "center",
@@ -33,7 +34,7 @@ const Customers = () => {
                 >
                   {" "}
                   <Typography component={"span"} sx={{ mt: 10, pb: 5 }}>
-                    <h1 className="fontbold">Customer Comes 1st</h1>
+                    <h1 className="fontbold">Featured Events</h1>
                     <br />
                   </Typography>
                   <img src="/one1.png" alt="one" width="300" height="225" />
@@ -43,8 +44,7 @@ const Customers = () => {
                   <br />
                   <Typography component={"span"} sx={{ mt: 10, pb: 0 }}>
                     <h4 className="font">
-                      We are wholely committed to provided first class service
-                      to our customers. Check out some of our featured partners!
+                     Maybe at some point we could have pinned exciting events here or maybe if we get enough traffic we can charge clubs for the feature spot.
                     </h4>
                   </Typography>
                   <br />
@@ -66,12 +66,29 @@ const Customers = () => {
                   sx={{ p: 3, justifyContent: "center" }}
                 >
                   {" "}
-                  <div data-aos="fade-up">
-                  <Mc />
+                  <div data-aos="fade-left">
+                  <CBS />
                   </div>
                   <br />
-                  <div data-aos="fade-down">
-                  <Za />
+
+                  <div      className="firstbutton" data-aos="fade-down">
+                  <Typography sx={{ pt: 4 }}>
+                      <div
+                        data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-duration="2000"
+                      >
+    
+                        <Link to="/Blog" href="#">
+                          <button className="learn-more">
+                            <span className="circle" aria-hidden="true">
+                              <span className="icon arrow"></span>
+                            </span>
+                            <span className="button-text">All Events</span>
+                          </button>
+                        </Link>
+                      </div>
+                    </Typography>
                   </div>
                 </Box>
               </Container>

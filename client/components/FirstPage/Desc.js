@@ -51,7 +51,7 @@ const Desc = () => {
                     {" "}
                     <Typography component={"span"}>
                       <h1 className="fontbold">
-                        What can GSNC LLC do for my small business?
+                      Interested in contributing?
                       </h1>
                       <br />
                       <br />
@@ -71,7 +71,7 @@ const Desc = () => {
                       <br />
                       <br />
                       <br />
-                      <Link to="/info">
+                      <Link to="/Blog">
                         <button> Click Here to Start</button>
                       </Link>
                     </Typography>

@@ -5,7 +5,7 @@ import { Login } from './components/LoggedIn/AuthForm';
 import { Main } from './components/Main';
 import Who  from './components/Who';
 import Home from './components/LoggedIn/Home';
-import Info  from './components/Info';
+import Blog  from './components/Blog';
 import NotFound from './components/NotFound';
 
 import {me} from './store'
@@ -34,7 +34,7 @@ class Routes extends Component {
             <Route path="/login" component={Login} />
             <Route path="/about" component={Main} />
             <Route path="/who" component={Who} />
-            <Route path="/info" component={Info} />
+            <Route path="/Blog" component={Blog} />
             <Route path="/*" component={NotFound} />
           </Switch>
         )}
