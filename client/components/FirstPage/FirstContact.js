@@ -80,7 +80,7 @@ const FirstContact = () => {
                             <span className="circle" aria-hidden="true">
                               <span className="icon arrow"></span>
                             </span>
-                            <span className="button-text">To Blog</span>
+                            <span className="button-text">To Events</span>
                           </button>
                         </Link>
                       </div>

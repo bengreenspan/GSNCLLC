@@ -58,7 +58,7 @@ useEffect(() =>{
       </MenuItem>
       <MenuItem onClick={handleCloseNavMenu}>
         <Typography component={'span'}  variant='h5' >
-        <Link to="/blog" style={{textDecoration: 'none',  color:'black'}}>Blog</Link>
+        <Link to="/blog" style={{textDecoration: 'none',  color:'black'}}>Events</Link>
         </Typography>
       </MenuItem>
       <MenuItem onClick={handleCloseNavMenu}>

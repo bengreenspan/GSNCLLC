@@ -5,7 +5,7 @@ const CBS = () => {
   return (
     <div className="flex">
       <Parallax bgImage={"./cbs.jpeg"} strength={600}>
-        <a target="_blank" href="//https://home.gsb.columbia.edu//">
+        <a target="_blank" href="//https://home.gsb.columbia.edu/">
           <div className="container1">
             <img src="/cbs.jpeg" alt="Mc" className="image1" />
             <div className="middle1">

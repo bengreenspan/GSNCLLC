@@ -27,7 +27,7 @@ const style = {
 
 const Form = () => {
   const [open, setOpen] = React.useState(false);
-  // const handleOpen = () => setOpen(true);
+  const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false) && window.location.reload;
 
   const [toSend, setToSend] = useState({
@@ -51,10 +51,10 @@ const Form = () => {
   const validate = () => {
     let temp = {};
     temp.name = toSend.name ? "" : "Name is required";
-    temp.business = toSend.business ? "" : "Business Name is required";
+    // temp.business = toSend.business ? "" : "Business Name is required";
     temp.email = /$^|.+@.+..+/.test(toSend.email) ? "" : "Email is not valid";
-    temp.phone =
-      toSend.phone.length > 8 ? "" : "Please enter a valid phone number";
+    // temp.phone =
+      // toSend.phone.length > 8 ? "" : "Please enter a valid phone number";
     setErrors({
       ...temp,
     });
@@ -70,13 +70,13 @@ const Form = () => {
     e.preventDefault();
     if (validate()) {
       setOpen(true);
-      // send("service_0t74imh", "template_q1ecudp", toSend, "87uW5IjR7xE2EqVKU")
-      //   .then((response) => {
-      //     console.log("SUCCESS!", response.status, response.text);
-      //   })
-      //   .catch((err) => {
-      //     console.log("FAILED...", err);
-      //   });
+      send("service_0t74imh", "template_q1ecudp", toSend, "87uW5IjR7xE2EqVKU")
+        .then((response) => {
+          console.log("SUCCESS!", response.status, response.text);
+        })
+        .catch((err) => {
+          console.log("FAILED...", err);
+        });
     }
   };
 

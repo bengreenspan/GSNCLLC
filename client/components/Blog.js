@@ -54,13 +54,49 @@ const ContactUs = () => {
               }}
             >
               <div className="fontbold">
-                <h4>09/19/22</h4> Weekly Events by Haas
+                <h4>09/25/22 - 10/01/22</h4> Weekly Events by Haas
                 <br />
                 <br />
+                S: 09/25/22
+                <br />
+                <h2></h2>
+                M: 09/26/22
+                <h2></h2>
+                T: 09/27/22
+                <br />
+         
+                <a
+                  target="_blank"
+                  href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=29322"
+                >
+                  <h2>Careers in Real Estate Zoom</h2>
+                </a>
+                <h4>Geffin 390 12:30pm-1:30pm (Lunch Provided)</h4>
+                <br />
+                <a
+                  target="_blank"
+                  href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=29322"
+                >
+                  <h2> Center on Japanese Economy and Business Association</h2>
+                </a>
                 <h2>
-                  This is a test. What is going on this week? I dont know maybe
-                  you should ask Haas
+                  <h4>Geffin 440 6:00pm-7:30pm (Sushi + Sake Provided)</h4>
                 </h2>
+                <br />
+                <h2></h2>
+                W: 09/28/22
+                <br />
+                <h2> Rugby + Fintech/Blockchain Club Happy Hour</h2>
+                <h4>Jake's Dilemma 8:00pm-?? (Open bar)</h4>
+                <br />
+                <h2></h2>
+                T: 09/29/22
+                <br />
+                <h2></h2>
+                F: 09/30/22
+                <br />
+                <h2></h2>
+                Sat: 10/01/22
                 <Typography></Typography>
               </div>
             </Typography>
@@ -91,12 +127,12 @@ const ContactUs = () => {
           >
             <div className="fontbold">
               {" "}
-     Interested in Contributing?
-     <br /> 
+              Interested in Contributing?
+              <br />
               <br />
               <Typography>
-              <h4>Email us at</h4>
-                <h4>Contribute@CBSHappens.com</h4>
+                <h4>Email us at</h4>
+                <h4>Bgreenspan24@gsb.columbia.edu</h4>
               </Typography>
             </div>
           </Typography>
