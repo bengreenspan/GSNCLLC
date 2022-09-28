@@ -67,7 +67,7 @@ const FirstContact = () => {
                   Overloaded by everything happening at Columbia Business School? 
                       <br /> 
                       <br /> 
-                      We here at CBS Happenings will try to consolidate and accentuate the most prominent and helpful events coming up so you can make the most of your time here 
+                      We here at CBS Happenings will try to consolidate and accentuate the most prominent events so you can make the most of your time here.
                     </h4>
                     <Typography sx={{ pt: 4 }}>
                       <div
