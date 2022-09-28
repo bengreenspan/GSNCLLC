@@ -100,7 +100,7 @@ const ContactUs = () => {
                     target="_blank"
                     href="https://groups.gsb.columbia.edu/TamerCenter/rsvp_boot?id=28410"
                   >
-                    <h2>Social Enterprise Summer Fellos Project Presentations</h2>
+                    <h2>Social Enterprise Summer Fellows Project Presentations</h2>
                   </a>
                   <h4>Geffin 440 12:00pm-1:45pm (Lunch Provided)</h4>
                   <br />
