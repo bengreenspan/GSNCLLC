@@ -129,7 +129,23 @@ const ContactUs = () => {
                   <h2>
                     <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4>
                   </h2>
-                </div>
+                  <br />
+                <a
+                    target="_blank"
+                    href="https://partiful.com/e/I6g8vu9CJkZrdseVKySB"
+                  >
+                    <h2>
+                      {" "}
+                      Allies Kickoff: On Wednesdays We Wear Pink 
+                    </h2>
+                  </a>
+                  <h2> 
+                    Limit spots left! Hosted by ClusterQ x CWib
+                    <h4>Undisclosed Location 8:00pm – 12:00am</h4>
+                  </h2>
+
+                  </div>
+
                 <br />
                 <h1>Friday 09/30/22:</h1>
                 {/* <br /> */}
