@@ -136,7 +136,7 @@ const Who = () => {
                             sx={{ pl: 5, pt: 3, pb: 4 }}
                           >
                             <h1>Head Editor</h1>
-                            <img src="/Jewish.jpeg" height={130} /> Ben
+                            <img src="/jewish.jpeg" height={130} /> Ben
                           </Typography>
                         </div>
                       </div>

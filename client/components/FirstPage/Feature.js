@@ -33,11 +33,13 @@ const Customers = () => {
                   sx={{ justifyContent: "center" }}
                 >
                   {" "}
-                  <Typography component={"span"} sx={{ mt: 10, pb: 5 }}>
+                  <Typography component={"span"} sx={{ mt: 10, pb: 5,  }}>
                     <h1 className="fontbold">Featured Events</h1>
                     <br />
                   </Typography>
-                  <img src="/one1.png" alt="one" width="300" height="225" />
+                  {/* <Typography component={"span"} sx={{ pr: 210}}> */}
+                  <img src="/one2.png" alt="one" width="250" height="225" />
+                  {/* </Typography> */}
                   <br />
                   <br />
                   <br />
@@ -72,7 +74,7 @@ const Customers = () => {
                   <br />
 
                   <div      className="firstbutton" data-aos="fade-down">
-                  <Typography sx={{ pt: 4 }}>
+                  <Typography sx={{ pt: 4, pl:10 }}>
                       <div
                         data-aos="fade-left"
                         data-aos-offset="300"
