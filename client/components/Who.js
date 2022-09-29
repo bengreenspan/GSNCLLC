@@ -86,7 +86,7 @@ const Who = () => {
                             expand the Columbia footprint.
                             <br />
                           So if you are interested in contributing, please email us at 
-                          Contribute@CBSHappens.com or fill out contributors form on the home page.
+                         Bgreenspan24@gsb.columbia.edu or fill out contributors form on the home page.
                
                           </div>
                           

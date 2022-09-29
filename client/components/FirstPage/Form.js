@@ -95,15 +95,19 @@ const Form = () => {
                   variant="h4"
                   // className="white-background"
                   sx={{
-                    pt: 3,
+                    pt: 0,
                     pl: 3,
                     pr: 3,
                     pb: 3,
                     justifyContent: "center",
                   }}
                 >
-                  <div className="fontbold">Interested in joining CBS Happenings? </div>
+               <div className="fontbold">Did we miss an event?</div>
 
+                  <div className="fontbold">Interested in joining CBS Happenings? </div>
+                  <br/>
+                  <h4>Let us know below</h4>
+             
                   <br />
                 </Typography>
               </Typography>
