@@ -54,53 +54,31 @@ const Assignments = () => {
               }}
             >
               <div className="fontbold">
-                {/* <h4>09/25/22 - 10/01/22</h4> 
-                <br />
-                <br /> */}
-                <h1>Sunday 09/25/22:</h1>
-                {/* <br /> */}
-                <h1>Monday 09/26/22: </h1>
-                <h1>Tuesday 09/27/22:</h1>
-                {/* <br /> */}
-                {/* <div className="date">
-                  <a
-                    target="_blank"
-                    href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=29322"
-                  >
-                    <h2>Careers in Real Estate Zoom</h2>
-                  </a>
-                  <h4>Geffin 390 12:30pm-1:30pm (Lunch Provided)</h4>
-                  <br />
-                  <a
-                    target="_blank"
-                    href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=29322"
-                  >
-                    <h2>
-                      {" "}
-                      Center on Japanese Economy and Business Association
-                    </h2>
-                  </a>
-                  <h2>
-                    <h4>Geffin 440 6:00pm-7:30pm (Sushi + Sake Provided)</h4>
-                  </h2>
-                </div> */}
-                {/* <br /> */}
-                <h1>Wednesday 09/28/22:</h1>
-                {/* <br /> */}
-
-                {/* <br /> */}
-                <h1>Thursday 09/29/22:</h1>
-                {/* <br /> */}
-
-                {/* <br /> */}
-                <h1>Friday 09/30/22:</h1>
-                {/* <br /> */}
-                <h1>Saturday 10/01/22:</h1>
+                <h1>Marketing:</h1>
                 <div className="date">
                   <h2>No Class or HW this week</h2>
+                </div>
+                <Typography></Typography>
+              </div>
 
-                  {/* <h4>Geffin 390 12:30pm-1:30pm (Lunch Provided)</h4> */}
-                  {/* <br /> */}
+              <div className="fontbold">
+                <h1>Corporate Finance:</h1>
+                <div className="date">
+                  <h2>TBA</h2>
+                </div>
+                <Typography></Typography>
+              </div>
+
+              <br />
+              <div className="fontbold">
+                <h1>Strategy:</h1>
+                <div className="date">
+                  <h2>Pepsi reading + poll due Saturday 8:00am (13 pages)</h2>
+                  <h2>Disney reading + poll due Saturday 8:00am (17 pages)</h2>
+                  <h2>
+                    {" "}
+                    Diversification and Corporate Scope reading (12 pages)
+                  </h2>
                 </div>
                 <Typography></Typography>
               </div>

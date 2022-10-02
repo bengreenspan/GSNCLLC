@@ -54,24 +54,82 @@ const ContactUs = () => {
               }}
             >
               <div className="fontbold">
-                <h4>09/25/22 - 10/01/22</h4> Weekly Events by Haas
+                <h4>10/02/22 - 10/08/22</h4> Weekly Events by Haas
                 <br />
                 <br />
-                <h1>Sunday 09/25/22:</h1>
+                {/* <h1>Sunday 09/25/22:</h1> */}
                 {/* <br /> */}
-                <h1>Monday 09/26/22: </h1>
-                <h1>Tuesday 09/27/22:</h1>
+                <h1>Monday 10/03: </h1>
+                <div className="date">
+                  <a
+                    target="_blank"
+                    href="https://www.eventbrite.com/e/transforming-the-healthcare-industry-with-digital-health-solutions-tickets-408083236947"
+                  >
+                    <h2>Healthcare Leadership Series</h2>
+                  </a>
+                  <h4>20 person limit</h4>
+                  <h4>Geffin 380 12:00pm-1:00pm (Lunch Provided)</h4>
+                  <br />
+
+                  <a
+                    target="_blank"
+                    href="https://groups.gsb.columbia.edu/MILS/rsvp_login?id=28898&private_event=1"
+                  >
+                    <h2> Entrepreneurship in Real Estate</h2>
+                  </a>
+                  <h2>
+                    <h4>Geffin 490 12:30pm-1:30pm (Lunch Provided)</h4>
+                  </h2>
+                  <br />
+
+                  <a
+                    target="_blank"
+                    href="https://groups.gsb.columbia.edu/PEP/rsvp_boot?id=31174"
+                  >
+                    <h2> KKR PE Competition Kick-off</h2>
+                  </a>
+                  <h2>
+                    <h4>Kravis 840 and 870 5:30pm - 7:00pm</h4>
+                  </h2>
+                  <br />
+
+                  <a
+                    target="_blank"
+                    href="https://www.eventbrite.com/e/opportunities-in-healthcare-investing-tickets-400970231757"
+                  >
+                    <h2>Opportunities in Healthcare Investing</h2>
+                  </a>
+                  <h2>
+                    <h4>Kravis 820 6:00pm - 7:00pm</h4>
+                  </h2>
+                  <br />
+
+                  <a
+                    target="_blank"
+                    href="https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=29974 "
+                  >
+                    <h2>Tech Club: Startups 101</h2>
+                  </a>
+                  <h2>
+                    <h4>Geffen 440 6:00pm - 7:30pm</h4>
+                  </h2>
+                </div>
+                <br />
+                <h1>Tuesday 10/04:</h1>
                 {/* <br /> */}
                 <div className="date">
                   <a
                     target="_blank"
-                    href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=29322"
+                    href="https://groups.gsb.columbia.edu/rsvp?id=29046
+                    "
                   >
-                    <h2>Careers in Real Estate Zoom</h2>
+                    <h2>Chazen Global Markets Update</h2>
                   </a>
-                  <h4>Geffin 390 12:30pm-1:30pm (Lunch Provided)</h4>
+                  <h4>Geffin Commons 12:00pm-1:45pm (Lunch Provided)</h4>
                   <br />
-                  <a
+
+                  
+                  {/* <a
                     target="_blank"
                     href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=29322"
                   >
@@ -82,74 +140,79 @@ const ContactUs = () => {
                   </a>
                   <h2>
                     <h4>Geffin 440 6:00pm-7:30pm (Sushi + Sake Provided)</h4>
-                  </h2>
+                  </h2> */}
                 </div>
                 <br />
-                <h1>Wednesday 09/28/22:</h1>
+                <h1>Wednesday 10/05:</h1>
                 {/* <br /> */}
+
+                <a
+                    target="_blank"
+                    href="https://cjeb-100522.eventbrite.com"
+                  >
+                    <h2>Why Has Japan Become So “Cheap"</h2>
+                  </a>
+                  <h4>Geffin Commons 6:00pm-7:30pm </h4>
+                  <br />
+
+
+
                 <div className="date">
                   {" "}
-                  <h2> Rugby + Fintech/Blockchain Club Happy Hour</h2>
+                  <h2> Rugby + Microbrew Happy Hour</h2>
                   <h4>Jake's Dilemma 8:00pm-?? (Open bar)</h4>
                 </div>
                 <br />
-                <h1>Thursday 09/29/22:</h1>
+
+
+                <h1>Thursday 10/06:</h1>
                 {/* <br /> */}
                 <div className="date">
-                  <a
+                  {/* <a
                     target="_blank"
                     href="https://groups.gsb.columbia.edu/TamerCenter/rsvp_boot?id=28410"
-                  >
-                    <h2>Social Enterprise Summer Fellows Project Presentations</h2>
-                  </a>
-                  <h4>Geffin 440 12:00pm-1:45pm (Lunch Provided)</h4>
+                  > */}
+                    <h2>
+                     Career Workshop, Mapping your Social Impact Career
+                    </h2>
+                  {/* </a> */}
+                  <h4>Geffin 430 12:00pm-1:45pm (Lunch Provided)</h4>
                   <br />
                   <a
                     target="_blank"
-                    href="https://groups.gsb.columbia.edu/RESI/rsvp_boot?id=29145"
+                    href="https://groups.gsb.columbia.edu/rsvp?id=29148"
                   >
-                    <h2>
-                      {" "}
-                   "The Value of Networking"
-                    </h2>
+                    <h2> Private Equity: The Portfolio Company Perspective</h2>
                   </a>
                   <h2>
-                    <h4>Geffin 540 12:30pm-1:30pm (Lunch Provided)</h4>
+                    <h4>Kravis 640 12:30pm-1:30pm (Lunch Provided)</h4>
                   </h2>
                   <br />
                   <a
                     target="_blank"
                     href="https://groups.gsb.columbia.edu/tech/rsvp_boot?id=32126"
                   >
-                    <h2>
-                      {" "}
-                  Tech Club: Summer Internship Q+A
-                    </h2>
+                    <h2> Tech Club: Open Lunch - Networking and Job Search Best Practices</h2>
                   </a>
                   <h2>
-                    <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4>
+                    <h4>Kravis 830 12:00pm-1:30pm (Lunch Provided)</h4>
                   </h2>
                   <br />
-                <a
+                  <a
                     target="_blank"
-                    href="https://partiful.com/e/I6g8vu9CJkZrdseVKySB"
+                    href=" https://events.columbia.edu/cal/event/showEventMore.rdo "
                   >
-                    <h2>
-                      {" "}
-                      Allies Kickoff: On Wednesdays We Wear Pink 
-                    </h2>
+                    <h2> Awakening Our Democracy: What is At Stake in the Midterm Elections? </h2>
                   </a>
-                  <h2> 
-                    Limit spots left! Hosted by ClusterQ x CWib
-                    <h4>Undisclosed Location 8:00pm – 12:00am</h4>
+                  <h2>
+
+                    <h4>Pulizter Hall12:00pm – 1:30pm</h4>
                   </h2>
-
-                  </div>
-
+                </div>
                 <br />
-                <h1>Friday 09/30/22:</h1>
+                <h1>Friday 10/07:</h1>
                 {/* <br /> */}
-                <h1>Saturday 10/01/22:</h1>
+                <h1>Saturday 10/08:</h1>
                 <Typography></Typography>
               </div>
             </Typography>
