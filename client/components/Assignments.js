@@ -15,14 +15,14 @@ const Assignments = () => {
   return (
     <BS.Container>
       <Container sx={{ pt: 20, pb: 10 }}>
-        <Box sx={{ pt: 15, pb: 15, display: "flex", justifyContent: "center" }}>
+        <Box sx={{ pt: 15, pb: 10, display: "flex", justifyContent: "center" }}>
           <Typography component="h1" variant="h2">
             <div
               className="fontbold"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
-              <div>EMBA Saturday Homework for the week of 10/01/22</div>
+              <div>Week of 10/01/22</div>
             </div>
           </Typography>
         </Box>
@@ -31,7 +31,7 @@ const Assignments = () => {
             pt: 3,
             pl: 3,
             pr: 3,
-            pb: 3,
+            pb: 0,
 
             display: "flex",
             justifyContent: "left",
@@ -54,12 +54,18 @@ const Assignments = () => {
               }}
             >
               <div className="fontbold">
+                <h1>EMBA Saturday '24 homework:</h1>
+              </div>
+              <br />
+
+              <div className="fontbold">
                 <h1>Marketing:</h1>
                 <div className="date">
                   <h2>No Class or HW this week</h2>
                 </div>
                 <Typography></Typography>
               </div>
+              <br />
 
               <div className="fontbold">
                 <h1>Corporate Finance:</h1>

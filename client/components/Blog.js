@@ -160,7 +160,7 @@ const ContactUs = () => {
                 <div className="date">
                   {" "}
                   <h2> Rugby + Microbrew Happy Hour</h2>
-                  <h4>Jake's Dilemma 8:00pm-?? (Open bar)</h4>
+                  <h4>Jake's Dilemma 8:30pm-?? (Open bar)</h4>
                 </div>
                 <br />
 
