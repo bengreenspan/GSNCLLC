@@ -104,7 +104,7 @@ const ContactUs = () => {
                   </h2>
                   <br />
 
-                  <a
+                  {/* <a
                     target="_blank"
                     href="https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=29974 "
                   >
@@ -112,7 +112,7 @@ const ContactUs = () => {
                   </a>
                   <h2>
                     <h4>Geffen 440 6:00pm - 7:30pm</h4>
-                  </h2>
+                  </h2> */}
                 </div>
                 <br />
                 <h1>Tuesday 10/04:</h1>
@@ -146,6 +146,7 @@ const ContactUs = () => {
                 <h1>Wednesday 10/05:</h1>
                 {/* <br /> */}
 
+                <div className="date">
                 <a
                     target="_blank"
                     href="https://cjeb-100522.eventbrite.com"
@@ -157,7 +158,7 @@ const ContactUs = () => {
 
 
 
-                <div className="date">
+       
                   {" "}
                   <h2> Rugby + Microbrew Happy Hour</h2>
                   <h4>Jake's Dilemma 8:30pm-?? (Open bar)</h4>
@@ -206,7 +207,7 @@ const ContactUs = () => {
                   </a>
                   <h2>
 
-                    <h4>Pulizter Hall12:00pm – 1:30pm</h4>
+                    <h4>Pulizter Hall 12:00pm – 1:30pm</h4>
                   </h2>
                 </div>
                 <br />
