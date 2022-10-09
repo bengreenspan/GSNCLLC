@@ -9,6 +9,8 @@ import Title from "./FirstPage/Title";
 import Carousel from "./FirstPage/Carousel";
 import FirstContact from "./FirstPage/FirstContact";
 import { Divider } from "@mui/material";
+import WeekCalendar from "./FirstPage/WeekCalendar";
+
 
 
 
@@ -21,10 +23,11 @@ export const Main = () => (
     <div className="dfirstbutton">
     <FirstContact />
     </div>
+    <WeekCalendar/>
     <div className="gray">
     <Customers />
     </div>
-    {/* <div className="gray"> */}
+
       <Form />
       {/* <Map /> */}
     {/* </div> */}

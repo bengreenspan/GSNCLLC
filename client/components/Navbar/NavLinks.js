@@ -111,14 +111,14 @@ const NavLinks = () => {
           </Link>
         </Typography>
       </MenuItem>
-      <MenuItem onClick={handleCloseNavMenu}>
+      {/* <MenuItem onClick={handleCloseNavMenu}>
         <Typography component={"span"} variant="h5">
           <Link to="/blog" style={{ textDecoration: "none", color: "black" }}>
             Events
           </Link>
         </Typography>
-      </MenuItem>
-      <MenuItem onClick={handleCloseNavMenu}>
+      </MenuItem> */}
+      {/* <MenuItem onClick={handleCloseNavMenu}>
         <Typography component={"span"} variant="h5">
           <Link
             to="/assignments"
@@ -127,7 +127,7 @@ const NavLinks = () => {
             School
           </Link>
         </Typography>
-      </MenuItem>
+      </MenuItem> */}
       <MenuItem onClick={handleCloseNavMenu}>
         <Typography component={"span"} variant="h5">
           <Link to="/who" style={{ textDecoration: "none", color: "black" }}>

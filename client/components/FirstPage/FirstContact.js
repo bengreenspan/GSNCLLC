@@ -60,14 +60,14 @@ const FirstContact = () => {
                         // data-aos-offset="300"
                         data-aos-duration="2000"
                       >
-                        <Link to="/Blog" href="#">
+                        {/* <Link to="/Blog" href="#">
                           <button className="learn-more">
                             <span className="circle" aria-hidden="true">
                               <span className="icon arrow"></span>
                             </span>
                             <span className="button-text">To Events</span>
                           </button>
-                        </Link>
+                        </Link> */}
                       </div>
                     </Typography>
                   </Typography>

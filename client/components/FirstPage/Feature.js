@@ -34,7 +34,7 @@ const Customers = () => {
                 >
                   {" "}
                   <Typography component={"span"} sx={{ mt: 5, pb: 5,  }}>
-                    <h1 className="fontbold">Featured Events</h1>
+                    <h1 className="fontbold">Featured Event</h1>
                     <br />
                   </Typography>
                   {/* <Typography component={"span"} sx={{ pr: 210}}> */}
@@ -46,7 +46,7 @@ const Customers = () => {
                   <br />
                   <Typography component={"span"} sx={{ mt: 10, pb: 0 }}>
                     <h4 className="font">
-                     Maybe at some point we could have pinned exciting events here or maybe if we get enough traffic we can charge clubs for the feature spot.
+                    CREtech is the global leader of events and thought leadership in built world innovation and technology. The CREtech platform brings together 100,000+ and growing global innovators from leading startups, investors, owners/operators, developers and brokers as well as thousands of in-person attendees annually.
                     </h4>
                   </Typography>
                   <br />
@@ -61,7 +61,7 @@ const Customers = () => {
             <div
              data-aos="fade-left" data-aos-duration="1000"
             >
-              <Container sx={{ mt: 5, justifyContent: "center" }}>
+              <Container sx={{  justifyContent: "center" }}>
                 <Box
                   // variant="h3"
                   // className="white-background"
@@ -69,6 +69,12 @@ const Customers = () => {
                 >
                   {" "}
                   <div data-aos="fade-left">
+                  <Typography component={"span"} sx={{ mt: 5, pb: 5,  }}>
+                  <h1 className="fontbold">10/12 & 10/13</h1>
+                  <br />
+                    <h1 className="font">Commercial Real Estate Tech Conference </h1>
+                    <br />
+                  </Typography>
                   <CBS />
                   </div>
                   <br />
@@ -81,14 +87,14 @@ const Customers = () => {
                         data-aos-duration="2000"
                       >
     
-                        <Link to="/Blog" href="#">
+                        {/* <Link to="/Blog" href="#">
                           <button className="learn-more">
                             <span className="circle" aria-hidden="true">
                               <span className="icon arrow"></span>
                             </span>
                             <span className="button-text">All Events</span>
                           </button>
-                        </Link>
+                        </Link> */}
                       </div>
                     </Typography>
                   </div>

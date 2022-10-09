@@ -15,17 +15,7 @@ const ContactUs = () => {
   return (
     <BS.Container>
       <Container sx={{ pt: 10, pb: 10 }}>
-        <Box sx={{ pt: 5, pb: 5, display: "flex", justifyContent: "center" }}>
-          <Typography component="h1" variant="h2">
-            <div
-              className="fontbold"
-              data-aos="fade-right"
-              data-aos-duration="1000"
-            >
-              <img src="/HH.png" height="250" />
-            </div>
-          </Typography>
-        </Box>
+
         <Box
           sx={{
             pt: 3,
@@ -34,7 +24,8 @@ const ContactUs = () => {
             pb: 3,
 
             display: "flex",
-            justifyContent: "left",
+
+            justifyContent: "center",
           }}
         >
           <div
@@ -48,13 +39,13 @@ const ContactUs = () => {
               sx={{
                 pt: 3,
                 pl: 3,
-                pr: 3,
+                pr: 20,
                 pb: 3,
                 justifyContent: "center",
               }}
             >
               <div className="fontbold">
-                <h4>10/02/22 - 10/08/22</h4> Weekly Events by Haas
+Full Calendar
                 <br />
                 <br />
                 {/* <h1>Sunday 09/25/22:</h1> */}
@@ -65,12 +56,17 @@ const ContactUs = () => {
                     target="_blank"
                     href="https://www.eventbrite.com/e/transforming-the-healthcare-industry-with-digital-health-solutions-tickets-408083236947"
                   >
+              
+               <div className="Title">
                     <h2>Healthcare Leadership Series</h2>
+                    </div>
                   </a>
                   <h4>20 person limit</h4>
                   <h4>Geffin 380 12:00pm-1:00pm (Lunch Provided)</h4>
-                  <br />
-
+            
+                  </div>
+                  <br/>
+                  <div className="date">
                   <a
                     target="_blank"
                     href="https://groups.gsb.columbia.edu/MILS/rsvp_login?id=28898&private_event=1"
