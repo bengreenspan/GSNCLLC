@@ -13,8 +13,14 @@ font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
   border-radius: 10px;
 }
 
-.video {
-  background: url(back1.png) no-repeat center center fixed;
+
+
+.dfirstbutton {
+  background: url(kravis.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .atmback {
@@ -59,7 +65,7 @@ font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
 }
 
 .blue {
-  background: #0487cd;
+  background: rgba(4,158,220,.2);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

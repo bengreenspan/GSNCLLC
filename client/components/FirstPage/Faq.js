@@ -35,7 +35,7 @@ export default function ControlledAccordions() {
                 <div 
                 data-aos="fade-up-right" data-aos-duration="1000"
                 >
-                  <Container sx={{ mt: 0, pl: 0, mr:9, justifyContent: "center" }}>
+                  <Container sx={{ mt: 0, pl: 0, mr:9, mb:20, justifyContent: "center" }}>
                     <Box
                       variant="h3"
                       // className="white-background"

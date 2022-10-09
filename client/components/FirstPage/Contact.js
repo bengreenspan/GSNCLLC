@@ -28,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <Container sx={{ pt: 0}}>
+    <Container sx={{ pt: 20, pb:20}}>
       <div className="contact">
         <div className="font" data-aos="zoom-out-down" data-aos-duration="1000">
           <Box sx={{ display: "flex", justifyContent: "center", pb: 3 }}>

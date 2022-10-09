@@ -15,26 +15,24 @@ import { Divider } from "@mui/material";
 <Divider sx={{ m: 0, p: 0 }} />;
 
 export const Main = () => (
-  <div>
-    <Title />
-    <FirstContact />
-    {/* <Desc /> */}
-    <Customers />
-    <div className="gray">
-      <Form />
-    </div>
+  <div> 
 
-    {/* <Divider sx={{ m: 0, p: 0 }} /> */}
- 
-    {/* <Divider sx={{ m: 0, p: 0 }} /> */}
-    <div className="gray">
-      {/* <Map /> */}
+    <Title />
+    <div className="dfirstbutton">
+    <FirstContact />
     </div>
+    <div className="gray">
+    <Customers />
+    </div>
+    {/* <div className="gray"> */}
+      <Form />
+      {/* <Map /> */}
+    {/* </div> */}
     {/* <Carousel /> */}
     {/* <Divider sx={{ m: 0, pb: 0 }} /> */}
-    {/* <div className="gray">  */}
+    <div className="gray"> 
       <Faq />
-    {/* </div> */}
+    </div>
     <Contact />
   </div>
 );

@@ -7,8 +7,8 @@ const Desc = () => {
     // <section className="titlePic">
     <Box
       sx={{
-        pt: 14,
-        pb: 15,
+        // pt: 4,
+        pb: 20,
         display: "flex",
         justifyContent: "center",
         borderRadius: "15px",

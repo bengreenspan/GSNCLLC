@@ -14,7 +14,7 @@ const Customers = () => {
     <BS.Container>
       <Box
         sx={{
-          pt: 30,
+          pt: 20,
           pb: 15,
           display: "flex",
           justifyContent: "center",
@@ -26,14 +26,14 @@ const Customers = () => {
             <div
             data-aos="fade-left" data-aos-duration="1000"
             >
-              <Container sx={{ mt: 5, pl: 30, justifyContent: "center" }}>
+              <Container sx={{ mt: 0, pl: 30, justifyContent: "center" }}>
                 <Box
                   // variant="h3"
                   // className="white-background"
                   sx={{ justifyContent: "center" }}
                 >
                   {" "}
-                  <Typography component={"span"} sx={{ mt: 10, pb: 5,  }}>
+                  <Typography component={"span"} sx={{ mt: 5, pb: 5,  }}>
                     <h1 className="fontbold">Featured Events</h1>
                     <br />
                   </Typography>

@@ -16,30 +16,15 @@ const FirstContact = () => {
 
   return (
     <div className="firstbutton ">
-      <video className="video"
-      playsInLine
-        autoPlay
-        loop
-        muted
-        style={{
-          position: "absolute",
-          width: "100%",
-          left: "50%",
-          top: "40%",
-          height: "100%",
-          objectFit: "cover",
-          transform: "translate(-50%, -50%)",
-        }}
-      >
-        {" "}
-        <source src="/atmvideo1.mp4" type="video/mp4" />
-      </video>
       <BS.Container>
         <Box
           sx={{
             display: "flex",
             justifyContent: "center",
             borderRadius: "15px",
+            pt:20, 
+            pb:20, 
+            pl:15
           }}
         >
           <BS.Row>
@@ -60,7 +45,7 @@ const FirstContact = () => {
                     }}
                   >
                     <div className="fontbold">Columbia Business School Happenings</div>
-
+                    <div class="bg"></div>
                     <br />
                     <h4 className="font">
                       {" "}
@@ -94,11 +79,11 @@ const FirstContact = () => {
               <div 
               data-aos="fade-left" data-aos-duration="1000"
               >
-                <Container sx={{ mt: 5, justifyContent: "center" }}>
+                <Container sx={{ mt: 25, justifyContent: "center" }}>
                   <Box
                     variant="h3"
                     // className="white-background"
-                    sx={{ p: 3, justifyContent: "center" }}
+                    sx={{  justifyContent: "center" }}
                   >
                     {" "}
                   </Box>
