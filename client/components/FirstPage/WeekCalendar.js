@@ -138,25 +138,28 @@ const WeekCalendar = () => {
                 {/* <br /> */}
                 <h1>Monday 10/10: </h1>
                 <div className="date">
-          
+                <div className="links">
                   <a
                     target="_blank"
                     href="https://www.eventbrite.com/e/the-innovation-mindset-eight-essential-steps-to-transform-any-industry-tickets-417241991027?lang=en-us&locale=en_US&status=30&view=listing"
                   >
                     <h2>The Innovation Mindset: Eight Essential Steps to Transform Any Industry</h2>
                   </a>
+                  </div>
                   {/* <h4>20 person limit</h4> */}
                   <h4>Kravis 620 12:00pm-1:00pm (Lunch Provided)</h4>
             
 </div>
       <br />
       <div className="date">
+      <div className="links">
                   <a
                     target="_blank"
                     href="https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=29831"
                   >
                     <h2> Tech Club: Product Management Day in the Life</h2>
                   </a>
+                  </div>
                   <h2>
                     <h4>Geffin 620 6:00pm-7:30pm </h4>
                   </h2>
@@ -199,6 +202,7 @@ const WeekCalendar = () => {
     
                 <h1>Tuesday 10/11:</h1>
                 {/* <br /> */}
+                <div className="links">
                 <div className="date">
                   <a
                     target="_blank"
@@ -208,6 +212,7 @@ const WeekCalendar = () => {
                   >
                     <h2>Distinguished Speaker Series with Matthew Lustig: Real Estate IB, Lazard</h2>
                   </a>
+                  </div>
                   <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4>
                   {/* <br /> */}
 
@@ -230,12 +235,14 @@ const WeekCalendar = () => {
                 {/* <br /> */}
 
                 <div className="date">
+                <div className="links">
                 <a
                     target="_blank"
                     href="https://columbiauniversity.zoom.us/meeting/register/tJYvcO-oqDopEtzEu3OvdPKOyKWq8ubj7IP4%20 "
                   >
                     <h2>CU there! Presents: The Art and Science of Networking </h2>
                   </a>
+                  </div>
                   <h4> Virtual, 8:00pm - 9:00pm </h4>
                   </div>
 
@@ -253,6 +260,7 @@ const WeekCalendar = () => {
                 <h1>Friday 10/14:</h1>
    
                 <div className="date">
+                <div className="links">
                 <a
                     target="_blank"
                     href="https://columbiasocialenterprise.org/civicrm/event/register?id=866&reset=1"
@@ -261,6 +269,7 @@ const WeekCalendar = () => {
                   </a>
                   <h4> Cooperman Commons, 8am - 6:30pm </h4>
                   <h4> Event free with code: C4G100off </h4>
+                  </div>
                   </div>
 
                   <br />

@@ -50,8 +50,10 @@ Full Calendar
                 <br />
                 {/* <h1>Sunday 09/25/22:</h1> */}
                 {/* <br /> */}
+                
                 <h1>Monday 10/03: </h1>
                 <div className="date">
+     
                   <a
                     target="_blank"
                     href="https://www.eventbrite.com/e/transforming-the-healthcare-industry-with-digital-health-solutions-tickets-408083236947"
@@ -61,6 +63,7 @@ Full Calendar
                     <h2>Healthcare Leadership Series</h2>
                     </div>
                   </a>
+         
                   <h4>20 person limit</h4>
                   <h4>Geffin 380 12:00pm-1:00pm (Lunch Provided)</h4>
             

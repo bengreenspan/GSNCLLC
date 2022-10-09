@@ -15,6 +15,32 @@ font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
 
 
 
+
+.links a {
+  color: inherit;
+  text-decoration: none;
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.links a:hover {
+  background-size: 0 3px, 100% 3px;
+}
+
 .dfirstbutton {
   background: url(kravis.png) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -755,3 +781,4 @@ img {
 .outline {
   border-top: 1px solid black;
 }
+
