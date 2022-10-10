@@ -11,94 +11,6 @@ import { Link } from "react-router-dom";
 
 const WeekCalendar = () => {
 
-  // const friday = [
-  //   {
-  //     title: "mondaytitle1",
-  //     desc: "mondaydesc1",
-  //     link: "mondaydesclink1"
-  //   },
-  //   {
-  //     title: "mondaytitle2",
-  //     desc: "mondaydesc2",
-  //     link: "mondaydesclink2"
-  //   },
-  //   {
-  //     title: "mondaytitle3",
-  //     desc: "mondaydesc3",
-  //     link: "mondaydesclin3"
-  //   }
-  // ]
-
-  // const monday = [
-  //   {
-  //     title: "mondaytitle1",
-  //     desc: "mondaydesc1",
-  //     link: "mondaydesclink1"
-  //   },
-  //   {
-  //     title: "mondaytitle2",
-  //     desc: "mondaydesc2",
-  //     link: "mondaydesclink2"
-  //   },
-  //   {
-  //     title: "mondaytitle3",
-  //     desc: "mondaydesc3",
-  //     link: "mondaydesclin3"
-  //   }
-  // ]
-  // const tuesday = [
-  //   {
-  //     title: "mondaytitle1",
-  //     desc: "mondaydesc1",
-  //     link: "mondaydesclink1"
-  //   },
-  //   {
-  //     title: "mondaytitle2",
-  //     desc: "mondaydesc2",
-  //     link: "mondaydesclink2"
-  //   },
-  //   {
-  //     title: "mondaytitle3",
-  //     desc: "mondaydesc3",
-  //     link: "mondaydesclin3"
-  //   }
-  // ]
-  // const wednesday = [
-  //   {
-  //     title: "mondaytitle1",
-  //     desc: "mondaydesc1",
-  //     link: "mondaydesclink1"
-  //   },
-  //   {
-  //     title: "mondaytitle2",
-  //     desc: "mondaydesc2",
-  //     link: "mondaydesclink2"
-  //   },
-  //   {
-  //     title: "mondaytitle3",
-  //     desc: "mondaydesc3",
-  //     link: "mondaydesclin3"
-  //   }
-  // ]
-  // const thursday = [
-  //   {
-  //     title: "mondaytitle1",
-  //     desc: "mondaydesc1",
-  //     link: "mondaydesclink1"
-  //   },
-  //   {
-  //     title: "mondaytitle2",
-  //     desc: "mondaydesc2",
-  //     link: "mondaydesclink2"
-  //   },
-  //   {
-  //     title: "mondaytitle3",
-  //     desc: "mondaydesc3",
-  //     link: "mondaydesclin3"
-  //   }
-  // ]
-
-
   return (
     <BS.Container>
       <Container sx={{ pt: 10, pb: 10 }}>
@@ -137,6 +49,23 @@ const WeekCalendar = () => {
                 {/* <h1>Sunday 09/25/22:</h1> */}
                 {/* <br /> */}
                 <h1>Monday 10/10: </h1>
+
+                <div className="date">
+                <div className="links">
+                  <a
+                    target="_blank"
+                    href="https://groups.gsb.columbia.edu/vcc/rsvp_boot?id=32333"
+                  >
+                    <h2>Technology Pioneers Series: Fireside Chat with Alan Patricof</h2>
+                  </a>
+                  </div>
+                  {/* <h4>20 person limit</h4> */}
+                  <h4>Cooperman Commons, Geffen Hall, 12:00pm-1:00pm </h4>
+            
+</div>
+      <br />
+
+
                 <div className="date">
                 <div className="links">
                   <a
@@ -147,10 +76,43 @@ const WeekCalendar = () => {
                   </a>
                   </div>
                   {/* <h4>20 person limit</h4> */}
-                  <h4>Kravis 620 12:00pm-1:00pm (Lunch Provided)</h4>
+                  <h4>Avery Hall, Wood Auditorium 6:30pm</h4>
             
 </div>
       <br />
+
+
+      <div className="date">
+                <div className="links">
+                  <a
+                    target="_blank"
+                    href="https://www.publichealth.columbia.edu/public-health-now/events/lenapehoking-indigenous-epistemologies-and-idea-university"
+                  >
+                    <h2>Lenapehoking: On Indigenous Epistemologies and the Idea of the University</h2>
+                  </a>
+                  </div>
+                  {/* <h4>20 person limit</h4> */}
+                  <h4>Allan Rosenfield Building, 722 West 168th St. 3:30pm-5:00pm </h4>
+            
+</div>
+      <br />
+
+
+      <div className="date">
+                <div className="links">
+                  <a
+                    target="_blank"
+                    href="https://www.arch.columbia.edu/events/2752-raven-chacon?utm_source=newsletter&utm_medium=email&utm_campaign=highlights100722"
+                  >
+                    <h2>A lecture by Raven Chacon, composer, performer and installation artist from the Navajo Nation</h2>
+                  </a>
+                  </div>
+                  {/* <h4>20 person limit</h4> */}
+                  <h4>Allan Rosenfield Building, 722 West 168th St. 3:30pm-5:00pm </h4>
+            
+</div>
+      <br />
+
       <div className="date">
       <div className="links">
                   <a
@@ -212,8 +174,9 @@ const WeekCalendar = () => {
                   >
                     <h2>Distinguished Speaker Series with Matthew Lustig: Real Estate IB, Lazard</h2>
                   </a>
-                  </div>
+
                   <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4>
+                  </div>
                   {/* <br /> */}
 
                   
