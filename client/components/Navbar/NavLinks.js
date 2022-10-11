@@ -98,13 +98,18 @@ const NavLinks = () => {
       </Box> */}
       <MenuItem onClick={handleCloseNavMenu}>
         <Typography component={"span"} variant="h5" style={{ ml: 10 }}>
-          <Link to="/#"
-              //  sx={{
-              //   display: { xs: 'block', md: 'none' },
-              // }}
-          
-          style={{ textDecoration: "none", color: "black", display: "flex", flexDirection: "column"}}
-          
+          <Link
+            to="/#"
+            //  sx={{
+            //   display: { xs: 'block', md: 'none' },
+            // }}
+
+            style={{
+              textDecoration: "none",
+              color: "black",
+              display: "flex",
+              flexDirection: "column",
+            }}
           >
             {" "}
             Home
@@ -128,7 +133,6 @@ const NavLinks = () => {
           </Link>
         </Typography>
       </MenuItem> */}
-
       <MenuItem onClick={handleCloseNavMenu}>
         <Typography component={"span"} variant="h5">
           <Link to="/tips" style={{ textDecoration: "none", color: "black" }}>

@@ -230,12 +230,75 @@ const Tips = () => {
                     club at Jake's Dilemma. Open bar and everyone is invited!
                   </h4>
                 </div>
-                <Typography></Typography>
+              </div>
+              <br />
+              <h1>Off Campus:</h1>
+              <br />
+              <div className="date">
+                <div className="links">
+                  <a
+                    target="_blank"
+                    href="https://artsinitiative.columbia.edu/?mc_cid=f866adffcb&mc_eid=8280e1c030"
+                  >
+                    <h2>Arts Initiative</h2>
+                  </a>
+                </div>
+                <h4>
+                  {" "}
+                  Early access to discounted ticket sales for musicals, theater,
+                  ballet, art shows etc and updates on interesting cultural
+                  events.
+                </h4>
+              </div>
+
+              <br />
+              <div className="date">
+                <div className="links">
+                  <a
+                    target="_blank"
+                    href="https://blogs.cul.columbia.edu/spotlights/category/new-e-resources/"
+                  >
+                    <h2>News Services</h2>
+                  </a>
+                </div>
+                <h4>
+                  {" "}
+                  Access popular financial news sources through Columbia’s
+                  university library with your student credentials for free.
+                  <br/>
+                  <a
+                    target="_blank"
+                    href="https://blogs.cul.columbia.edu/spotlights/2021/09/21/new-york-times-access/"
+                  >
+                                    <div className="links">New York Times</div>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://blogs.cul.columbia.edu/spotlights/2022/01/28/wall-street-journal-access/"
+                  >
+                             <div className="links">Wall Street Journal</div>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://blogs.cul.columbia.edu/business/2015/01/28/new-resource-financial-times-ft-com/"
+                  >
+                        <div className="links">Financial Times</div>
+                  </a>
+                  {/* <a
+                    target="_blank"
+                    href="https://artsinitiative.columbia.edu/?mc_cid=f866adffcb&mc_eid=8280e1c030"
+                  >
+                    <h2>Here for 75% off the Economist</h2>
+                  </a> */}
+                </h4>
               </div>
             </Typography>
           </div>
         </Box>
       </Container>
+
+      {/* form below */}
+
       <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
         <BS.Container>
           <Container className="form" sx={{ pt: 0 }}>
