@@ -7,6 +7,7 @@ import Who  from './components/Who';
 import Home from './components/LoggedIn/Home';
 import Blog  from './components/Blog';
 import Assignments  from './components/Assignments';
+import Tips  from './components/Tips';
 import NotFound from './components/NotFound';
 
 import {me} from './store'
@@ -37,6 +38,7 @@ class Routes extends Component {
             <Route path="/who" component={Who} />
             <Route path="/Blog" component={Blog} />
             <Route path="/Assignments" component={Assignments} />
+            <Route path="/Tips" component={Tips} />
             <Route path="/*" component={NotFound} />
           </Switch>
         )}

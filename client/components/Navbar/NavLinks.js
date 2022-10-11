@@ -128,6 +128,14 @@ const NavLinks = () => {
           </Link>
         </Typography>
       </MenuItem> */}
+
+      <MenuItem onClick={handleCloseNavMenu}>
+        <Typography component={"span"} variant="h5">
+          <Link to="/tips" style={{ textDecoration: "none", color: "black" }}>
+            Tips
+          </Link>
+        </Typography>
+      </MenuItem>
       <MenuItem onClick={handleCloseNavMenu}>
         <Typography component={"span"} variant="h5">
           <Link to="/who" style={{ textDecoration: "none", color: "black" }}>

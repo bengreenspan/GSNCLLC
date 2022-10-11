@@ -103,7 +103,7 @@ const ResponsiveAppBar = () => {
             sx={{ ml: 2, pt: 1, display: { xs: "none", md: "flex" } }}
           >
             <Link to="/#" style={{ textDecoration: "none" }}>
-              <img src="/cbshorr.png" height={70} />
+              <img src="/logolong.png" height={70} />
             </Link>
           </Typography>
 
