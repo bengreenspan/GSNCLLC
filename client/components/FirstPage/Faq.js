@@ -79,7 +79,7 @@ export default function ControlledAccordions() {
                       <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
-                   Ben and Haas wanted to put together resources for Columbia Business School students to be aware of the many happenings at Columbia.
+                   We wanted to put together resources for Columbia Business School students to maximize their experience at school. This includes keeping everyone up to date on events, deadlines and other happenings you might have otherwised missed.
                           <br />
                       We hope this website helps 
                         </div>
@@ -106,7 +106,8 @@ export default function ControlledAccordions() {
                       <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
-                         Heck ya you can. Click on the form above to reach out
+                         Heck ya you can. Click on the form above to reach out.
+                         We could always use more coders and event scouts. 
                         </div>
                       </Typography>
                     </AccordionDetails>
@@ -124,6 +125,7 @@ export default function ControlledAccordions() {
                       <Typography component={'span'} sx={{ width: "100%", flexShrink: 0 }}>
                         <div className="fontbold">
                         How often is the site updated?
+                      
                         </div>
                       </Typography>
                       <Typography component={'span'} sx={{ color: "text.secondary" }}></Typography>
@@ -132,7 +134,7 @@ export default function ControlledAccordions() {
                       <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
-                      We are going to start with Haas' weekly updates but would love to do it daily.
+                      We try to update at least once a week for the weekly calendar.
                         </div>
                       </Typography>
                     </AccordionDetails>
@@ -157,7 +159,7 @@ export default function ControlledAccordions() {
                       <Typography component={'span'} >
                         <Divider sx={{ mb: 3, p: 0 }} />
                         <div className="font">
-                        I am thinking we get good at CBS info, expand to other schools if people want to contribute. Maybe undergrad eventually but idk. 
+                        We are only doing CBS for now. If there is an event so large we deem it might be important for CBS students to know we will put it on the site. 
                         </div>
                       </Typography>
                     </AccordionDetails>

@@ -82,11 +82,8 @@ const Who = () => {
                             Business School students.
                             <br />
                             <br />
-                            We are always looking for further contributors to
-                            expand the Columbia footprint.
-                            <br />
-                          So if you are interested in contributing, please email us at 
-                         Bgreenspan24@gsb.columbia.edu or fill out contributors form on the home page.
+                   
+Our mission is to aggregate and link to CBS events in one convenient place. This includes speakers, club events, as well as school run activities. Non CBS events of larger importance will be added as well. 
                
                           </div>
                           
