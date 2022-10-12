@@ -8,27 +8,11 @@ import Carousel from "react-elastic-carousel";
 import Aos from "aos";
 
 const Carousely = () => {
-  const carouselRef = useRef(null);
-  let resetTimeout;
+  // const carouselRef = useRef(null);
+  // let resetTimeout;
   return (
-    <Container sx={{ pb: 10 }}>
-      <Box       sx={{
-          pt: 10,
-          pl: 10,
-          justifyContent: "center",
-          alignItems: "center",
-          display: "flex",
-        }}> 
-
-<div
-          data-aos="flip-down"
-          data-aos-duration="1000"
-          className="fontbold"
-        >
-      <img src="/5star.png" alt="one" width="300" height="225" />
-      </div>
-      </Box>
-      <Typography
+    <Container sx={{ pt: 10 }}>
+            <Typography
         component={"span"}
         variant="h5"
         sx={{
@@ -44,12 +28,29 @@ const Carousely = () => {
           data-aos-duration="1000"
           className="fontbold"
         >
-          Client Testimonies
+Did we miss an event? Interested in getting your event on the site? Email us at Events@cbshappenings.com
         </div>
         {/* </Typography> */}
       </Typography>
+      <Box       sx={{
+          pb: 10,
+          pl: 10,
+          justifyContent: "center",
+          alignItems: "center",
+          display: "flex",
+        }}> 
 
-      <Container sx={{ mt: 4 }}>
+<div
+          data-aos="flip-down"
+          data-aos-duration="1000"
+          className="fontbold"
+        >
+      <img src="/5star.png" alt="one" width="300" height="225" />
+      </div>
+      </Box>
+
+
+      {/* <Container sx={{ mt: 4 }}>
         <div
         data-aos="fade-left"
           data-aos-duration="1000"
@@ -208,7 +209,7 @@ const Carousely = () => {
             </Box>
           </Carousel>
         </div>
-      </Container>
+      </Container> */}
     </Container>
   );
 };

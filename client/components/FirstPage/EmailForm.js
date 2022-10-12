@@ -22,11 +22,13 @@ const style = {
   bgcolor: "background.paper",
   border: "2px solid #000",
   boxShadow: 24,
-  p: 4,
+  // pt: 4,
+  // pb: 4,
+  pl: 4,
+  pr: 4,
 };
 
 const Form = () => {
-  
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false) && window.location.reload;
@@ -51,11 +53,11 @@ const Form = () => {
 
   const validate = () => {
     let temp = {};
-    temp.name = toSend.name ? "" : "Name is required";
+    // temp.name = toSend.name ? "" : "Name is required";
     // temp.business = toSend.business ? "" : "Business Name is required";
     temp.email = /$^|.+@.+..+/.test(toSend.email) ? "" : "Email is not valid";
     // temp.phone =
-      // toSend.phone.length > 8 ? "" : "Please enter a valid phone number";
+    // toSend.phone.length > 8 ? "" : "Please enter a valid phone number";
     setErrors({
       ...temp,
     });
@@ -86,11 +88,17 @@ const Form = () => {
   };
 
   return (
-    <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
+    <div className="bluecard">
       <BS.Container>
-        <Container className="form" sx={{ pt: 15, pb:10 }}>
+        <Container className="form" sx={{ pt: 10 }}>
           <BS.Row>
+            <BS.Col>
+            <div data-aos="fade-down" data-aos-duration="1000">
+              <img src="/5star.png" alt="one" width="300" />
+              </div>
+            </BS.Col>
             <BS.Col md={7}>
+            <div data-aos="fade-up" data-aos-duration="1000">
               <Typography>
                 <Typography
                   variant="h4"
@@ -99,14 +107,16 @@ const Form = () => {
                     pt: 0,
                     pl: 3,
                     pr: 3,
-                    pb: 3,
+                    pb: 0,
                     justifyContent: "center",
                   }}
                 >
-               <div className="fontbold">Did we miss an event?</div>
- 
-                  <div className="fontbold">Fill out the form below  </div>
-                  <br/>
+                  <div className="fontbold">Looking for updates?</div>
+                  <div className="fontbold">Fill out the form below </div>
+                  <br />
+                  <h4>Sign up to get weekly notifications on new events</h4>
+
+                  <br />
                 </Typography>
               </Typography>
 
@@ -126,17 +136,6 @@ const Form = () => {
                     >
                       <TextField
                         required
-                        id="outlined-name-input"
-                        label="Name"
-                        type="name"
-                        autoComplete="name"
-                        value={toSend.name}
-                        onChange={handleChange}
-                        name="name"
-                        helperText={errors.name}
-                      />
-              <TextField
-                        required
                         id="outlined-email-input"
                         label="Email"
                         type="email"
@@ -153,34 +152,15 @@ const Form = () => {
                         justifyContent: "center",
                         "& > :not(style)": { m: 0 },
                       }}
-                    >
-                   
-                
-                    </Box>
-
-                    <Box sx={{ display: "flex", justifyContent: "center" }}>
-                      <TextField
-                        id="outlined-message-input"
-                        label="Event"
-                        type="message"
-                        autoComplete="message"
-                        value={toSend.message}
-                        onChange={handleChange}
-                        name="message"
-                        multiline={true}
-                        rows={3}
-                        sx={{ height: "100%", width: 10, fontSize: 33 }}
-                        helperText="Enter any other details you'd like to mention"
-                      ></TextField>
-                    </Box>
+                    ></Box>
                   </Container>
 
                   <Box
                     sx={{
                       display: "flex",
                       justifyContent: "center",
-                      pt: 8,
-                      pb: 12,
+                      pt: 0,
+                      pb: 10,
                     }}
                   >
                     <div data-aos="zoom-out" data-aos-duration="2000">
@@ -226,7 +206,7 @@ const Form = () => {
                             </Typography>
                             <Typography
                               id="transition-modal-description"
-                              sx={{ mt: 2 }}
+                              sx={{ mt: 0 }}
                             >
                               Thank you for reaching out. We will contact you
                               shortly.
@@ -238,36 +218,7 @@ const Form = () => {
                   </Box>
                 </Box>
               </div>
-            </BS.Col>
-            <BS.Col>
-              <BS.Row>
-                <Typography
-                  variant="h3"
-                  marginTop={0}
-                  sx={{ pl: 9, pt: 0, pb: 0, justifyContent: "center" }}
-                >
-                  <h4 className="font">
-Are you the head of a club or other organization? 
-<br/>
-<br/>
-Would you like to regularly have your events on the site? 
-<br/>
-<br/>
-<div className="fontbold">
-Email us at Events@cbshappenings.com
-</div>
-                  </h4>
-                </Typography>{" "}
-              </BS.Row>
-              <BS.Row>
-                {/* <div className="outline"> */}
-                {/* <Parallax bgImage={"/plane.png"} strength={140}> */}
-                {/* <div className="transparent"> */}{" "}
-                <img src="/plane.png" width={200} />
-                {/* </div> */}
-                {/* </Parallax> */}
-                {/* </div> */}
-              </BS.Row>
+            </div>
             </BS.Col>
           </BS.Row>
         </Container>

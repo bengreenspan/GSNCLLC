@@ -3,24 +3,19 @@
 /* #f4f3f2  gray*/
 
 * {
-font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
-
+  font-family: "Neue Haas Grotesk Text Pro", sans-serif;
 }
 
-.date{
+.date {
   border: 5px solid #f4f3f2;
   background-color: #f4f3f2;
   border-radius: 10px;
 }
 
-
-
-
 .links a {
   color: inherit;
   text-decoration: none;
-  background:
-    linear-gradient(
+  background: linear-gradient(
       to right,
       rgba(100, 200, 200, 1),
       rgba(100, 200, 200, 1)
@@ -30,7 +25,7 @@ font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
       rgba(255, 0, 0, 1),
       rgba(255, 0, 180, 1),
       rgba(0, 100, 200, 1)
-  );
+    );
   background-size: 100% 3px, 0 3px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
@@ -81,6 +76,17 @@ font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
   background-size: cover;
   border-radius: 15px;
 }
+
+.bluecard {
+  background: #f4f3f2;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* border-radius: 15px; */
+}
+
+
 .gray {
   background: #f4f3f2;
   -webkit-background-size: cover;
@@ -91,7 +97,7 @@ font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
 }
 
 .blue {
-  background: rgba(4,158,220,.2);
+  background: rgba(4, 158, 220, 0.2);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -128,16 +134,16 @@ font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
 
 body {
   max-width: 100%;
-  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+  font-family: "Neue Haas Grotesk Text Pro", sans-serif;
 }
 
 .font {
-  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+  font-family: "Neue Haas Grotesk Text Pro", sans-serif;
   color: black;
 }
 
 .fontbold {
-  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+  font-family: "Neue Haas Grotesk Text Pro", sans-serif;
 
   font-weight: bold;
 }
@@ -602,6 +608,81 @@ img.image1 {
   transform: scale(0.95);
 }
 
+
+
+
+
+
+
+
+
+
+.bluecard button {
+  font-family: inherit;
+  font-size: 20px;
+  background: #187fc2;
+  color: white;
+  padding: 0.7em 1em;
+  padding-left: 0.9em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.bluecard button span {
+  display: block;
+  margin-left: 0.3em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.bluecard button svg {
+  display: block;
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.bluecard button:hover .svg-wrapper {
+  -webkit-animation: fly-1 0.6s ease-in-out infinite alternate;
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.bluecard button:hover svg {
+  -webkit-transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  -ms-transform: translateX(1.2em) rotate(45deg) scale(1.1);
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.bluecard button:hover span {
+  -webkit-transform: translateX(5em);
+  -ms-transform: translateX(5em);
+  transform: translateX(5em);
+}
+
+.bluecard button:active {
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+
+
+
+
+
 @-webkit-keyframes fly-1 {
   from {
     -webkit-transform: translateY(0.1em);
@@ -628,7 +709,7 @@ img.image1 {
 
 .contact button {
   color: hsl(0, 0%, 100%);
-  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+  font-family: "Neue Haas Grotesk Text Pro", sans-serif;
 
   padding: 17px 40px;
   border-radius: 50px;
@@ -644,7 +725,7 @@ img.image1 {
 }
 
 .contact button:hover {
-  font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+  font-family: "Neue Haas Grotesk Text Pro", sans-serif;
 
   letter-spacing: 3px;
   background-color: #187fc2;
@@ -654,7 +735,7 @@ img.image1 {
 }
 
 .contact button:active {
-font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+  font-family: "Neue Haas Grotesk Text Pro", sans-serif;
 
   letter-spacing: 3px;
   background-color: #0487cd;
@@ -781,4 +862,3 @@ img {
 .outline {
   border-top: 1px solid black;
 }
-

@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <Container sx={{ pt: 20, pb:20}}>
       <div className="contact">
-        <div className="font" data-aos="zoom-out-down" data-aos-duration="1000">
+        <div className="font" data-aos="flip-down" data-aos-duration="1000">
           <Box sx={{ display: "flex", justifyContent: "center", pb: 3 }}>
             <Typography component={"span"} variant="h4" marginTop={3}>
             <Link to="/blog">

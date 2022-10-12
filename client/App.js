@@ -1,7 +1,5 @@
 import React from 'react';
-
 import Navbar from './components/Navbar/Navbar';
-// import NewNavbar from "./components/Navbar/NewNavbar.js"
 import Routes from './Routes';
 import Footer from './components/Footer';
 import Container from '@mui/material/Container';

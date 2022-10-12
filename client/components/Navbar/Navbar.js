@@ -146,7 +146,7 @@ const ResponsiveAppBar = () => {
             sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
           >
             <Link to="/#" style={{ textDecoration: "none" }}>
-              <img src="/cbshorr.png" height={40} />
+              <img src="/logolong.png" height={40} />
             </Link>
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>

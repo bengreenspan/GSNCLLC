@@ -1,6 +1,7 @@
 import React from "react";
 import Customers from "./FirstPage/Feature";
 import Desc from "./FirstPage/Desc";
+import EmailForm from "./FirstPage/EmailForm";
 import Map from "./FirstPage/Map";
 import Faq from "./FirstPage/Faq";
 import Form from "./FirstPage/Form";
@@ -11,29 +12,27 @@ import FirstContact from "./FirstPage/FirstContact";
 import { Divider } from "@mui/material";
 import WeekCalendar from "./FirstPage/WeekCalendar";
 
-
-
-
 <Divider sx={{ m: 0, p: 0 }} />;
 
 export const Main = () => (
-  <div> 
-
+  <div>
     <Title />
+
     <div className="dfirstbutton">
-    <FirstContact />
+      <FirstContact />
     </div>
-    <WeekCalendar/>
+    <EmailForm />
+    <WeekCalendar />
     <div className="gray">
-    <Customers />
+      <Customers />
     </div>
 
-      <Form />
-      {/* <Map /> */}
+    {/* <Map /> */}
     {/* </div> */}
     {/* <Carousel /> */}
-    {/* <Divider sx={{ m: 0, pb: 0 }} /> */}
-    <div className="gray"> 
+    <Form />
+
+    <div className="gray">
       <Faq />
     </div>
     <Contact />
