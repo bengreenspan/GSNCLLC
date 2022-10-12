@@ -86,7 +86,6 @@
   /* border-radius: 15px; */
 }
 
-
 .gray {
   background: #f4f3f2;
   -webkit-background-size: cover;
@@ -132,6 +131,11 @@
   background-size: cover;
 }
 
+.border {
+  border-style: solid;
+  border-width: 5px;
+}
+
 body {
   max-width: 100%;
   font-family: "Neue Haas Grotesk Text Pro", sans-serif;
@@ -144,7 +148,6 @@ body {
 
 .fontbold {
   font-family: "Neue Haas Grotesk Text Pro", sans-serif;
-
   font-weight: bold;
 }
 
@@ -608,15 +611,6 @@ img.image1 {
   transform: scale(0.95);
 }
 
-
-
-
-
-
-
-
-
-
 .bluecard button {
   font-family: inherit;
   font-size: 20px;
@@ -677,11 +671,6 @@ img.image1 {
   -ms-transform: scale(0.95);
   transform: scale(0.95);
 }
-
-
-
-
-
 
 @-webkit-keyframes fly-1 {
   from {

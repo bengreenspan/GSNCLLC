@@ -15,6 +15,8 @@ import Backdrop from "@mui/material/Backdrop";
 import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import { Parallax, Background } from "react-parallax";
+import { Divider } from "@mui/material";
+// import "aos/dist/aos.css"
 
 const style = {
   position: "absolute",
@@ -107,12 +109,12 @@ const Tips = () => {
         >
           <div
             className="fontbold"
-            data-aos="fade-left"
+            data-aos="fade-right"
             data-aos-duration="1000"
           >
             <Typography
               variant="h3"
-              className="white-background"
+              // className="white-background"
               sx={{
                 pt: 3,
                 pl: 3,
@@ -122,184 +124,239 @@ const Tips = () => {
               }}
             >
               <div className="fontbold">
-                <div className="date">
-                  Tips for Columbia Business School
-                  <br />
-                  <br />
-                  {/* <br /> */}
-                  <h4>
-                    In an effort to help you get the most out of your time at
-                    Columbia, we put together a list of resources available to
-                    you as a student.
-                  </h4>
-                  <h4>
-                    If there is anything you'd like to tell your classmates,
-                    please fill out the form below!
-                  </h4>
-                  {/* <h1>Sunday 09/25/22:</h1> */}
-                  <br />
-                </div>
-                {/* <br /> */}
-                <br />
-                <h1>On Campus: </h1>
-                <br />
-                <div className="date">
-                  <div className="links">
-                    <h2>Gym + Shower</h2>
-                  </div>
-                  {/* <h4>20 person limit</h4> */}
-                  <h4>
-                    In the tunnel between Kravis and Geffen there is a small gym
-                    as well as showers available for use{" "}
-                  </h4>
-                </div>
-                <br />
-                <div className="date">
-                  <div className="links">
-                    <a
-                      target="_blank"
-                      href="https://transportation.columbia.edu/content/bike-registration"
-                    >
-                      <h2>Indoor Bike Room</h2>
-                    </a>
-                  </div>
-                  {/* <h4>20 person limit</h4> */}
-                  <h4>
-                    Attatched to Geffen on the north side of the building there
-                    is an indoor bike room. You will need to register your bike
-                    with Public Safety to get swipe access.
-                    <br /> <br /> Visit or contact Columbia Public Safety by
-                    phone at 212-854-8513 or email
-                    ps-crimeprevention@columbia.edu to set up an appointment to
-                    have your bicycle registered.
-                  </h4>
-                </div>
-                <br />
-
-                <h1>In the Classroom:</h1>
-                <br />
-                {/* <br /> */}
-                <div className="links">
-                  <div className="date">
-                    <a
-                      target="_blank"
-                      href="https://www8.gsb.columbia.edu/emba-students/academic-essentials/policies/auditing"
-                    >
-                      <h2>Auditing Classes</h2>
-                    </a>
-
-                    <h4>
-                      You can audit any class, even after you graduate, in any
-                      school, as long as you get the instructors permission. You
-                      will get access to course materials and show up as
-                      frequently as you would like. The exact terms of your
-                      participation will depends on the agreement you make with
-                      the professor. There will be no offical record of taking a
-                      class on your transcript.
-                    </h4>
-                  </div>
-                </div>
-                <br />
-                <h1>Entrepreneurship:</h1>
-                <br />
-                {/* <br /> */}
-                <div className="date">
-                  <div className="links">
-                    <a target="_blank" href="https://www.cuit.columbia.edu/aws">
-                      <h2>AWS Credits </h2>
-                    </a>
-                  </div>
-                  <h4>
-                    {" "}
-                    The Lang Center connected with AWS to give every student up
-                    to $5,000 in AWS credits for their ventures.
-                  </h4>
-                </div>
-
-                <br />
-
-                <h1>Social:</h1>
-                <br />
-                <div className="date">
-                  <div className="links">
-                    <h2>Jake's Dilemma Happy Hour</h2>
-                  </div>
-                  <h4>
-                    {" "}
-                    Most Wednesdays, the Rugby Club has a mixer with another
-                    club at Jake's Dilemma. Open bar and everyone is invited!
-                  </h4>
-                </div>
-              </div>
-              <br />
-              <h1>Off Campus:</h1>
-              <br />
-              <div className="date">
-                <div className="links">
-                  <a
-                    target="_blank"
-                    href="https://artsinitiative.columbia.edu/?mc_cid=f866adffcb&mc_eid=8280e1c030"
-                  >
-                    <h2>Arts Initiative</h2>
-                  </a>
-                </div>
+                Tips for Columbia Business School
                 <h4>
-                  {" "}
-                  Early access to discounted ticket sales for musicals, theater,
-                  ballet, art shows etc and updates on interesting cultural
-                  events.
+                  In an effort to help you get the most out of your time at
+                  Columbia, we put together a list of resources available to you
+                  as a student.
                 </h4>
-              </div>
-
-              <br />
-              <div className="date">
-                <div className="links">
-                  <a
-                    target="_blank"
-                    href="https://blogs.cul.columbia.edu/spotlights/category/new-e-resources/"
-                  >
-                    <h2>News Services</h2>
-                  </a>
-                </div>
                 <h4>
-                  {" "}
-                  Access popular financial news sources through Columbia’s
-                  university library with your student credentials for free.
-                  <br/>
-                  <a
-                    target="_blank"
-                    href="https://blogs.cul.columbia.edu/spotlights/2021/09/21/new-york-times-access/"
-                  >
-                                    <div className="links">New York Times</div>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://blogs.cul.columbia.edu/spotlights/2022/01/28/wall-street-journal-access/"
-                  >
-                             <div className="links">Wall Street Journal</div>
-                  </a>
-                  <a
-                    target="_blank"
-                    href="https://blogs.cul.columbia.edu/business/2015/01/28/new-resource-financial-times-ft-com/"
-                  >
-                        <div className="links">Financial Times</div>
-                  </a>
-                  {/* <a
-                    target="_blank"
-                    href="https://artsinitiative.columbia.edu/?mc_cid=f866adffcb&mc_eid=8280e1c030"
-                  >
-                    <h2>Here for 75% off the Economist</h2>
-                  </a> */}
+                  If there is anything you'd like to tell your classmates,
+                  please fill out the form below!
                 </h4>
+                <br />
+                <BS.Row>
+                  <BS.Col lg={4} md={6} sm={12} xs={12}>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-duration="500"
+                      className="fontbold"
+                    >
+                      On Campus:
+                      <br />
+                      <div>
+                        <div className="links">
+                          <h3>Gym + Shower</h3>
+                        </div>
+                        <h4>
+                          {" "}
+                          In the tunnel between Kravis and Geffen there is a
+                          small gym as well as showers available for use{" "}
+                        </h4>
+                      </div>
+                      <br />
+                      <div>
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://transportation.columbia.edu/content/bike-registration"
+                          >
+                            <h3>Indoor Bike Room</h3>
+                          </a>
+                        </div>
+                        {/* <h4>20 person limit</h4> */}
+                        <h4>
+                          Attatched to Geffen on the north side of the building
+                          there is an indoor bike room. You will need to
+                          register your bike with Public Safety to get swipe
+                          access.
+                          <br /> <br /> Visit or contact Columbia Public Safety
+                          by phone at 212-854-8513 or email
+                          ps-crimeprevention@columbia.edu to set up an
+                          appointment to have your bicycle registered.
+                        </h4>
+                      </div>
+                      <br />
+                      <br />
+                      <br />
+                      <div></div>
+                      <br />
+                    </div>
+                  </BS.Col>
+
+                  <BS.Col lg={4} md={6} sm={12} xs={12}>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-duration="500"
+                      data-aos-offset="200"
+                      className="fontbold"
+                    >
+                      In the Classroom:
+                      <br />
+                      <div className="links">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www8.gsb.columbia.edu/emba-students/academic-essentials/policies/auditing"
+                          >
+                            <h2>Auditing Classes</h2>
+                          </a>
+
+                          <h4>
+                            You can audit any class, even after you graduate, in
+                            any school, as long as you get the instructors
+                            permission. You will get access to course materials
+                            and show up as frequently as you would like. The
+                            exact terms of your participation will depends on
+                            the agreement you make with the professor. There
+                            will be no offical record of taking a class on your
+                            transcript.
+                          </h4>
+                        </div>
+                      </div>
+                      <br />
+                    </div>
+                  </BS.Col>
+                  <BS.Col lg={4} md={6} sm={12} xs={12}>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-duration="500"
+                      data-aos-offset="300"
+                      className="fontbold"
+                    >
+                      Entrepreneurship:
+                      <div>
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://www.cuit.columbia.edu/aws"
+                          >
+                            <h3>AWS Credits</h3>
+                          </a>
+                        </div>
+                        <h4>
+                          {" "}
+                          The Lang Center connected with AWS to give every
+                          student up to $5,000 in AWS credits for their
+                          ventures.{" "}
+                        </h4>
+                      </div>
+                      <br />
+                      <br />
+                    </div>
+                  </BS.Col>
+                </BS.Row>
+                <BS.Row>
+                  <BS.Col lg={4} md={6} sm={12} xs={12}>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-duration="500"
+                      data-aos-offset="300"
+                      className="fontbold"
+                    >
+                      Social:
+                      <div>
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://www.cuit.columbia.edu/aws"
+                          >
+                            <h3>Jake's Dilemma Happy Hour</h3>
+                          </a>
+                        </div>
+                        <h4>
+                          {" "}
+                          Most Wednesdays, the Rugby Club has a mixer with
+                          another club at Jake's Dilemma. Open bar and everyone
+                          is invited!{" "}
+                        </h4>
+                      </div>
+                      <br />
+                      <br />
+                    </div>
+                  </BS.Col>
+                  <BS.Col lg={4} md={6} sm={12} xs={12}>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-duration="500"
+                      data-aos-offset="200"
+                      className="fontbold"
+                    >
+                      Off Campus:
+                      <div className="links">
+                        <a
+                          target="_blank"
+                          href="https://artsinitiative.columbia.edu/?mc_cid=f866adffcb&mc_eid=8280e1c030"
+                        >
+                          <h3>Arts Initiative</h3>
+                        </a>
+                        <h4>
+                          {" "}
+                          Early access to discounted ticket sales for musicals,
+                          theater, ballet, art shows etc and updates on
+                          interesting cultural events.
+                        </h4>
+                      </div>
+                    </div>
+                    <br />
+                  </BS.Col>
+
+                  <BS.Col lg={4} md={6} sm={12} xs={12}>
+                    <div
+                      data-aos="fade-up"
+                      data-aos-duration="500"
+                      // data-aos-offset="200"
+                      className="fontbold"
+                    >
+                      News Services:
+                      <div className="links">
+                        <a
+                          target="_blank"
+                          href="https://blogs.cul.columbia.edu/spotlights/category/new-e-resources/"
+                        >
+                          <h4>
+                            {" "}
+                            Access popular financial news sources through
+                            Columbia’s university library with your student
+                            credentials for free.
+                          </h4>
+                        </a>
+
+                        <a
+                          target="_blank"
+                          href="https://blogs.cul.columbia.edu/spotlights/2021/09/21/new-york-times-access/"
+                        >
+                          <div className="links">
+                            <h4>New York Times </h4>
+                          </div>
+                        </a>
+                        <a
+                          target="_blank"
+                          href="https://blogs.cul.columbia.edu/spotlights/2022/01/28/wall-street-journal-access/"
+                        >
+                          <div className="links">
+                            <h4>Wall Street Journal</h4>
+                          </div>
+                        </a>
+                        <a
+                          target="_blank"
+                          href="https://blogs.cul.columbia.edu/business/2015/01/28/new-resource-financial-times-ft-com/"
+                        >
+                          <div className="links">
+                            <h4>Financial Times</h4>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </BS.Col>
+                </BS.Row>
               </div>
             </Typography>
           </div>
         </Box>
+        <br /> <br /> <br /> <br /> <br /> <br />
       </Container>
-
-      {/* form below */}
-
-      <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
+          <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
         <BS.Container>
           <Container className="form" sx={{ pt: 0 }}>
             <BS.Row>
@@ -454,5 +511,6 @@ const Tips = () => {
     </BS.Container>
   );
 };
-
 export default Tips;
+
+

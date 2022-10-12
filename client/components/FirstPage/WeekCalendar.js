@@ -52,20 +52,20 @@ const WeekCalendar = () => {
                       data-aos-duration="500"
                       className="fontbold"
                     >
-                      Monday 10/10:
+                      Monday:
+                      <br />
                       <div>
                         <div className="links">
                           <a
                             target="_blank"
                             href="https://groups.gsb.columbia.edu/vcc/rsvp_boot?id=32333"
                           >
-                            <h2>
+                            <h3>
                               Technology Pioneers Series: Fireside Chat with
                               Alan Patricof
-                            </h2>
+                            </h3>
                           </a>
                         </div>
-                        {/* <h4>20 person limit</h4> */}
                         <h4>Cooperman Commons, Geffen Hall, 12:00pm-1:00pm </h4>
                       </div>
                       <br />
@@ -75,10 +75,10 @@ const WeekCalendar = () => {
                             target="_blank"
                             href="https://www.eventbrite.com/e/the-innovation-mindset-eight-essential-steps-to-transform-any-industry-tickets-417241991027?lang=en-us&locale=en_US&status=30&view=listing"
                           >
-                            <h2>
+                            <h3>
                               The Innovation Mindset: Eight Essential Steps to
                               Transform Any Industry
-                            </h2>
+                            </h3>
                           </a>
                         </div>
                         {/* <h4>20 person limit</h4> */}
@@ -91,10 +91,10 @@ const WeekCalendar = () => {
                             target="_blank"
                             href="https://www.publichealth.columbia.edu/public-health-now/events/lenapehoking-indigenous-epistemologies-and-idea-university"
                           >
-                            <h2>
+                            <h3>
                               Lenapehoking: On Indigenous Epistemologies and the
                               Idea of the University
-                            </h2>
+                            </h3>
                           </a>
                         </div>
                         {/* <h4>20 person limit</h4> */}
@@ -110,10 +110,10 @@ const WeekCalendar = () => {
                             target="_blank"
                             href="https://www.arch.columbia.edu/events/2752-raven-chacon?utm_source=newsletter&utm_medium=email&utm_campaign=highlights100722"
                           >
-                            <h2>
+                            <h3>
                               A lecture by Raven Chacon, composer, performer and
                               installation artist from the Navajo Nation
-                            </h2>
+                            </h3>
                           </a>
                         </div>
                         {/* <h4>20 person limit</h4> */}
@@ -129,15 +129,15 @@ const WeekCalendar = () => {
                             target="_blank"
                             href="https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=29831"
                           >
-                            <h2>
+                            <h3>
                               {" "}
                               Tech Club: Product Management Day in the Life
-                            </h2>
+                            </h3>
                           </a>
                         </div>
-                        <h2>
+                        <h3>
                           <h4>Geffin 620 6:00pm-7:30pm </h4>
-                        </h2>
+                        </h3>
                       </div>
                       <br />
                     </div>
@@ -150,7 +150,8 @@ const WeekCalendar = () => {
                       data-aos-offset="200"
                       className="fontbold"
                     >
-                      Tuesday 10/11:
+                      Tuesday:
+                      <br />
                       <div className="links">
                         <div>
                           <a
@@ -159,10 +160,10 @@ const WeekCalendar = () => {
 
                     "
                           >
-                            <h2>
+                            <h3>
                               Distinguished Speaker Series with Matthew Lustig:
                               Real Estate IB, Lazard
-                            </h2>
+                            </h3>
                           </a>
 
                           <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4>
@@ -178,18 +179,17 @@ const WeekCalendar = () => {
                       data-aos-offset="300"
                       className="fontbold"
                     >
-                      Wednesday 10/12:
-                      {/* <br /> */}
+                      Wednesday:
                       <div>
                         <div className="links">
                           <a
                             target="_blank"
                             href="https://columbiauniversity.zoom.us/meeting/register/tJYvcO-oqDopEtzEu3OvdPKOyKWq8ubj7IP4%20 "
                           >
-                            <h2>
+                            <h3>
                               CU there! Presents: The Art and Science of
                               Networking{" "}
-                            </h2>
+                            </h3>
                           </a>
                         </div>
                         <h4> Virtual, 8:00pm - 9:00pm </h4>
@@ -197,7 +197,7 @@ const WeekCalendar = () => {
                       <br />
                       <div>
                         {" "}
-                        <h2> Rugby x Hispanic Business Assocation (HBA)</h2>
+                        <h3> Rugby x Hispanic Business Assocation (HBA)</h3>
                         <h4>Jake's Dilemma 8:30pm-?? (Open bar)</h4>
                       </div>
                       <br />
@@ -212,7 +212,7 @@ const WeekCalendar = () => {
                       data-aos-offset="300"
                       className="fontbold"
                     >
-                      Thursday 10/13:
+                      Thursday:
                     </div>
                   </BS.Col>
 
@@ -223,16 +223,16 @@ const WeekCalendar = () => {
                       data-aos-offset="200"
                       className="fontbold"
                     >
-                      Friday 10/14:
+                      Friday:
                       <div className="links">
                         <a
                           target="_blank"
                           href="https://columbiasocialenterprise.org/civicrm/event/register?id=866&reset=1"
                         >
-                          <h2>
+                          <h3>
                             21st Annual Social Enterprise Conference, Capital
                             for Good, Tamer Institute
-                          </h2>
+                          </h3>
                         </a>
                         <h4> Cooperman Commons, 8am - 6:30pm </h4>
                         <h4> Event free with code: C4G100off </h4>
@@ -247,7 +247,7 @@ const WeekCalendar = () => {
                       // data-aos-offset="200"
                       className="fontbold"
                     >
-                      Saturday 10/15:
+                      Saturday:
                     </div>
                   </BS.Col>
                 </BS.Row>
@@ -261,11 +261,3 @@ const WeekCalendar = () => {
   );
 };
 export default WeekCalendar;
-
-// <div className="fontbold">Sample Partners</div>
-// <br />
-// <h2 className="font1">
-//   Check out a few of our partners. These types of businesses
-//   models lend themselves to synergies with their ATM
-//   solution.
-//   </h2>
