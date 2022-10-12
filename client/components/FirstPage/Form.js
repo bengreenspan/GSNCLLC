@@ -26,7 +26,6 @@ const style = {
 };
 
 const Form = () => {
-  
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false) && window.location.reload;
@@ -55,7 +54,7 @@ const Form = () => {
     // temp.business = toSend.business ? "" : "Business Name is required";
     temp.email = /$^|.+@.+..+/.test(toSend.email) ? "" : "Email is not valid";
     // temp.phone =
-      // toSend.phone.length > 8 ? "" : "Please enter a valid phone number";
+    // toSend.phone.length > 8 ? "" : "Please enter a valid phone number";
     setErrors({
       ...temp,
     });
@@ -88,7 +87,7 @@ const Form = () => {
   return (
     <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
       <BS.Container>
-        <Container className="form" sx={{ pt: 15, pb:10 }}>
+        <Container className="form" sx={{ pt: 15, pb: 10 }}>
           <BS.Row>
             <BS.Col md={7}>
               <Typography>
@@ -103,10 +102,10 @@ const Form = () => {
                     justifyContent: "center",
                   }}
                 >
-               <div className="fontbold">Did we miss an event?</div>
- 
-                  <div className="fontbold">Fill out the form below  </div>
-                  <br/>
+                  <div className="fontbold">Did we miss an event?</div>
+
+                  <div className="fontbold">Fill out the form below </div>
+                  <br />
                 </Typography>
               </Typography>
 
@@ -135,7 +134,7 @@ const Form = () => {
                         name="name"
                         helperText={errors.name}
                       />
-              <TextField
+                      <TextField
                         required
                         id="outlined-email-input"
                         label="Email"
@@ -153,10 +152,7 @@ const Form = () => {
                         justifyContent: "center",
                         "& > :not(style)": { m: 0 },
                       }}
-                    >
-                   
-                
-                    </Box>
+                    ></Box>
 
                     <Box sx={{ display: "flex", justifyContent: "center" }}>
                       <TextField
@@ -247,26 +243,20 @@ const Form = () => {
                   sx={{ pl: 9, pt: 0, pb: 0, justifyContent: "center" }}
                 >
                   <h4 className="font">
-Are you the head of a club or other organization? 
-<br/>
-<br/>
-Would you like to regularly have your events on the site? 
-<br/>
-<br/>
-<div className="fontbold">
-Email us at Events@cbshappenings.com
-</div>
+                    Are you the head of a club or other organization?
+                    <br />
+                    <br />
+                    Would you like to regularly have your events on the site?
+                    <br />
+                    <br />
+                    <div className="fontbold">
+                      Email us at Events@cbshappenings.com
+                    </div>
                   </h4>
                 </Typography>{" "}
               </BS.Row>
               <BS.Row>
-                {/* <div className="outline"> */}
-                {/* <Parallax bgImage={"/plane.png"} strength={140}> */}
-                {/* <div className="transparent"> */}{" "}
                 <img src="/plane.png" />
-                {/* </div> */}
-                {/* </Parallax> */}
-                {/* </div> */}
               </BS.Row>
             </BS.Col>
           </BS.Row>
