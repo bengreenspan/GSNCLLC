@@ -263,7 +263,7 @@ Email us at Events@cbshappenings.com
                 {/* <div className="outline"> */}
                 {/* <Parallax bgImage={"/plane.png"} strength={140}> */}
                 {/* <div className="transparent"> */}{" "}
-                <img src="/plane.png" width={200} />
+                <img src="/plane.png" />
                 {/* </div> */}
                 {/* </Parallax> */}
                 {/* </div> */}
