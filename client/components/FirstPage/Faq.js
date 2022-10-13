@@ -173,7 +173,7 @@ export default function ControlledAccordions() {
               <div 
               data-aos="fade-up-left" data-aos-duration="1000"
               >
-              <img src="/faq3.png" height={150} width={150} />
+              <img src="/lightout.svg" height={150} width={150} />
               </div>
            </Box>
               </BS.Col>

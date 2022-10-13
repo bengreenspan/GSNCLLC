@@ -43,13 +43,16 @@ const Who = () => {
               <Container sx={{ mt: 5, mb:10, justifyContent: "center" }}>
                 <Box sx={{ display: "flex", justifyContent: "center" }}>
                   <BS.Row>
-                  <BS.Col lg={6} md={7} sm={8} xs={12}>
+                  <BS.Col lg={6} md={7} sm={8} xs={10}>
                     <div data-aos="fade-right" data-aos-duration="1000">
                       <img src="/cbsoverhead.webp" width="400" height="300" />{" "}
                     </div>
+                    <Box 
+                    sx={{ mb:10 }}
+                    ></Box>
                   </BS.Col>
                   <br />
-                  <BS.Col lg={6}  md={7} sm={8} xs={12}>
+                  <BS.Col lg={6}  md={7} sm={8} xs={10}>
                     <Typography
                       align="left"
                       component={"span"}
