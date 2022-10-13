@@ -221,7 +221,7 @@ const WeekCalendar = () => {
                       data-aos="fade-up"
                       data-aos-duration="500"
                       data-aos-offset="200"
-                      className="fontbold"
+                      // className="fontbold"
                     >
                       Friday:
                       <div className="links">

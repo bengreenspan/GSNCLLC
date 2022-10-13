@@ -11,14 +11,11 @@ import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import TextField from "@mui/material/TextField";
 
-
-
 const FirstContact = () => {
   useEffect(() => {
     Aos.init({});
   }, []);
 
- 
   return (
     <div className="firstbutton ">
       <BS.Container>
@@ -33,7 +30,7 @@ const FirstContact = () => {
           }}
         >
           <BS.Row>
-            <BS.Col lg={5} md={8} sm={8}  xs={12} >
+            <BS.Col lg={5} md={8} sm={8} xs={12}>
               <div data-aos="fade-up" data-aos-duration="2000">
                 <Typography>
                   <Typography
@@ -51,7 +48,6 @@ const FirstContact = () => {
                     <div className="fontbold">
                       Columbia Business School Happenings
                     </div>
-                    <div class="bg"></div>
                     <br />
                     <h4 className="font">
                       {" "}
@@ -74,8 +70,6 @@ const FirstContact = () => {
                 </Typography>
               </div>
             </BS.Col>
-
-  
           </BS.Row>
         </Box>
       </BS.Container>
