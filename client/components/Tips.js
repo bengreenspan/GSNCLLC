@@ -237,7 +237,7 @@ const Tips = () => {
                   <div
                     data-aos="fade-up"
                     data-aos-duration="1250"
-                    data-aos-offset="300"
+                    // data-aos-offset="300"
                     className="fontbold"
                   >
                     Jake's Dilemma Happy Hour
