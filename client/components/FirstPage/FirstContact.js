@@ -33,16 +33,17 @@ const FirstContact = () => {
           }}
         >
           <BS.Row>
-            <BS.Col sm={6}>
+            <BS.Col lg={5} md={8} sm={8}  xs={12} >
               <div data-aos="fade-up" data-aos-duration="2000">
                 <Typography>
                   <Typography
                     variant="h3"
+                    align="center"
                     className="white-background"
                     sx={{
-                      pt: 3,
+                      pt: 8,
                       pl: 3,
-                      // pr: 3,
+                      pr: 8,
                       pb: 8,
                       justifyContent: "center",
                     }}

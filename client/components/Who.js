@@ -40,19 +40,20 @@ const Who = () => {
         >
           <div>
             <div>
-              <Container sx={{ mt: 5, justifyContent: "center" }}>
+              <Container sx={{ mt: 5, mb:10, justifyContent: "center" }}>
                 <Box sx={{ display: "flex", justifyContent: "center" }}>
-                  <BS.Col md={6} sm={6} xs={12}>
+                  <BS.Row>
+                  <BS.Col lg={6} md={7} sm={8} xs={12}>
                     <div data-aos="fade-right" data-aos-duration="1000">
                       <img src="/cbsoverhead.webp" width="400" height="300" />{" "}
                     </div>
                   </BS.Col>
                   <br />
-                  <BS.Col md={6} sm={6} xs={12}>
+                  <BS.Col lg={6}  md={7} sm={8} xs={12}>
                     <Typography
-                      align="center"
+                      align="left"
                       component={"span"}
-                      sx={{ mt: 5, pb: 0 }}
+                      sx={{ mt: 0, pb: 0 }}
                     >
                       <h5 className="font">
                         <div data-aos="fade-left" data-aos-duration="1000">
@@ -69,6 +70,7 @@ const Who = () => {
                       </h5>
                     </Typography>
                   </BS.Col>
+                  </BS.Row>
                   <br />
                   <br />
                   <br />
