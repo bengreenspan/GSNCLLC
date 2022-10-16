@@ -24,7 +24,7 @@ export const Main = () => (
     <EmailForm />
     <WeekCalendar />
     <div className="gray">
-      {/* <Customers /> */}
+      <Customers />
     </div>
 
     {/* <Map /> */}

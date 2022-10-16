@@ -23,9 +23,7 @@ const Customers = () => {
       >
         <BS.Row>
           <BS.Col sm={5} xs={8}>
-            <div
-            data-aos="fade-left" data-aos-duration="1000"
-            >
+            <div data-aos="fade-left" data-aos-duration="1000">
               <Container sx={{ mt: 0, pl: 30, justifyContent: "center" }}>
                 <Box
                   // variant="h3"
@@ -33,7 +31,7 @@ const Customers = () => {
                   sx={{ justifyContent: "center" }}
                 >
                   {" "}
-                  <Typography component={"span"} sx={{ mt: 5, pb: 5,  }}>
+                  <Typography component={"span"} sx={{ mt: 5, pb: 5 }}>
                     <h1 className="fontbold">Featured Event</h1>
                     <br />
                   </Typography>
@@ -46,7 +44,13 @@ const Customers = () => {
                   <br />
                   <Typography component={"span"} sx={{ mt: 10, pb: 0 }}>
                     <h4 className="font">
-                    CREtech is the global leader of events and thought leadership in built world innovation and technology. The CREtech platform brings together 100,000+ and growing global innovators from leading startups, investors, owners/operators, developers and brokers as well as thousands of in-person attendees annually.
+                      The Africa Business Club is excited to announce the 19th
+                      Columbia Africa Conference (formerly Africa Economic
+                      Forum), a student-led collaboration between Columbia
+                      Business School, Columbia School of International and
+                      Public Affairs, and Columbia Engineering, taking place in
+                      person on Friday, October 28th, and Saturday, October
+                      29th, 2022.
                     </h4>
                   </Typography>
                   <br />
@@ -58,10 +62,8 @@ const Customers = () => {
           </BS.Col>
 
           <BS.Col sm={7} xs={12}>
-            <div
-             data-aos="fade-left" data-aos-duration="1000"
-            >
-              <Container sx={{  justifyContent: "center" }}>
+            <div data-aos="fade-left" data-aos-duration="1000">
+              <Container sx={{ justifyContent: "center" }}>
                 <Box
                   // variant="h3"
                   // className="white-background"
@@ -69,24 +71,24 @@ const Customers = () => {
                 >
                   {" "}
                   <div data-aos="fade-left">
-                  <Typography component={"span"} sx={{ mt: 5, pb: 5,  }}>
-                  <h1 className="fontbold">10/12 & 10/13</h1>
-                  <br />
-                    <h1 className="font">Commercial Real Estate Tech Conference </h1>
-                    <br />
-                  </Typography>
-                  <CBS />
+                    <Typography component={"span"} sx={{ mt: 5, pb: 5 }}>
+                      <h1 className="fontbold">10/28 & 10/29</h1>
+                      <br />
+                      <h1 className="font">
+                      19th Annual Columbia Africa Conference
+                      </h1>
+                      <br />
+                    </Typography>
+                    <CBS />
                   </div>
                   <br />
-
-                  <div      className="firstbutton" data-aos="fade-down">
-                  <Typography sx={{ pt: 4, pl:10 }}>
+                  <div className="firstbutton" data-aos="fade-down">
+                    <Typography sx={{ pt: 4, pl: 10 }}>
                       <div
                         data-aos="fade-left"
                         data-aos-offset="300"
                         data-aos-duration="2000"
                       >
-    
                         {/* <Link to="/Blog" href="#">
                           <button className="learn-more">
                             <span className="circle" aria-hidden="true">

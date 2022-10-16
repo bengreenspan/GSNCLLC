@@ -4,10 +4,10 @@ import { Parallax, Background } from "react-parallax";
 const CBS = () => {
   return (
     <div className="flex">
-      <Parallax bgImage={"./cbs.jpeg"} strength={600}>
-        <a target="_blank" href="https://events.cretech.com/event/d6115969-afbc-4087-a102-33322bd7ef6b/websitePage:535c6eea-fe0f-4f83-b356-a57c21c713b4">
+      <Parallax bgImage={"./africa.png"} strength={600}>
+        <a target="_blank" href="https://groups.gsb.columbia.edu/abc/rsvp_boot?id=30258">
           <div className="container1">
-            <img src="/cbs.jpeg" alt="Mc" className="image1" />
+            <img src="/africa.png" alt="Mc" className="image1" />
             <div className="middle1">
               <div className="text1">Click Here</div>
             </div>
