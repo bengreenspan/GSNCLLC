@@ -43,7 +43,7 @@ const WeekCalendar = () => {
             >
               <div className="fontbold">
                 Weekly Events
-                <h4>10/10/22 - 10/14/22</h4>
+                <h4>10/17/22 - 10/22/22</h4>
                 <br />
                 <BS.Row>
                   <BS.Col lg={4} md={6} sm={12} xs={12}>
@@ -58,86 +58,16 @@ const WeekCalendar = () => {
                         <div className="links">
                           <a
                             target="_blank"
-                            href="https://groups.gsb.columbia.edu/vcc/rsvp_boot?id=32333"
+                            href="
+                            https://www8.gsb.columbia.edu/newsroom/newsn/13258/columbia-business-school-launches-new-digital-future-initiative
+                            "
                           >
                             <h3>
-                              Technology Pioneers Series: Fireside Chat with
-                              Alan Patricof
+                              Columbia University Digital Finance Seminar Series
                             </h3>
                           </a>
                         </div>
-                        <h4>Cooperman Commons, Geffen Hall, 12:00pm-1:00pm </h4>
-                      </div>
-                      <br />
-                      <div>
-                        <div className="links">
-                          <a
-                            target="_blank"
-                            href="https://www.eventbrite.com/e/the-innovation-mindset-eight-essential-steps-to-transform-any-industry-tickets-417241991027?lang=en-us&locale=en_US&status=30&view=listing"
-                          >
-                            <h3>
-                              The Innovation Mindset: Eight Essential Steps to
-                              Transform Any Industry
-                            </h3>
-                          </a>
-                        </div>
-                        {/* <h4>20 person limit</h4> */}
-                        <h4>Avery Hall, Wood Auditorium 6:30pm</h4>
-                      </div>
-                      <br />
-                      <div>
-                        <div className="links">
-                          <a
-                            target="_blank"
-                            href="https://www.publichealth.columbia.edu/public-health-now/events/lenapehoking-indigenous-epistemologies-and-idea-university"
-                          >
-                            <h3>
-                              Lenapehoking: On Indigenous Epistemologies and the
-                              Idea of the University
-                            </h3>
-                          </a>
-                        </div>
-                        {/* <h4>20 person limit</h4> */}
-                        <h4>
-                          Allan Rosenfield Building, 722 West 168th St.
-                          3:30pm-5:00pm{" "}
-                        </h4>
-                      </div>
-                      <br />
-                      <div>
-                        <div className="links">
-                          <a
-                            target="_blank"
-                            href="https://www.arch.columbia.edu/events/2752-raven-chacon?utm_source=newsletter&utm_medium=email&utm_campaign=highlights100722"
-                          >
-                            <h3>
-                              A lecture by Raven Chacon, composer, performer and
-                              installation artist from the Navajo Nation
-                            </h3>
-                          </a>
-                        </div>
-                        {/* <h4>20 person limit</h4> */}
-                        <h4>
-                          Allan Rosenfield Building, 722 West 168th St.
-                          3:30pm-5:00pm{" "}
-                        </h4>
-                      </div>
-                      <br />
-                      <div>
-                        <div className="links">
-                          <a
-                            target="_blank"
-                            href="https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=29831"
-                          >
-                            <h3>
-                              {" "}
-                              Tech Club: Product Management Day in the Life
-                            </h3>
-                          </a>
-                        </div>
-                        <h3>
-                          <h4>Geffin 620 6:00pm-7:30pm </h4>
-                        </h3>
+                        <h4>620 Geffen Hall, 5:45pm-6:45pm </h4>
                       </div>
                       <br />
                     </div>
@@ -156,17 +86,12 @@ const WeekCalendar = () => {
                         <div>
                           <a
                             target="_blank"
-                            href="https://milsteincenter.org/civicrm/event/info?reset=1&id=1073
-
-                    "
+                            // href="https://milsteincenter.org/civicrm/event/info?reset=1&id=1073"
                           >
-                            <h3>
-                              Distinguished Speaker Series with Matthew Lustig:
-                              Real Estate IB, Lazard
-                            </h3>
+                            <h3>No Events Found</h3>
                           </a>
 
-                          <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4>
+                          {/* <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4> */}
                         </div>
                       </div>
                       <br />
@@ -184,20 +109,36 @@ const WeekCalendar = () => {
                         <div className="links">
                           <a
                             target="_blank"
-                            href="https://columbiauniversity.zoom.us/meeting/register/tJYvcO-oqDopEtzEu3OvdPKOyKWq8ubj7IP4%20 "
+                            // href="https://columbiauniversity.zoom.us/meeting/register/tJYvcO-oqDopEtzEu3OvdPKOyKWq8ubj7IP4%20 "
+                          >
+                            <h3>Blood Drive!</h3>
+                          </a>
+                        </div>
+                        <h4>
+                          {" "}
+                          10:00am - 4:00pm, Columbia University Irving Medical
+                          Center 50 Haven Avenue, Main Lounge
+                        </h4>
+                      </div>
+                      <br />
+                      <div>
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://groups.gsb.columbia.edu/XPCM/rsvp_boot?id=29390"
                           >
                             <h3>
-                              CU there! Presents: The Art and Science of
-                              Networking{" "}
+                              An Easy Way to Start a Job Search - "Two Hour Job
+                              Search"{" "}
                             </h3>
                           </a>
                         </div>
-                        <h4> Virtual, 8:00pm - 9:00pm </h4>
+                        <h4> 5:30pm - 6:30pm, virtual</h4>
                       </div>
                       <br />
                       <div>
                         {" "}
-                        <h3> Rugby x Hispanic Business Assocation (HBA)</h3>
+                        <h3> Rugby x Energy & Infrastructure</h3>
                         <h4>Jake's Dilemma 8:30pm-?? (Open bar)</h4>
                       </div>
                       <br />
@@ -213,6 +154,18 @@ const WeekCalendar = () => {
                       className="fontbold"
                     >
                       Thursday:
+                      <div className="links">
+                        <div>
+                          <a
+                            target="_blank"
+                            // href="https://milsteincenter.org/civicrm/event/info?reset=1&id=1073"
+                          >
+                            <h3>No Events Found</h3>
+                          </a>
+
+                          {/* <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4> */}
+                        </div>
+                      </div>
                     </div>
                   </BS.Col>
 
@@ -227,15 +180,12 @@ const WeekCalendar = () => {
                       <div className="links">
                         <a
                           target="_blank"
-                          href="https://columbiasocialenterprise.org/civicrm/event/register?id=866&reset=1"
+                          href="https://gsb-columbia-edu.zoom.us/j/94493164297#success"
                         >
-                          <h3>
-                            21st Annual Social Enterprise Conference, Capital
-                            for Good, Tamer Institute
-                          </h3>
+                          <h3>Lang Center Virtual Office Hours</h3>
                         </a>
-                        <h4> Cooperman Commons, 8am - 6:30pm </h4>
-                        <h4> Event free with code: C4G100off </h4>
+                        <h4> 1:15pm-2:15 pm</h4>
+                        {/* <h4> Event free with code: C4G100off </h4> */}
                       </div>
                     </div>
                     <br />
@@ -248,6 +198,18 @@ const WeekCalendar = () => {
                       className="fontbold"
                     >
                       Saturday:
+                      <div className="links">
+                        <div>
+                          <a
+                            target="_blank"
+                            // href="https://milsteincenter.org/civicrm/event/info?reset=1&id=1073"
+                          >
+                            <h3>No Events Found</h3>
+                          </a>
+
+                          {/* <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4> */}
+                        </div>
+                      </div>
                     </div>
                   </BS.Col>
                 </BS.Row>

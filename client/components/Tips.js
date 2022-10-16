@@ -156,13 +156,10 @@ const Tips = () => {
                 </BS.Col>
               </BS.Row>
               <Box
-                    sx={{
-                 
-                      pb: 10,
-
-                    }}
-                  >
-                          </Box>
+                sx={{
+                  pb: 10,
+                }}
+              ></Box>
               <BS.Row>
                 <BS.Col lg={4} md={6} sm={10} xs={10}>
                   <div
@@ -220,7 +217,6 @@ const Tips = () => {
                       >
                         AWS Credits
                       </a>
-                      <div></div>
                       <h4>
                         {" "}
                         The Lang Center connected with AWS to give every student
@@ -261,9 +257,15 @@ const Tips = () => {
                     // data-aos-offset="300"
                     className="fontbold"
                   >
-                    Booking Rooms in Uris
+                    <div className="links">
+                      <a
+                        target="_blank"
+                        href="https://seats.library.columbia.edu/reserve/spaces/business-group-study"
+                      >
+                        Booking Rooms in Uris
+                      </a>
+                    </div>
                     <div>
-                      <div className="links"></div>
                       <h4>
                         {" "}
                         Watson Library in Uris has study rooms similar to Kravis
@@ -408,6 +410,38 @@ const Tips = () => {
                   </div>
                 </BS.Col>
               </BS.Row>
+
+              <BS.Row>
+                <BS.Col lg={4} md={6} sm={10} xs={10}>
+                  <div
+                    data-aos="fade-up"
+                    data-aos-duration="500"
+                    // data-aos-offset="200"
+                    className="fontbold"
+                  >
+                    <div className="links">
+                      <a
+                        target="_blank"
+                        href="https://www8.gsb.columbia.edu/caseworks/about"
+                      >
+                        Additional Published Cases
+                      </a>
+                      <div>
+                        <h4>
+                          Students have access to the full repository of
+                          published cases in the Columbia eco system. All
+                          material is closely tied to and based on the research
+                          and expertise of Columbia’s faculty.
+                        </h4>
+                      </div>
+                    </div>
+                    <br />
+                  </div>
+                </BS.Col>
+                <BS.Col lg={4} md={6} sm={10} xs={10}></BS.Col>
+
+                <BS.Col lg={4} md={6} sm={10} xs={10}></BS.Col>
+              </BS.Row>
             </Typography>
           </div>
         </Box>
@@ -436,17 +470,17 @@ const Tips = () => {
                   </Typography>
                 </Typography>
                 <div data-aos="fade-up-right" data-aos-duration="1500">
-                      <img src="rocket.svg" height={160} alt="Tips" />
-                    </div>
-                    <Box   sx={{
-                      pt: 0,
-                      pl: 0,
-                      pr: 0,
-                      pb: 10,
-                      // justifyContent: "center",
-                    }}>
-
-                    </Box>
+                  <img src="rocket.svg" height={160} alt="Tips" />
+                </div>
+                <Box
+                  sx={{
+                    pt: 0,
+                    pl: 0,
+                    pr: 0,
+                    pb: 10,
+                    // justifyContent: "center",
+                  }}
+                ></Box>
               </BS.Col>
               <BS.Col md={8}>
                 <div>
