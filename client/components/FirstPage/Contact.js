@@ -34,7 +34,7 @@ const Contact = () => {
           <Box sx={{ display: "flex", justifyContent: "center", pb: 3 }}>
             <Typography component={"span"} variant="h4" marginTop={3}>
             <Link to="/blog">
-              <button to="/Blog" >Go To Happenings</button>
+              {/* <button to="/Blog" >Go To Happenings</button> */}
               </Link>
             </Typography>
           </Box>
