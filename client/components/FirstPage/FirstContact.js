@@ -26,7 +26,7 @@ const FirstContact = () => {
             borderRadius: "15px",
             pt: 20,
             pb: 30,
-            pl: 15,
+            pl: 5,
           }}
         >
           <BS.Row>
@@ -40,7 +40,7 @@ const FirstContact = () => {
                     sx={{
                       pt: 8,
                       pl: 3,
-                      pr: 8,
+                      pr: 3,
                       pb: 8,
                       justifyContent: "center",
                     }}
