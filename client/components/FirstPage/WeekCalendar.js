@@ -199,16 +199,14 @@ const WeekCalendar = () => {
                     >
                       Saturday:
                       <div className="links">
-                        <div>
-                          <a
-                            target="_blank"
-                            // href="https://milsteincenter.org/civicrm/event/info?reset=1&id=1073"
-                          >
-                            <h3>No Events Found</h3>
-                          </a>
-
-                          {/* <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4> */}
-                        </div>
+                        <a
+                          target="_blank"
+                          href="https://groups.gsb.columbia.edu/FinTech/rsvp_boot?id=32693"
+                        >
+                          <h3>EMBA - Fintech & Blockchain Kick Off</h3>
+                        </a>
+                        <h4> 11:30am-12:30pm, Geffen 380</h4>
+                        <h4> Meet the board, ask questions, alot of ice cream </h4>
                       </div>
                     </div>
                   </BS.Col>
