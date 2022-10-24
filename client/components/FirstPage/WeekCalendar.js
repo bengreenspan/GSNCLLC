@@ -60,6 +60,18 @@ const WeekCalendar = () => {
                             target="_blank"
                             href="https://www.eventbrite.com/e/introduction-to-healthcare-services-landscape-tickets-417378980767"
                           >
+                            <h3>SABA Diwali Mithai Munchies</h3>
+                          </a>
+                        </div>
+                        <h4>Kravis 680, 12:00pm </h4>
+                      </div>
+                      <br />
+                      <div>
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://www.eventbrite.com/e/introduction-to-healthcare-services-landscape-tickets-417378980767"
+                          >
                             <h3>
                               Introduction to Healthcare Services Landscape
                             </h3>
@@ -67,6 +79,8 @@ const WeekCalendar = () => {
                         </div>
                         <h4>Kravis 820, 6:00pm-7:00pm </h4>
                       </div>
+          
+                    
                       <br />
                     </div>
                   </BS.Col>
@@ -126,12 +140,18 @@ const WeekCalendar = () => {
                         <div>
                           <a
                             target="_blank"
-                            // href="https://milsteincenter.org/civicrm/event/info?reset=1&id=1073"
+                            href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=29771"
                           >
-                            <h3>No Events Found</h3>
+                            <h3>
+                              Bootstrapping a Japanese Snack Subscription to
+                              $100M Valuation in 5 Years
+                            </h3>
                           </a>
 
-                          {/* <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4> */}
+                          <h4>
+                            Location Displayed on Registration 12:30pm-1:30pm
+                            (Lunch Provided)
+                          </h4>
                         </div>
                       </div>
                     </div>
@@ -145,6 +165,24 @@ const WeekCalendar = () => {
                       // className="fontbold"
                     >
                       Friday:
+                      <br />
+                      <div className="links">
+                        <a
+                          target="_blank"
+                          href="https://www.columbiaafricon.com/"
+                        >
+                          <h3>
+                            {" "}
+                            19th Annual 
+ Columbia Africa Conference
+                          </h3>
+                        </a>
+                        <h4>
+                          {" "}
+                          Events Happening All Day Friday and Saturday. Click link for more details
+                        </h4>
+                      </div>
+                      <br />
                       <div className="links">
                         <a
                           target="_blank"
@@ -154,6 +192,7 @@ const WeekCalendar = () => {
                         </a>
                         <h4> 1:15pm-2:15 pm</h4>
                       </div>
+                      <br />
                       <div className="links">
                         <a
                           target="_blank"
@@ -187,10 +226,10 @@ const WeekCalendar = () => {
                             target="_blank"
                             // href="https://milsteincenter.org/civicrm/event/info?reset=1&id=1073"
                           >
-                            <h3>No Events Found</h3>
+                            <h3>CBS Rubgy Vs Wharton</h3>
                           </a>
 
-                          {/* <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4> */}
+                          <h4>Randall's Island, Field 51 4:30 Kickoff</h4>
                         </div>
                       </div>
                     </div>
