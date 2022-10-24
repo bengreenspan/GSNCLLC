@@ -1,35 +1,69 @@
-import React from "react";
+import * as React from "react";
+import dayjs from "dayjs";
+import TextField from "@mui/material/TextField";
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { StaticDatePicker } from "@mui/x-date-pickers/StaticDatePicker";
 import * as BS from "react-bootstrap";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import { Container } from "@mui/material";
-import { Divider } from "@mui/material";
-// import "aos/dist/aos.css"
-import Aos from "aos";
-import { Link } from "react-router-dom";
-import { Calendar, momentLocalizer } from 'react-big-calendar'
-import moment from 'moment'
+import { PickersDay } from "@mui/x-date-pickers/PickersDay";
+import Badge from "@mui/material/Badge";
+import EventAvailableIcon from '@mui/icons-material/EventAvailable';
 
+const isWeekend = (date) => {
+  const day = date.day();
+  return day === 0 || day === 6;
+};
 
+const Monthly = () => {
+  const [highlightedDays, setHighlightedDays] = React.useState([1, 2, 15]);
+  const [value, setValue] = React.useState(dayjs(new Date()));
 
-const localizer = momentLocalizer(moment) // or globalizeLocalizer
+console.log(highlightedDays)
 
-const MyCalendar = (props) => (
-  <div className="myCustomHeight">
-    <Calendar
-      localizer={localizer}
-      events={myEventsList}
-      startAccessor="start"
-      endAccessor="end"
-    />
-  </div>
-)
-export default MyCalendar;
+  return (
+    <BS.Container>
+      <Box
+        sx={{
+          pt: 13,
+          display: "flex",
+          justifyContent: "left",
+        }}
+      >
+        {/* <div>{value}</div> */}
+        <BS.Col lg={6} md={6} sm={6} xs={6}>
+          <LocalizationProvider dateAdapter={AdapterDayjs}>
+            <StaticDatePicker
+              orientation="portrait"
+              openTo="day"
+              value={value}
+              // shouldDisableDate={isWeekend}
+              onChange={(newValue) => {
+                setValue(newValue);
+              }}
+              renderInput={(params) => <TextField {...params} />}
+              renderDay={(day, _value, DayComponentProps) => {
+                const isSelected =
+                  !DayComponentProps.outsideCurrentMonth &&
+                  highlightedDays.indexOf(day.date()) >= 0;
 
+                return (
+                  <Badge
+                    key={day.toString()}
+                    overlap="circular"
+                    badgeContent={isSelected ? <EventAvailableIcon/> : undefined}
+                  >
+                    <PickersDay {...DayComponentProps} />
+                  </Badge>
+                );
+              }}
+            />
+          </LocalizationProvider>
 
-
-
-// Setup the localizer by providing the moment (or globalize, or Luxon) Object
-// to the correct localizer.
-
-
+          {/* <BS.Row></BS.Row> */}
+        </BS.Col>
+      </Box>
+    </BS.Container>
+  );
+};
+export default Monthly;

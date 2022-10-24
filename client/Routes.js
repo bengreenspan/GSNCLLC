@@ -36,7 +36,7 @@ class Routes extends Component {
             <Route path='/' exact component={ Main } />
             <Route path="/login" component={Login} />
             <Route path="/who" component={Who} />
-            <Route path="/Blog" component={Blog} />
+            <Route path="/Blog" component={MonthlyCalendar} />
             <Route path="/Assignments" component={Assignments} />
             <Route path="/Tips" component={Tips} />
             <Route path="/Calendar" component={MonthlyCalendar} />
