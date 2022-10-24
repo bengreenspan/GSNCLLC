@@ -43,7 +43,7 @@ const WeekCalendar = () => {
             >
               <div className="fontbold">
                 Weekly Events
-                <h4>10/17/22 - 10/22/22</h4>
+                <h4>10/24/22 - 10/29/22</h4>
                 <br />
                 <BS.Row>
                   <BS.Col lg={4} md={6} sm={12} xs={12}>
@@ -58,16 +58,14 @@ const WeekCalendar = () => {
                         <div className="links">
                           <a
                             target="_blank"
-                            href="
-                            https://www8.gsb.columbia.edu/newsroom/newsn/13258/columbia-business-school-launches-new-digital-future-initiative
-                            "
+                            href="https://www.eventbrite.com/e/introduction-to-healthcare-services-landscape-tickets-417378980767"
                           >
                             <h3>
-                              Columbia University Digital Finance Seminar Series
+                              Introduction to Healthcare Services Landscape
                             </h3>
                           </a>
                         </div>
-                        <h4>620 Geffen Hall, 5:45pm-6:45pm </h4>
+                        <h4>Kravis 820, 6:00pm-7:00pm </h4>
                       </div>
                       <br />
                     </div>
@@ -105,36 +103,6 @@ const WeekCalendar = () => {
                       className="fontbold"
                     >
                       Wednesday:
-                      <div>
-                        <div className="links">
-                          <a
-                            target="_blank"
-                            // href="https://columbiauniversity.zoom.us/meeting/register/tJYvcO-oqDopEtzEu3OvdPKOyKWq8ubj7IP4%20 "
-                          >
-                            <h3>Blood Drive!</h3>
-                          </a>
-                        </div>
-                        <h4>
-                          {" "}
-                          10:00am - 4:00pm, Columbia University Irving Medical
-                          Center 50 Haven Avenue, Main Lounge
-                        </h4>
-                      </div>
-                      <br />
-                      <div>
-                        <div className="links">
-                          <a
-                            target="_blank"
-                            href="https://groups.gsb.columbia.edu/XPCM/rsvp_boot?id=29390"
-                          >
-                            <h3>
-                              An Easy Way to Start a Job Search - "Two Hour Job
-                              Search"{" "}
-                            </h3>
-                          </a>
-                        </div>
-                        <h4> 5:30pm - 6:30pm, virtual</h4>
-                      </div>
                       <br />
                       <div>
                         {" "}
@@ -185,7 +153,22 @@ const WeekCalendar = () => {
                           <h3>Lang Center Virtual Office Hours</h3>
                         </a>
                         <h4> 1:15pm-2:15 pm</h4>
-                        {/* <h4> Event free with code: C4G100off </h4> */}
+                      </div>
+                      <div className="links">
+                        <a
+                          target="_blank"
+                          href="https://gsb-columbia-edu.zoom.us/j/94493164297#success"
+                        >
+                          <h3>
+                            {" "}
+                            Real Estate: Argus Training Workshop with Josh Kahr
+                          </h3>
+                        </a>
+                        <h4>
+                          {" "}
+                          All Day 9:00am - 5:00pm, Location unlocked upon
+                          registration)
+                        </h4>
                       </div>
                     </div>
                     <br />
@@ -199,14 +182,16 @@ const WeekCalendar = () => {
                     >
                       Saturday:
                       <div className="links">
-                        <a
-                          target="_blank"
-                          href="https://groups.gsb.columbia.edu/FinTech/rsvp_boot?id=32693"
-                        >
-                          <h3>EMBA - Fintech & Blockchain Kick Off</h3>
-                        </a>
-                        <h4> 11:30am-12:30pm, Geffen 380</h4>
-                        <h4> Meet the board, ask questions, alot of ice cream </h4>
+                        <div>
+                          <a
+                            target="_blank"
+                            // href="https://milsteincenter.org/civicrm/event/info?reset=1&id=1073"
+                          >
+                            <h3>No Events Found</h3>
+                          </a>
+
+                          {/* <h4>Kravis 840 12:30pm-1:30pm (Lunch Provided)</h4> */}
+                        </div>
                       </div>
                     </div>
                   </BS.Col>
