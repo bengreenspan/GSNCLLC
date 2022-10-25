@@ -6,7 +6,7 @@
 // linked list 1
 
 struct Node {
-    double data;
+    double data; 
     struct Node *next; //holds a pointer to the next one of the same struct
 };
 
@@ -18,12 +18,11 @@ struct Node {
  * Returns NULL if malloc for the node fails.
  */
 struct Node *prepend(struct Node *list, double x)
-        //is ^ this a pointer to something called prepend?
-        // is this "put in a pointer to a list and a double x in a struct node"
 
 {
     struct Node *node = (struct Node *)malloc(sizeof(struct Node));
-    // whats lower case *node mean
+    // whats this line mean
+
     if (node == NULL)
         return NULL;
 

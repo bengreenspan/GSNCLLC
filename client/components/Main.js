@@ -11,8 +11,14 @@ import Carousel from "./FirstPage/Carousel";
 import FirstContact from "./FirstPage/FirstContact";
 import { Divider } from "@mui/material";
 import WeekCalendar from "./FirstPage/WeekCalendar";
+import { inject } from '@vercel/analytics';
+
+
 
 <Divider sx={{ m: 0, p: 0 }} />;
+
+inject();
+
 
 export const Main = () => (
   <div>
