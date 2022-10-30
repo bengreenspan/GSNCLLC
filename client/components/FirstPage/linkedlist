@@ -21,7 +21,6 @@ struct Node *prepend(struct Node *list, double x)
 
 {
     struct Node *node = (struct Node *)malloc(sizeof(struct Node));
-    // whats this line mean
 
     if (node == NULL)
         return NULL;

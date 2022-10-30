@@ -43,7 +43,7 @@ const WeekCalendar = () => {
             >
               <div className="fontbold">
                 Weekly Events
-                <h4>10/24/22 - 10/29/22</h4>
+                <h4>10/31/22 - 11/05/22</h4>
                 <br />
                 <BS.Row>
                   <BS.Col lg={4} md={6} sm={12} xs={12}>
@@ -56,26 +56,14 @@ const WeekCalendar = () => {
                       {/* <br /> */}
                       <div>
                         <div className="links">
-                          <a
+                          {/* <a
                             target="_blank"
                             href="https://www.eventbrite.com/e/introduction-to-healthcare-services-landscape-tickets-417378980767"
-                          >
-                            SABA Diwali Mithai Munchies
-                          </a>
+                          > */}
+                          No Events Found
+                          {/* </a> */}
                         </div>
-                        <h4>Kravis 680, 12:00pm </h4>
-                      </div>
-                      <br />
-                      <div>
-                        <div className="links">
-                          <a
-                            target="_blank"
-                            href="https://www.eventbrite.com/e/introduction-to-healthcare-services-landscape-tickets-417378980767"
-                          >
-                            Introduction to Healthcare Services Landscape
-                          </a>
-                        </div>
-                        <h4>Kravis 820, 6:00pm-7:00pm </h4>
+                        {/* <h4>Kravis 680, 12:00pm </h4> */}
                       </div>
                       <br />
                     </div>
@@ -95,15 +83,26 @@ const WeekCalendar = () => {
                         <div>
                           <a
                             target="_blank"
-                            href="https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=32440"
+                            href="https://columbia.startuptree.co/event/s/EZbEVNLjRFa2gq3FopnVqq/VC-%2526-Entrepreneurship-Courses-Info-Session"
                           >
-                            Tech Club Fireside Chat with Christian Lee
+                            VC Courses Info Session
                           </a>
 
-                          <h4>
-                            Location Unlocked on Registration 12:00pm-1:30pm
-                            (Lunch Provided)
-                          </h4>
+                          <h4>Virtual, 12:30pm-1:30pm</h4>
+                          <br />
+                        </div>
+                      </div>
+                      <div className="links">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://entrepreneurship.columbia.edu/event/pitch-practice-workshop-virtual-impressing-venture-competition-judges-and-angels-in-5-minutes-or-less/"
+                          >
+                            Impressing Venture Competition Judges (And Angels)
+                            in 5 Minutes or Less
+                          </a>
+
+                          <h4>2:00pm-3:00pm, Virtual</h4>
                         </div>
                       </div>
                       <br />
@@ -111,16 +110,56 @@ const WeekCalendar = () => {
                         <div>
                           <a
                             target="_blank"
-                            href="https://us02web.zoom.us/webinar/register/7716655245659/WN_o_zS6ekQQbKQgqQHZK5Clw"
+                            href="https://www.eventbrite.com/e/microplastic-madness-film-screening-and-panel-discussion-tickets-430709893887"
                           >
-                            Back to School: What Gabby Slome, Co-Founder of
-                            Ollie and Cooper, Learned in Business School{" "}
+                            Microplastic Madness: Film Screening and Panel
+                            Discussion by the Columbia Climate School
                           </a>
 
-                          <h4>Virtual Event 1:00pm -</h4>
+                          <h4>5:00pm - 7:00pm, The Forum </h4>
+                        </div>
+                        <br />
+                      </div>
+                      <div className="links">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://groups.gsb.columbia.edu/FinStudies/rsvp_boot?id=32748"
+                          >
+                            State of Global Markets presentation by Program for
+                            Financial Studies
+                          </a>
+
+                          <h4>5:30pm - 7:00pm, Kravis 670 </h4>
                         </div>
                       </div>
                       <br />
+                      <div className="links">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://www.eventbrite.com/e/an-evening-with-alice-chen-05-ceo-99-ranch-market-tickets-444593981567?aff=ebdssbdestsearch#search"
+                          >
+                            An Evening with Alice Chen '05, CEO, 99 Ranch Market
+                          </a>
+
+                          <h4>6:30pm - 8:30pm, 120 Cooperman Commons</h4>
+                        </div>
+                      </div>
+                      <br />
+                      <div className="links">
+                        <div>
+                          <a
+                            target="_blank"
+                            href="https://groups.gsb.columbia.edu/abc/rsvp_boot?id=32762"
+                          >
+                            Getting into Google: An Illuminatory Panel
+                            (Presented by ABC x BBSA x HBA x Technology Club)
+                          </a>
+
+                          <h4>5:30pm - 7:00pm, Geffen 520 </h4>
+                        </div>
+                      </div>
                     </div>
                   </BS.Col>
                   <BS.Col lg={4} md={6} sm={12} xs={12}>
@@ -136,31 +175,44 @@ const WeekCalendar = () => {
                         <div>
                           <a
                             target="_blank"
-                            href="https://groups.gsb.columbia.edu/FinStudies/rsvp_boot?id=32739"
+                            href="https://harriman.columbia.edu/event/world-leaders-forum-klaus-welle-secretary-general-of-the-european-parliament/"
                           >
-                            No Free Lunch Research Seminar Series
+                            World Leaders Forum: The War Against Ukraine
                           </a>
 
                           <h4>
-                            Location Unlocked on Registration 12:15pm-1:30pm
-                            (Lunch Provided)
+                            11:30am - 12:30pm Rotunda, Low Memorial Library
                           </h4>
                         </div>
+                        <br />
+                        <div className="links">
+                          <div>
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/XPCM/rsvp_boot?id=29392"
+                            >
+                              The Art of Salary Negotiation by Experienced
+                              Professionals Career Management
+                            </a>
+
+                            <h4>5:30pm - 6:30pm, Virtual </h4>
+                          </div>
+                        </div>
+                        <br />
                         <div>
                           <a
                             target="_blank"
-                            href="https://groups.gsb.columbia.edu/XPCM/rsvp_boot?id=29391"
+                            href="https://www.eventbrite.com/e/evaluating-future-digital-health-opportunity-tickets-443473510207"
                           >
-                            Mid Career Transitions by Experienced Professionals
-                            Career Management
+                            Evaluating Future Digital Health Opportunity
                           </a>
 
-                          <h4>Virtual 12:30pm-1:30pm</h4>
+                          <h4>6:30pm - 7:30pm, Kravis 640 </h4>
                         </div>
                         <br />
                         <div>
                           {" "}
-                          Rugby x Energy & Infrastructure
+                          Rugby x Sports Business Association
                           <h4>Jake's Dilemma 8:30pm-?? (Open bar)</h4>
                         </div>
                       </div>
@@ -178,19 +230,28 @@ const WeekCalendar = () => {
                       <br />
                       <h1>Thursday:</h1>
                       <div className="links">
+                        <a
+                          target="_blank"
+                          href="https://universitylife.columbia.edu/events/women-life-freedom-irans-movement-womens-rights"
+                        >
+                          Women, Life, Freedom: Iran's Movement for Women's
+                          Rights
+                        </a>
+
+                        <h4>12:00pm - 1:00pm Virtual</h4>
+                      </div>
+                      <br />
+                      <div className="links">
                         <div>
                           <a
                             target="_blank"
-                            href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=29771"
+                            href="https://sanfordbernsteincenter.org/civicrm/event/info?reset=1&id=254"
                           >
-                            Bootstrapping a Japanese Snack Subscription to $100M
-                            Valuation in 5 Years
+                            Running While Black: Finding Freedom in a Sport That
+                            Wasn't Built for Us
                           </a>
 
-                          <h4>
-                            Location Displayed on Registration 12:30pm-1:30pm
-                            (Lunch Provided)
-                          </h4>
+                          <h4>12:30pm - 1:15pm Kravis 870 (PPIL approved)</h4>
                         </div>
                       </div>
                       <br />
@@ -198,13 +259,35 @@ const WeekCalendar = () => {
                         <div className="links">
                           <a
                             target="_blank"
-                            href="https://www.eventbrite.com/e/fundraising-in-a-challenging-environment-with-lauri-moore-09cc-tickets-444634282107"
+                            href="https://groups.gsb.columbia.edu/MAC/rsvp_boot?id=32836"
                           >
-                            Fundraising in a Challenging Environment with Lauri
-                            Moore '09CC
+                            Mock Madness: Product & Brand Marketing Case
+                            Interviews by Marketing Association
                           </a>
 
-                          <h4>12:00pm - 1:00pm Virtual Event</h4>
+                          <h4>12:30pm - 1:30pm Kravis 680</h4>
+                        </div>
+                        <br />
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://www.eventbrite.com/e/building-a-new-business-in-japan-tickets-423452366427"
+                          >
+                            Building a New Business in Japan
+                          </a>
+
+                          <h4>12:30pm - 1:30pm Geffen 570</h4>
+                        </div>
+                        <br />
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://partiful.com/e/ppr3syjdNy8d28aPSFtp"
+                          >
+                            ClusterQ x BBSA Disco Party, $40 pp open bar!
+                          </a>
+
+                          <h4>9:30pm - 11:30pm RVSP to see location</h4>
                         </div>
                       </div>
                     </div>
@@ -223,52 +306,28 @@ const WeekCalendar = () => {
                       <div className="links">
                         <a
                           target="_blank"
-                          href="https://www.columbiaafricon.com/"
+                          href="https://groups.gsb.columbia.edu/MAC/rsvp_boot?id=30997"
                         >
-                          19th Annual Columbia Africa Conference
+                    The Future of Marketing in the Digital Age - MAC Fall Conference 2022
                         </a>
                         <h4>
                           {" "}
-                          Events Happening All Day Friday and Saturday. Click
-                          link for more details
+                        9:00am - 4:00pm Geffen Hall
                         </h4>
                       </div>
                       <br />
                       <div className="links">
                         <a
                           target="_blank"
-                          href="https://www.eventbrite.com/e/sandy10-resilience-equity-climate-justice-tickets-429208814117"
+                          href="https://columbia.startuptree.co/event/s/6jKEWn6PsHmVhqYMNT9ZrC/Leading-in-a-Data-driven-World%253A-Developing-Quantitative-Intuition"
                         >
-                          SANDY+10 - Resilience, Equity, Climate Justice, The
-                          Forum
+                         Leading in a Data-driven World: Developing Quantitative Intuition
                         </a>
-                        <h4> 8:00am - 6:00pm</h4>
+                        <h4> 12:00pm - 1:00pm, Virtual</h4>
                       </div>
                       <br />
-                      <div className="links">
-                        <a
-                          target="_blank"
-                          href="https://gsb-columbia-edu.zoom.us/j/94493164297#success"
-                        >
-                          Lang Center Virtual Office Hours
-                        </a>
-                        <h4> 1:15pm-2:15 pm</h4>
-                      </div>
-                      <br />
-                      <div className="links">
-                        <a
-                          target="_blank"
-                          href="https://gsb-columbia-edu.zoom.us/j/94493164297#success"
-                        >
-                          {" "}
-                          Real Estate: Argus Training Workshop with Josh Kahr
-                        </a>
-                        <h4>
-                          {" "}
-                          All Day 9:00am - 5:00pm, Location unlocked upon
-                          registration)
-                        </h4>
-                      </div>
+                    
+                 
                     </div>
                     <br />
                   </BS.Col>
@@ -283,18 +342,18 @@ const WeekCalendar = () => {
                       <h1> Saturday:</h1>
                       <div className="links">
                         <div>
-                          <a
+                          {/* <a
                             target="_blank"
                             // href="https://milsteincenter.org/civicrm/event/info?reset=1&id=1073"
-                          >
-                            CBS Rubgy Vs Wharton
-                          </a>
+                          > */}
+                                         No Events Found
+                          {/* </a> */}
 
-                          <h4>Randall's Island, Field 51 4:30 Kickoff</h4>
+                          {/* <h4>Randall's Island, Field 51 4:30 Kickoff</h4> */}
                         </div>
                       </div>
                       <br />
-                      <div className="links">
+                      {/* <div className="links">
                         <a
                           target="_blank"
                           href="https://www.energypolicy.columbia.edu/events-calendar/informational-session-global-energy-fellows-program?utm_source=Center+on+Global+Energy+Policy+Mailing+List&utm_campaign=fb4497b249-EMAIL_CAMPAIGN_2020_07_15_01_21_COPY_01&utm_medium=email&utm_term=0_0773077aac-fb4497b249-102420719"
@@ -307,7 +366,7 @@ const WeekCalendar = () => {
                           1:00pm - 2:00pm, Center on Global Energy Policy 1255
                           Amsterdam Ave.
                         </h4>
-                      </div>
+                      </div> */}
                     </div>
                   </BS.Col>
                 </BS.Row>

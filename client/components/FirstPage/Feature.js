@@ -42,7 +42,7 @@ const Customers = () => {
                   <br />
                   <br />
                   <br />
-                  <Typography component={"span"} sx={{ mt: 10, pb: 0 }}>
+                  {/* <Typography component={"span"} sx={{ mt: 10, pb: 0 }}>
                     <h4 className="font">
                       The Africa Business Club is excited to announce the 19th
                       Columbia Africa Conference (formerly Africa Economic
@@ -52,7 +52,7 @@ const Customers = () => {
                       person on Friday, October 28th, and Saturday, October
                       29th, 2022.
                     </h4>
-                  </Typography>
+                  </Typography> */}
                   <br />
                   <br />
                   <br />
@@ -72,10 +72,10 @@ const Customers = () => {
                   {" "}
                   <div data-aos="fade-left">
                     <Typography component={"span"} sx={{ mt: 5, pb: 5 }}>
-                      <h1 className="fontbold">10/28 & 10/29</h1>
+                      <h1 className="fontbold">11/04 </h1>
                       <br />
                       <h1 className="font">
-                      19th Annual Columbia Africa Conference
+                      The Future of Marketing in the Digital Age - MAC Fall Conference 2022
                       </h1>
                       <br />
                     </Typography>
