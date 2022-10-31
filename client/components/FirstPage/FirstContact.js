@@ -59,13 +59,7 @@ const FirstContact = () => {
                       accentuate the most prominent events so you can make the
                       most of your time here.
                     </h4>
-                    <Typography sx={{ pt: 4 }}>
-                      <div
-                        data-aos="fade-right"
-                        // data-aos-offset="300"
-                        data-aos-duration="2000"
-                      ></div>
-                    </Typography>
+              
                   </Typography>
                 </Typography>
               </div>
