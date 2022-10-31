@@ -350,7 +350,7 @@ const WeekCalendar = () => {
                             // href="https://milsteincenter.org/civicrm/event/info?reset=1&id=1073"
                           > */}
                                          No Events Found
-                                         {/* <a href="#Weekly">top</a>. */}
+                                         <a href="#Weekly">top</a>.
                           {/* </a> */}
 
                           {/* <h4>Randall's Island, Field 51 4:30 Kickoff</h4> */}
