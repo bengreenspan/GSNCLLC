@@ -163,6 +163,7 @@ const WeekCalendar = () => {
                           <h4>5:30pm - 7:00pm, Geffen 520 </h4>
                         </div>
                       </div>
+                      <br />
                     </div>
                   </BS.Col>
                   <BS.Col lg={4} md={6} sm={12} xs={12}>
@@ -332,7 +333,7 @@ const WeekCalendar = () => {
                     
                  
                     </div>
-                    <br />
+                    {/* <br /> */}
                   </BS.Col>
                   <BS.Col lg={4} md={6} sm={12} xs={12}>
                     <div
