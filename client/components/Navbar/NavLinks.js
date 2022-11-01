@@ -147,7 +147,15 @@ const NavLinks = () => {
           </Link>
         </Typography>
       </MenuItem>
-      {/* <Box sx={{ display: "flex", justifyContent: "right" }}> */}
+      <MenuItem onClick={handleCloseNavMenu}>
+        <Typography component={"span"} variant="h5">
+          <Link to="/clubs" style={{ textDecoration: "none", color: "black" }}>
+            Clubs
+          </Link>
+        </Typography>
+      </MenuItem>
+      {/* <Box sx={{ display:
+         "flex", justifyContent: "right" }}> */}
       {/* </Box> */}
     </Container>
   );

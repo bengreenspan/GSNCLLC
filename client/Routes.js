@@ -9,6 +9,7 @@ import Blog  from './components/Blog';
 import Assignments  from './components/Assignments';
 import Tips  from './components/Tips';
 import NotFound from './components/NotFound';
+import Clubs from './components/Clubs';
 import MonthlyCalendar from './components/MonthlyCalendar';
 
 import {me} from './store'
@@ -39,6 +40,7 @@ class Routes extends Component {
             <Route path="/Blog" component={MonthlyCalendar} />
             <Route path="/Assignments" component={Assignments} />
             <Route path="/Tips" component={Tips} />
+            <Route path="/Clubs" component={Clubs} />
             <Route path="/Calendar" component={MonthlyCalendar} />
             <Route path="/*" component={NotFound} />
 
