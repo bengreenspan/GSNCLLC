@@ -14,10 +14,7 @@ const CBS = () => {
   return (
     <div className="flex">
       <Parallax bgImage={"./startups.png"} strength={200}>
-        <a
-          target="_blank"
-          href=""
-        >
+        <a target="_blank" href="">
           <div className="container1">
             <img src="/startups.png" alt="Mc" className="image1" />
             <div className="middle1">
@@ -45,7 +42,9 @@ const Customers = () => {
         <BS.Row>
           <BS.Col sm={9} xs={10} lg={6}>
             <div data-aos="fade-left" data-aos-duration="1000">
-              <Container sx={{ mt: 0, pl: 20, pr:10, justifyContent: "center" }}>
+              <Container
+                sx={{ mt: 0, pl: 20, pr: 10, justifyContent: "center" }}
+              >
                 <Box
                   // variant="h3"
                   // className="white-background"
@@ -67,7 +66,10 @@ const Customers = () => {
                     <h4 className="font">
                       CBS Startups Week is a week-long event on Nov 14-17,
                       celebrating entrepreneurship and innovation. Loaded with
-                      panels, and talks by CBS founders and funders. Click <a href='https://cbsstartupsweek2022.splashthat.com/'>here </a>
+                      panels, and talks by CBS founders and funders. Click{" "}
+                      <a href="https://cbsstartupsweek2022.splashthat.com/">
+                        here{" "}
+                      </a>
                       to learn more.
                     </h4>
                   </Typography>
@@ -78,14 +80,16 @@ const Customers = () => {
               </Container>
             </div>
           </BS.Col>
+          <BS.Col lg={1} sm={1} xs={3} >
 
-          <BS.Col md={6} sm={7} xs={12}>
+          </BS.Col>
+          <BS.Col lg={5} sm={6} xs={6} >
             <div data-aos="fade-left" data-aos-duration="1000">
               <Container sx={{ justifyContent: "center" }}>
                 <Box
                   // variant="h3"
                   // className="white-background"
-                  sx={{ p: 3, justifyContent: "center" }}
+                  sx={{ justifyContent: "center" }}
                 >
                   {" "}
                   <div data-aos="fade-left">
@@ -96,25 +100,6 @@ const Customers = () => {
                       <br />
                     </Typography>
                     <CBS />
-                  </div>
-                  <br />
-                  <div className="firstbutton" data-aos="fade-down">
-                    <Typography sx={{ pt: 4, pl: 10 }}>
-                      <div
-                        data-aos="fade-left"
-                        data-aos-offset="300"
-                        data-aos-duration="2000"
-                      >
-                        {/* <Link to="/Blog" href="#">
-                          <button className="learn-more">
-                            <span className="circle" aria-hidden="true">
-                              <span className="icon arrow"></span>
-                            </span>
-                            <span className="button-text">All Events</span>
-                          </button>
-                        </Link> */}
-                      </div>
-                    </Typography>
                   </div>
                 </Box>
               </Container>

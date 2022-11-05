@@ -237,23 +237,20 @@ const Form = () => {
             </BS.Col>
             <BS.Col>
               <BS.Row>
-                <Typography
-                  variant="h3"
-                  marginTop={0}
-                  sx={{ pl: 9, pt: 10, pb: 0, justifyContent: "center" }}
-                >
-                  <h4 className="font">
+
+
+              <Typography component={"span"} sx={{ mt: 10, pb: 0 }}>
+                    <h4 className="font">
                     Are you the head of a club or other organization?
-                    <br />
-                    <br />
+                    </h4>
+                    <h4 className="font">
                     Would you like to regularly have your events on the site?
-                    <br />
-                    <br />
-                    <div className="fontbold">
-                      Email us at Events@cbshappenings.com
-                    </div>
-                  </h4>
-                </Typography>{" "}
+                    </h4>
+                    <h4 className="fontbold">
+                    Email us at Events@cbshappenings.com
+                    </h4>
+                  </Typography>
+
               </BS.Row>
               {/* <BS.Row> */}
               <img src="/plane.png" alt="one" width="300" />
