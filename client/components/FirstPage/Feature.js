@@ -5,9 +5,30 @@ import Typography from "@mui/material/Typography";
 import { Container } from "@mui/material";
 // import "aos/dist/aos.css"
 import Za from "./CustomerComp/Za";
-import CBS from "./CustomerComp/CBS";
+// import CBS from "./CBS";
 import Aos from "aos";
 import { Link } from "react-router-dom";
+import { Parallax, Background } from "react-parallax";
+
+const CBS = () => {
+  return (
+    <div className="flex">
+      <Parallax bgImage={"./startups.png"} strength={200}>
+        <a
+          target="_blank"
+          href=""
+        >
+          <div className="container1">
+            <img src="/startups.png" alt="Mc" className="image1" />
+            <div className="middle1">
+              <div className="text1">Click Here</div>
+            </div>
+          </div>
+        </a>
+      </Parallax>
+    </div>
+  );
+};
 
 const Customers = () => {
   return (
@@ -22,9 +43,9 @@ const Customers = () => {
         }}
       >
         <BS.Row>
-          <BS.Col sm={5} xs={8}>
+          <BS.Col sm={9} xs={10} lg={6}>
             <div data-aos="fade-left" data-aos-duration="1000">
-              <Container sx={{ mt: 0, pl: 30, justifyContent: "center" }}>
+              <Container sx={{ mt: 0, pl: 20, pr:10, justifyContent: "center" }}>
                 <Box
                   // variant="h3"
                   // className="white-background"
@@ -42,17 +63,14 @@ const Customers = () => {
                   <br />
                   <br />
                   <br />
-                  {/* <Typography component={"span"} sx={{ mt: 10, pb: 0 }}>
+                  <Typography component={"span"} sx={{ mt: 10, pb: 0 }}>
                     <h4 className="font">
-                      The Africa Business Club is excited to announce the 19th
-                      Columbia Africa Conference (formerly Africa Economic
-                      Forum), a student-led collaboration between Columbia
-                      Business School, Columbia School of International and
-                      Public Affairs, and Columbia Engineering, taking place in
-                      person on Friday, October 28th, and Saturday, October
-                      29th, 2022.
+                      CBS Startups Week is a week-long event on Nov 14-17,
+                      celebrating entrepreneurship and innovation. Loaded with
+                      panels, and talks by CBS founders and funders. Click <a href='https://cbsstartupsweek2022.splashthat.com/'>here </a>
+                      to learn more.
                     </h4>
-                  </Typography> */}
+                  </Typography>
                   <br />
                   <br />
                   <br />
@@ -61,7 +79,7 @@ const Customers = () => {
             </div>
           </BS.Col>
 
-          <BS.Col sm={7} xs={12}>
+          <BS.Col md={6} sm={7} xs={12}>
             <div data-aos="fade-left" data-aos-duration="1000">
               <Container sx={{ justifyContent: "center" }}>
                 <Box
@@ -72,11 +90,9 @@ const Customers = () => {
                   {" "}
                   <div data-aos="fade-left">
                     <Typography component={"span"} sx={{ mt: 5, pb: 5 }}>
-                      <h1 className="fontbold">11/04 </h1>
+                      <h1 className="fontbold">11/14 - 11/17 </h1>
                       <br />
-                      <h1 className="font">
-                      The Future of Marketing in the Digital Age - MAC Fall Conference 2022
-                      </h1>
+                      <h1 className="font">CBS Startups Week</h1>
                       <br />
                     </Typography>
                     <CBS />

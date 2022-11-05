@@ -96,7 +96,7 @@ const Form = () => {
                   // className="white-background"
                   sx={{
                     pt: 0,
-                    pl: 3,
+                    pl: 5,
                     pr: 3,
                     pb: 3,
                     justifyContent: "center",
@@ -240,7 +240,7 @@ const Form = () => {
                 <Typography
                   variant="h3"
                   marginTop={0}
-                  sx={{ pl: 9, pt: 0, pb: 0, justifyContent: "center" }}
+                  sx={{ pl: 9, pt: 10, pb: 0, justifyContent: "center" }}
                 >
                   <h4 className="font">
                     Are you the head of a club or other organization?
@@ -255,9 +255,9 @@ const Form = () => {
                   </h4>
                 </Typography>{" "}
               </BS.Row>
-              <BS.Row>
-                <img src="/plane.png" />
-              </BS.Row>
+              {/* <BS.Row> */}
+              <img src="/plane.png" alt="one" width="300" />
+              {/* </BS.Row> */}
             </BS.Col>
           </BS.Row>
         </Container>

@@ -6,7 +6,7 @@ import { Container } from "@mui/material";
 import { Divider } from "@mui/material";
 // import "aos/dist/aos.css"
 import Za from "./CustomerComp/Za";
-import CBS from "./CustomerComp/CBS";
+// import CBS from "./CustomerComp/CBS";
 import Aos from "aos";
 import { Link } from "react-router-dom";
 
@@ -33,7 +33,7 @@ const WeekCalendar = () => {
             data-aos-duration="1000"
           >
             <Typography
-              variant="h3"
+              variant="h5"
               // className="white-background"
               sx={{
                 pt: 3,

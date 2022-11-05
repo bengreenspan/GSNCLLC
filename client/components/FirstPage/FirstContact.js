@@ -34,14 +34,14 @@ const FirstContact = () => {
               <div data-aos="fade-up" data-aos-duration="2000">
                 <Typography>
                   <Typography
-                    variant="h3"
+                    variant="h5"
                     align="center"
                     className="white-background"
                     sx={{
-                      pt: 8,
+                      pt: 3,
                       pl: 3,
                       pr: 3,
-                      pb: 8,
+                      pb: 3,
                       justifyContent: "center",
                     }}
                   >
@@ -59,7 +59,6 @@ const FirstContact = () => {
                       accentuate the most prominent events so you can make the
                       most of your time here.
                     </h4>
-              
                   </Typography>
                 </Typography>
               </div>

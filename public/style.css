@@ -12,8 +12,6 @@
   border-radius: 10px;
 }
 
-
-
 #calendar {
   max-width: 900px;
   margin: 0 auto;
@@ -77,19 +75,16 @@
   background-size: cover;
 }
 
-.css-1hbyad5-MuiTypography-root{
-  display: none ;
+.css-1hbyad5-MuiTypography-root {
+  display: none;
 }
-.css-hlj6pa-MuiDialogActions-root{
+.css-hlj6pa-MuiDialogActions-root {
   display: none !important;
 }
 
-.css-j88s13-MuiPickersToolbar-root-MuiDatePickerToolbar-root{
+.css-j88s13-MuiPickersToolbar-root-MuiDatePickerToolbar-root {
   display: none !important;
 }
-
-
-
 
 .bigBack {
   background: url(back1.png) no-repeat center center fixed;
