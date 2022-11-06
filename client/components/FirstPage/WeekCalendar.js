@@ -29,7 +29,7 @@ const WeekCalendar = () => {
         >
           <div
             className="fontbold"
-            data-aos="fade-right"
+            // data-aos="fade-right"
             data-aos-duration="1000"
           >
             <Typography

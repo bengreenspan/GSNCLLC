@@ -87,61 +87,41 @@ const Form = () => {
   return (
     <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
       <BS.Container>
-        <Container className="form" sx={{ pt: 15, pb: 10 }}>
-          <div data-aos="fade-up" data-aos-duration="2000">
-            <Typography>
-              <Typography
-                variant="h3"
-                align="center"
-                className="white-background"
-                sx={{
-                  pt: 8,
-                  pl: 3,
-                  pr: 3,
-                  pb: 3,
-                  justifyContent: "center",
-                }}
-              >
-                <div className="fontbold">
-                  Are you the head of a club or other organization?
-                </div>
-                <br />
-                <h4 className="font">
-                  {" "}
-                  Would you like to regularly have your events on the site?
-                  School?
-                  <br />
-                  <br />
-                  Email your event to Events@cbshappenings.com
-                </h4>
+        <BS.Row>
+          <Container className="form" sx={{ pt: 15, pb: 10 }}>
+            <BS.Col lg={5} md={5} sm={5} xs={12}>
+              <div data-aos="fade-up" data-aos-duration="2000">
+                <Typography>
+                  <Typography
+                    variant="h5"
+                    align="center"
+                    className="white-background"
+                    sx={{
+                      pt: 3,
+                      pl: 3,
+                      pr: 3,
+                      pb: 3,
+                      justifyContent: "center",
+                    }}
+                  >
+                    <div className="fontbold">
+                      Are you the head of a club or other organization?
+                    </div>
+                    <br />
+                    <h4 className="font">
+                      {" "}
+                      Would you like to regularly have your events on the site?
+                      School?
+                      <br />
+                      <br />
+                      Email your event to Events@cbshappenings.com
+                    </h4>
+                  </Typography>
+                </Typography>
+              </div>
+            </BS.Col>
 
-                <div>
-                </div>
-              </Typography>
-            </Typography>
-          </div>
-
-          <Typography>
-            <Typography
-              variant="h4"
-              // className="white-background"
-              sx={{
-                pt: 0,
-                pl: 3,
-                pr: 3,
-                pb: 0,
-                justifyContent: "center",
-              }}
-            >
-              <br />
-              {/* <h4>Sign up to get weekly notifications on new events</h4> */}
-
-              <br />
-            </Typography>
-          </Typography>
-
-          <BS.Row>
-            <BS.Col md={7}>
+            <BS.Col lg={5} md={5} sm={5} xs={6}>
               <Typography>
                 <Typography
                   variant="h4"
@@ -287,8 +267,8 @@ const Form = () => {
                 </Box>
               </div>
             </BS.Col>
-          </BS.Row>
-        </Container>
+          </Container>
+        </BS.Row>
       </BS.Container>
     </div>
   );

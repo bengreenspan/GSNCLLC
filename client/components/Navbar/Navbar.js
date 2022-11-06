@@ -176,7 +176,7 @@ const ResponsiveAppBar = () => {
 
 
 
-
+{/* 
           {select ? (
                <Typography component={'span'}  variant="h5" style={{ ml: 10 }}>
             <Link color="inherit" onClick={logoutButton} style={{ textDecoration: "none", color: "black" }}>
@@ -194,7 +194,7 @@ const ResponsiveAppBar = () => {
                 Log In
               </Link>
               </Typography>
-          )}
+          )} */}
         </Toolbar>
       </Container>
     </AppBar>
