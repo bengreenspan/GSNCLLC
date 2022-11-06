@@ -136,7 +136,7 @@ const Form = () => {
                 >
                   {/* <div className="fontbold">Did we miss an event?</div> */}
 
-                  <div className="fontbold">Or fill out the form below </div>
+                  <div className="fontbold">Want to input them yourself?</div>
                   <br />
                 </Typography>
               </Typography>
