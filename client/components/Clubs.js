@@ -31,28 +31,30 @@ const Form = () => {
   const handleClose = () => setOpen(false) && window.location.reload;
 
   const [toSend, setToSend] = useState({
-    business: "",
-    email: "",
-    name: "",
-    phone: "",
-    message: "",
-    reply_to: "",
+    person_name: "",
+    event_name: "",
+    date_time: "",
+    club_name: "",
+    link: "",
+    location: "",
+    message: ""
   });
 
   const [errors, setErrors] = useState({
-    business: "",
-    email: "",
-    name: "",
-    phone: "",
-    message: "",
-    reply_to: "",
+    person_name: "",
+    event_name: "",
+    date_time: "",
+    club_name: "",
+    link: "",
+    location: "",
+    message: ""
   });
 
   const validate = () => {
     let temp = {};
     temp.name = toSend.name ? "" : "Name is required";
     // temp.business = toSend.business ? "" : "Business Name is required";
-    temp.email = /$^|.+@.+..+/.test(toSend.email) ? "" : "Email is not valid";
+    // temp.email = /$^|.+@.+..+/.test(toSend.email) ? "" : "Email is not valid";
     // temp.phone =
     // toSend.phone.length > 8 ? "" : "Please enter a valid phone number";
     setErrors({
@@ -70,7 +72,7 @@ const Form = () => {
     e.preventDefault();
     if (validate()) {
       setOpen(true);
-      send("service_0t74imh", "template_q1ecudp", toSend, "87uW5IjR7xE2EqVKU")
+      send("service_0t74imh", "template_club", toSend, "87uW5IjR7xE2EqVKU")
         .then((response) => {
           console.log("SUCCESS!", response.status, response.text);
         })
@@ -85,13 +87,27 @@ const Form = () => {
   };
 
   return (
-    <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
-      <BS.Container>
-        <BS.Row>
-          <Container className="form" sx={{ pt: 15, pb: 10 }}>
-            <BS.Col lg={5} md={5} sm={5} xs={12}>
-              <div data-aos="fade-up" data-aos-duration="2000">
-                <Typography>
+    <Box
+      sx={{
+        pt: 20,
+        pb: 10,
+        // justifyContent: "center",
+      }}
+    >
+      <div className="graycard" data-aos="zoom-in" data-aos-duration="1000">
+        <BS.Container>
+          <BS.Row>
+            <BS.Col lg={6} md={6} sm={12} xs={12}>
+              <Box
+                sx={{
+                  pt: 3,
+                  pl: 3,
+                  pr: 3,
+                  pb: 3,
+                  // justifyContent: "center",
+                }}
+              >
+                <div data-aos="fade-up" data-aos-duration="2000">
                   <Typography
                     variant="h5"
                     align="center"
@@ -111,17 +127,16 @@ const Form = () => {
                     <h4 className="font">
                       {" "}
                       Would you like to regularly have your events on the site?
-                      School?
                       <br />
                       <br />
                       Email your event to Events@cbshappenings.com
                     </h4>
                   </Typography>
-                </Typography>
-              </div>
+                </div>
+              </Box>
             </BS.Col>
 
-            <BS.Col lg={5} md={5} sm={5} xs={6}>
+            <BS.Col lg={6} md={6} sm={12} xs={12}>
               <Typography>
                 <Typography
                   variant="h4"
@@ -136,7 +151,9 @@ const Form = () => {
                 >
                   {/* <div className="fontbold">Did we miss an event?</div> */}
 
-                  <div className="fontbold">Want to input them yourself?</div>
+                  <div className="fontbold">
+                    Want to input an event yourself?
+                  </div>
                   <br />
                 </Typography>
               </Typography>
@@ -155,29 +172,102 @@ const Form = () => {
                       className="font"
                       sx={{ display: "flex", justifyContent: "center" }}
                     >
-                      <TextField
-                        required
-                        id="outlined-name-input"
-                        label="Club Name"
-                        type="name"
-                        autoComplete="name"
-                        value={toSend.name}
-                        onChange={handleChange}
-                        name="name"
-                        helperText={errors.name}
-                      />
-                      <TextField
+                              <TextField
                         required
                         id="outlined-email-input"
-                        label="Email"
-                        type="email"
-                        autoComplete="email"
-                        value={toSend.email}
+                        label="Your Name"
+                        type="person_name"
+                        autoComplete="name"
+                        value={toSend.person_name}
                         onChange={handleChange}
-                        name="email"
-                        helperText={errors.email}
+                        name="person_name"
+                        helperText={errors.person_name}
+                      />
+                       <TextField
+                        required
+                        id="outlined-message-input"
+                        label="Event Name"
+                        type="event_name"
+                        // autoComplete="name"
+                        value={toSend.event_name}
+                        onChange={handleChange}
+                        name="event_name"
+                        helperText={errors.event_name}
+                      />
+                      
+              
+                    </Box>
+                    <Box
+                      sx={{
+                        display: "flex",
+                        justifyContent: "center",
+                        "& > :not(style)": { m: 0 },
+                      }}
+                    ></Box>
+                    <Box
+                      className="font"
+                      sx={{ display: "flex", justifyContent: "center" }}
+                    >
+                           <TextField
+                        required
+                        id="outlined-message-input"
+                        label="Date/Time"
+                        type="date_time"
+                        // autoComplete="name"
+                        value={toSend.date_time}
+                        onChange={handleChange}
+                        name="date_time"
+                        helperText={errors.date_time}
+                      />
+                     
+                     <TextField
+                        // required
+                        id="outlined-name-input"
+                        label="Club Name"
+                        type="club_name"
+                        // autoComplete="name"
+                        value={toSend.club_name}
+                        onChange={handleChange}
+                        name="club_name"
+                        helperText={errors.club_name}
+                      />
+                    
+                    </Box>
+                    <Box
+                      sx={{
+                        display: "flex",
+                        justifyContent: "center",
+                        "& > :not(style)": { m: 0 },
+                      }}
+                    ></Box>
+                    <Box
+                      className="font"
+                      sx={{ display: "flex", justifyContent: "center" }}
+                    >
+                   <TextField
+                        // required
+                        id="outlined-message-input"
+                        label="Link"
+                        type="link"
+                        // autoComplete="email"
+                        value={toSend.link}
+                        onChange={handleChange}
+                        name="link"
+                        helperText={errors.link}
+                      />
+                      <TextField
+                        // required
+                        id="outlined-message-input"
+                        label="Location"
+                        type="helperText"
+                        // autoComplete="email"
+                        value={toSend.location}
+                        onChange={handleChange}
+                        name="location"
+                        helperText={errors.location}
                       />
                     </Box>
+                    
                     <Box
                       sx={{
                         display: "flex",
@@ -198,7 +288,7 @@ const Form = () => {
                         multiline={true}
                         rows={3}
                         sx={{ height: "100%", width: 10, fontSize: 33 }}
-                        helperText="Enter any other details you'd like to mention: Location, Price, Food etc."
+                        helperText="Enter any other details you'd like to mention: Price, Food etc."
                       ></TextField>
                     </Box>
                   </Container>
@@ -267,10 +357,11 @@ const Form = () => {
                 </Box>
               </div>
             </BS.Col>
-          </Container>
-        </BS.Row>
-      </BS.Container>
-    </div>
+            {/* </Container> */}
+          </BS.Row>
+        </BS.Container>
+      </div>
+    </Box>
   );
 };
 

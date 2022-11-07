@@ -13,9 +13,8 @@ import { Link } from "react-router-dom";
 const WeekCalendar = () => {
   return (
     <BS.Container>
-            <h2 id="Weekly"></h2>
+      <h2 id="Weekly"></h2>
       <Container sx={{ pt: 10, pb: 10 }}>
-
         <Box
           sx={{
             pt: 3,
@@ -44,9 +43,8 @@ const WeekCalendar = () => {
               }}
             >
               <div className="fontbold">
-     
                 Weekly Events
-                <h4>10/31/22 - 11/05/22</h4>
+                <h4>11/07/22 - 11/12/22</h4>
                 <br />
                 <BS.Row>
                   <BS.Col lg={4} md={6} sm={12} xs={12}>
@@ -81,87 +79,13 @@ const WeekCalendar = () => {
                     >
                       <h1> Tuesday:</h1>
 
-                      {/* <br /> */}
                       <div className="links">
-                        <div>
-                          <a
+                        {/* <a
                             target="_blank"
-                            href="https://columbia.startuptree.co/event/s/EZbEVNLjRFa2gq3FopnVqq/VC-%2526-Entrepreneurship-Courses-Info-Session"
-                          >
-                            VC Courses Info Session
-                          </a>
-
-                          <h4>Virtual, 12:30pm-1:30pm</h4>
-                          <br />
-                        </div>
-                      </div>
-                      <div className="links">
-                        <div>
-                          <a
-                            target="_blank"
-                            href="https://entrepreneurship.columbia.edu/event/pitch-practice-workshop-virtual-impressing-venture-competition-judges-and-angels-in-5-minutes-or-less/"
-                          >
-                            Impressing Venture Competition Judges (And Angels)
-                            in 5 Minutes or Less
-                          </a>
-
-                          <h4>2:00pm-3:00pm, Virtual</h4>
-                        </div>
-                      </div>
-                      <br />
-                      <div className="links">
-                        <div>
-                          <a
-                            target="_blank"
-                            href="https://www.eventbrite.com/e/microplastic-madness-film-screening-and-panel-discussion-tickets-430709893887"
-                          >
-                            Microplastic Madness: Film Screening and Panel
-                            Discussion by the Columbia Climate School
-                          </a>
-
-                          <h4>5:00pm - 7:00pm, The Forum </h4>
-                        </div>
-                        <br />
-                      </div>
-                      <div className="links">
-                        <div>
-                          <a
-                            target="_blank"
-                            href="https://groups.gsb.columbia.edu/FinStudies/rsvp_boot?id=32748"
-                          >
-                            State of Global Markets presentation by Program for
-                            Financial Studies
-                          </a>
-
-                          <h4>5:30pm - 7:00pm, Kravis 670 </h4>
-                        </div>
-                      </div>
-                      <br />
-                      <div className="links">
-                        <div>
-                          <a
-                            target="_blank"
-                            href="https://www.eventbrite.com/e/an-evening-with-alice-chen-05-ceo-99-ranch-market-tickets-444593981567?aff=ebdssbdestsearch#search"
-                          >
-                            An Evening with Alice Chen '05, CEO, 99 Ranch Market
-                          </a>
-
-                          <h4>6:30pm - 8:30pm, 120 Cooperman Commons</h4>
-                        </div>
-                      </div>
-                      <br />
-                      <div className="links">
-                        <div>
-                          <a
-                            target="_blank"
-                            href="https://groups.gsb.columbia.edu/abc/rsvp_boot?id=32762"
-                          >
-                            Getting into Google: An Illuminatory Panel
-                            (Presented by ABC x BBSA x HBA x Technology Club)
-                          </a>
-
-                          <h4>5:30pm - 7:00pm, Geffen 520 </h4>
-                        </div>
+                            href="https://www.eventbrite.com/e/introduction-to-healthcare-services-landscape-tickets-417378980767"
+                          > */}
+                        No Events Found
+                        {/* </a> */}
                       </div>
                       <br />
                     </div>
@@ -179,13 +103,14 @@ const WeekCalendar = () => {
                         <div>
                           <a
                             target="_blank"
-                            href="https://harriman.columbia.edu/event/world-leaders-forum-klaus-welle-secretary-general-of-the-european-parliament/"
+                            href="https://groups.gsb.columbia.edu/StudGov/rsvp_boot?id=33351"
                           >
-                            World Leaders Forum: The War Against Ukraine
+                            CBS ExBo Headshots Day
                           </a>
 
                           <h4>
-                            11:30am - 12:30pm Rotunda, Low Memorial Library
+                            10 am – 5 pm, Student Government Office (3rd FL of
+                            Geffen),
                           </h4>
                         </div>
                         <br />
@@ -193,30 +118,60 @@ const WeekCalendar = () => {
                           <div>
                             <a
                               target="_blank"
-                              href="https://groups.gsb.columbia.edu/XPCM/rsvp_boot?id=29392"
+                              href="https://groups.gsb.columbia.edu/osa/rsvp_boot?id=31105"
                             >
-                              The Art of Salary Negotiation by Experienced
-                              Professionals Career Management
+                              CBS | well: The Art of Choosing with Professor
+                              Sheena Iyengar
                             </a>
 
-                            <h4>5:30pm - 6:30pm, Virtual </h4>
+                            <h4>12:30pm - 2:00pm, Cooperman Commons </h4>
                           </div>
                         </div>
                         <br />
-                        <div>
-                          <a
-                            target="_blank"
-                            href="https://www.eventbrite.com/e/evaluating-future-digital-health-opportunity-tickets-443473510207"
-                          >
-                            Evaluating Future Digital Health Opportunity
-                          </a>
+                        <div className="links">
+                          <div>
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/CWIB/rsvp_boot?id=32592"
+                            >
+                              CWiB x MMA x Tech Club Mixer
+                            </a>
 
-                          <h4>6:30pm - 7:30pm, Kravis 640 </h4>
+                            {/* <h4>6:00pm - 8:00pm, Cooperman Commons </h4> */}
+                          </div>
                         </div>
+                        <br />
+                        <div className="links">
+                          <div>
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=32952"
+                            >
+                              Sumitomo Corporation and its Business Strategy for
+                              the Future (COPY)
+                            </a>
+
+                            <h4>6:15pm - 7:15pm, Kravis 820 </h4>
+                          </div>
+                        </div>
+                        <br />
+                        <div className="links">
+                          <div>
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=32952"
+                            >
+                              BBSA/HBA Family Dinner 2022
+                            </a>
+
+                            <h4>6:00pm - 9:00pm, Geffen 310 </h4>
+                          </div>
+                        </div>
+
                         <br />
                         <div>
                           {" "}
-                          Rugby x Sports Business Association
+                          Rugby x Real Estate Association
                           <h4>Jake's Dilemma 8:30pm-?? (Open bar)</h4>
                         </div>
                       </div>
@@ -236,26 +191,24 @@ const WeekCalendar = () => {
                       <div className="links">
                         <a
                           target="_blank"
-                          href="https://universitylife.columbia.edu/events/women-life-freedom-irans-movement-womens-rights"
+                          href="https://groups.gsb.columbia.edu/CWIB/rsvp_boot?id=33779"
                         >
-                          Women, Life, Freedom: Iran's Movement for Women's
-                          Rights
+                          To New Heights - CWiB 2022 Conference
                         </a>
 
-                        <h4>12:00pm - 1:00pm Virtual</h4>
+                        <h4> All Day, Geffen Hall</h4>
                       </div>
                       <br />
                       <div className="links">
                         <div>
                           <a
                             target="_blank"
-                            href="https://sanfordbernsteincenter.org/civicrm/event/info?reset=1&id=254"
+                            href="https://groups.gsb.columbia.edu/HCGD/rsvp_boot?id=29006"
                           >
-                            Running While Black: Finding Freedom in a Sport That
-                            Wasn't Built for Us
+                            Women in Investment Management Career Panel
                           </a>
 
-                          <h4>12:30pm - 1:15pm Kravis 870 (PPIL approved)</h4>
+                          <h4>12:00pm - 1:00pm Virtual</h4>
                         </div>
                       </div>
                       <br />
@@ -263,35 +216,123 @@ const WeekCalendar = () => {
                         <div className="links">
                           <a
                             target="_blank"
-                            href="https://groups.gsb.columbia.edu/MAC/rsvp_boot?id=32836"
+                            href="https://groups.gsb.columbia.edu/CWIB/rsvp_boot?id=30144"
                           >
-                            Mock Madness: Product & Brand Marketing Case
-                            Interviews by Marketing Association
+                            CWiB Coaching Sessions
                           </a>
 
-                          <h4>12:30pm - 1:30pm Kravis 680</h4>
+                          <h4>12:15pm - 1:45pm Kravis 490</h4>
                         </div>
                         <br />
                         <div className="links">
                           <a
                             target="_blank"
-                            href="https://www.eventbrite.com/e/building-a-new-business-in-japan-tickets-423452366427"
+                            href="https://groups.gsb.columbia.edu/osa/rsvp_boot?id=29770"
                           >
-                            Building a New Business in Japan
+                            First Gen Alumni Panel
                           </a>
 
-                          <h4>12:30pm - 1:30pm Geffen 570</h4>
+                          <h4>12:30pm - 1:45pm Kravis 440</h4>
                         </div>
                         <br />
                         <div className="links">
                           <a
                             target="_blank"
-                            href="https://partiful.com/e/ppr3syjdNy8d28aPSFtp"
+                            href="https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=33388"
                           >
-                            ClusterQ x BBSA Disco Party, $40 pp open bar!
+                            Technical skills for non-technical job seekers by
+                            Technology Club
                           </a>
 
-                          <h4>9:30pm - 11:30pm RVSP to see location</h4>
+                          <h4>12:30pm - 1:30pm, Kravis 640</h4>
+                        </div>
+                        <br />
+
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://groups.gsb.columbia.edu/hcia/rsvp_boot?id=33299"
+                          >
+                            Ask Us Anything - Digital Health by Health Care
+                            Industry Association
+                          </a>
+
+                          <h4>1:00pm - 1:45pm Geffen 570 </h4>
+
+                          <br />
+
+                          <div className="links">
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/CMC/rsvp_boot?id=32870"
+                            >
+                              Career AMA by Career Management Center
+                            </a>
+
+                            <h4>3:30pm - 5:30pm Geffen 485</h4>
+                          </div>
+
+                          <br />
+
+                          <div className="links">
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/CEO/rsvp_boot?id=33314"
+                            >
+                              In conversation with Iqram Magdon-Ismail, Founder
+                              of Venmo
+                            </a>
+
+                            <h4>6:00pm - 7:00pm Geffen 390</h4>
+                          </div>
+                          <br />
+
+                          <div className="links">
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=33411"
+                            >
+                              The Google PM Interview
+                            </a>
+
+                            <h4>6:00pm - 7:45pm Geffen 590</h4>
+                          </div>
+                          <br />
+
+                          <div className="links">
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/sec/rsvp_boot?id=33331"
+                            >
+                              Microlumbia - Impact Investing Lifecycle Workshop
+                            </a>
+
+                            <h4>6:00pm - 8:00pm Geffen 620</h4>
+                          </div>
+
+                          <br />
+
+                          <div className="links">
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/VCC/rsvp_boot?id=33087"
+                            >
+                              VCC Alumni x Student Social
+                            </a>
+
+                            <h4>6:30pm - 8:30pm Columbia Startup Lab</h4>
+                          </div>
+                          <br />
+                          <div className="links">
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/osa/rsvp_boot?id=33355"
+                            >
+                              Black Panther 2 Exclusive Pre-Show Event
+                            </a>
+
+                            <h4>7:00pm - 10:00pm AMC Magic Johnson Harlem</h4>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -310,28 +351,24 @@ const WeekCalendar = () => {
                       <div className="links">
                         <a
                           target="_blank"
-                          href="https://groups.gsb.columbia.edu/MAC/rsvp_boot?id=30997"
+                          href="https://groups.gsb.columbia.edu/Economics/rsvp_boot?id=32585"
                         >
-                    The Future of Marketing in the Digital Age - MAC Fall Conference 2022
+                          Berkeley-Columbia-Duke-MIT-Northwestern IO theory
+                          conference
                         </a>
-                        <h4>
-                          {" "}
-                        9:00am - 4:00pm Geffen Hall
-                        </h4>
+                        <h4> 9:00am - 6:00pm Kravis</h4>
                       </div>
                       <br />
                       <div className="links">
                         <a
                           target="_blank"
-                          href="https://columbia.startuptree.co/event/s/6jKEWn6PsHmVhqYMNT9ZrC/Leading-in-a-Data-driven-World%253A-Developing-Quantitative-Intuition"
+                          href="https://groups.gsb.columbia.edu/Italian/rsvp_boot?id=32324"
                         >
-                         Leading in a Data-driven World: Developing Quantitative Intuition
+                          NOVA MBA Yearly Conference 2022 by The Italian Club
                         </a>
-                        <h4> 12:00pm - 1:00pm, Virtual</h4>
+                        <h4> 9:00am - 5:00pm, Geffen</h4>
                       </div>
                       <br />
-                    
-                 
                     </div>
                     {/* <br /> */}
                   </BS.Col>
@@ -350,10 +387,9 @@ const WeekCalendar = () => {
                             target="_blank"
                             // href="https://milsteincenter.org/civicrm/event/info?reset=1&id=1073"
                           > */}
-                                         No Events Found
-                                         {/* <a href="#Weekly">top</a>. */}
+                          No Events Found
+                          {/* <a href="#Weekly">top</a>. */}
                           {/* </a> */}
-
                           {/* <h4>Randall's Island, Field 51 4:30 Kickoff</h4> */}
                         </div>
                       </div>
