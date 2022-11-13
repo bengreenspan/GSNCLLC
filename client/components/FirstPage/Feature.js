@@ -10,11 +10,13 @@ import Aos from "aos";
 import { Link } from "react-router-dom";
 import { Parallax, Background } from "react-parallax";
 
+const link = "https://cbsstartupsweek2022.splashthat.com/";
+
 const CBS = () => {
   return (
     <div className="flex">
       <Parallax bgImage={"./startups.png"} strength={200}>
-        <a target="_blank" href="">
+        <a target="_blank" href={link}>
           <div className="container1">
             <img src="/startups.png" alt="Mc" className="image1" />
             <div className="middle1">
@@ -67,9 +69,7 @@ const Customers = () => {
                       CBS Startups Week is a week-long event on Nov 14-17,
                       celebrating entrepreneurship and innovation. Loaded with
                       panels, and talks by CBS founders and funders. Click{" "}
-                      <a href="https://cbsstartupsweek2022.splashthat.com/">
-                        here{" "}
-                      </a>
+                      <a href={link}>here </a>
                       to learn more.
                     </h4>
                   </Typography>
@@ -80,10 +80,8 @@ const Customers = () => {
               </Container>
             </div>
           </BS.Col>
-          <BS.Col lg={1} sm={1} xs={3} >
-
-          </BS.Col>
-          <BS.Col lg={5} sm={6} xs={6} >
+          <BS.Col lg={1} sm={1} xs={3}></BS.Col>
+          <BS.Col lg={5} sm={6} xs={6}>
             <div data-aos="fade-left" data-aos-duration="1000">
               <Container sx={{ justifyContent: "center" }}>
                 <Box
