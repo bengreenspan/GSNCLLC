@@ -612,14 +612,12 @@ const WeekCalendar = () => {
                           https://groups.gsb.columbia.edu/TBC/rsvp_boot?id=33444
                           "
                         >
-             Brazil Club takes you to a BBQ at Fogo de Chão [Lunch]
-by Brazil Club
+                          Brazil Club takes you to a BBQ at Fogo de Chão [Lunch]
+                          by Brazil Club
                         </a>
                         <h4> 12:30am - 2:30pm</h4>
                       </div>
                       <br />
-
-
 
                       <div className="links">
                         <a
@@ -628,15 +626,12 @@ by Brazil Club
                           https://groups.gsb.columbia.edu/MILS/rsvp_boot?id=32948
                           "
                         >
-                   [Arts Society & CiD] Studio Afternoon | Jackson Pollock
-by Arts Society
-
-
+                          [Arts Society & CiD] Studio Afternoon | Jackson
+                          Pollock by Arts Society
                         </a>
                         <h4> ArtsClub East Village Studio, 3:00pm - 5:00pm</h4>
                       </div>
                       <br />
-
 
                       <div className="links">
                         <a
@@ -651,7 +646,6 @@ by Arts Society
                         <h4> 11:30am - 12:30pm, Online</h4>
                       </div>
                       <br />
-
                     </div>
                     {/* <br /> */}
                   </BS.Col>
