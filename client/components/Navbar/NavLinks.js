@@ -147,13 +147,13 @@ const NavLinks = () => {
           </Link>
         </Typography>
       </MenuItem>
-      {/* <MenuItem onClick={handleCloseNavMenu}>
+      <MenuItem onClick={handleCloseNavMenu}>
         <Typography component={"span"} variant="h5">
           <Link to="/clubs" style={{ textDecoration: "none", color: "black" }}>
             Clubs
           </Link>
         </Typography>
-      </MenuItem> */}
+      </MenuItem>
       {/* <Box sx={{ display:
          "flex", justifyContent: "right" }}> */}
       {/* </Box> */}
