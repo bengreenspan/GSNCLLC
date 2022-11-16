@@ -26,7 +26,7 @@ const FirstContact = () => {
             borderRadius: "15px",
             pt: 20,
             pb: 30,
-            pl: 5,
+            pl: 0,
           }}
         >
           <BS.Row>
