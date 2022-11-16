@@ -62,6 +62,7 @@ const ResponsiveAppBar = () => {
  
       if (window.scrollY > 360) {
         setNavBackground(navTen);
+        handleCloseNavMenu()
       } else if (window.scrollY > 320 && window.scrollY <= 360) {
         setNavBackground(navNine);
       } else if (window.scrollY > 280 && window.scrollY <= 320) {
@@ -82,6 +83,7 @@ const ResponsiveAppBar = () => {
         setNavBackground(navOne);
       } else {
         setNavBackground(navZero);
+        handleCloseNavMenu()
       }
     };
     document.addEventListener("scroll", handleScroll);
