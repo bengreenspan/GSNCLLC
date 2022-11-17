@@ -30,7 +30,7 @@ const FirstContact = () => {
           }}
         >
           <BS.Row>
-            <BS.Col lg={5} md={8} sm={8} xs={12}>
+            <BS.Col lg={5} md={7} sm={7} xs={12}>
               <div data-aos="fade-up" data-aos-duration="2000">
                 <Typography>
                   <Typography
@@ -58,6 +58,62 @@ const FirstContact = () => {
                       We here at CBS Happenings will try to consolidate and
                       accentuate the most prominent events so you can make the
                       most of your time here.
+                    </h4>
+                  </Typography>
+                </Typography>
+              </div>
+            </BS.Col>
+
+            <BS.Col lg={3} md={5} sm={5} xs={12}>
+              <div data-aos="fade-up" data-aos-duration="2000">
+                <Typography
+                  align="center"
+                  sx={{
+                    pt: 9,
+                    // pl: 3,
+                    // pr: 3,
+                    // pb: 3,
+                    justifyContent: "center",
+                  }}
+                >
+                  <Typography
+                    variant="h5"
+                    align="center"
+                    className="white-background"
+                    textDecoration="none"
+                    sx={{
+                      pt: 3,
+                      // pl: 3,
+                      // pr: 3,
+                      pb: 3,
+                      // justifyContent: "center",
+                    }}
+                  >
+                    <div className="fontbold">Navigate:</div>
+
+                    <h4 className="font">
+                      {" "}
+                      <div class="links">
+                      <a class="font" href="#monday">
+                        Monday
+                      </a>
+                      <br />
+                      <a class="font" href="#tuesday">
+                        Tuesday
+                      </a>
+                      <br />
+                      <a class="font" href="#wednesday">
+                        Wednesday
+                      </a>
+                      <br />
+                      <a class="font" href="#thursday">
+                        Thursday
+                      </a>
+                      <br />
+                      <a class="font" href="#friday">
+                        Friday
+                      </a>
+                      </div>
                     </h4>
                   </Typography>
                 </Typography>

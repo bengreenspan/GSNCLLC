@@ -42,6 +42,7 @@ const WeekCalendar = () => {
                 justifyContent: "center",
               }}
             >
+              <div id="monday"></div>
               <div className="fontbold">
                 Weekly Events
                 <h4>11/14/22 - 11/19/22</h4>
@@ -53,7 +54,10 @@ const WeekCalendar = () => {
                       data-aos-duration="500"
                       className="fontbold"
                     >
-                      <h1> Monday:</h1>
+                      <h1>
+                        <span id="monday"></span>
+                        Monday:
+                      </h1>
                       {/* <br /> */}
 
                       <div className="links">
@@ -134,7 +138,10 @@ const WeekCalendar = () => {
                       data-aos-offset="200"
                       className="fontbold"
                     >
-                      <h1> Tuesday:</h1>
+                      <h1>
+                        <span id="tuesday"></span>
+                        Tuesday:
+                      </h1>
 
                       <div className="links">
                         <div>
@@ -262,7 +269,12 @@ const WeekCalendar = () => {
                       data-aos-offset="300"
                       className="fontbold"
                     >
-                      <h1>Wednesday:</h1>
+                      <h1>
+                        {" "}
+                        <span id="wednesday"></span>
+                        Wednesday:
+                      </h1>
+
                       {/* <br /> */}
                       <div className="links">
                         <div>
@@ -386,7 +398,11 @@ const WeekCalendar = () => {
                       className="fontbold"
                     >
                       <br />
-                      <h1>Thursday:</h1>
+
+                      <h1>
+                        <span id="thursday"></span>
+                        Thursday:
+                      </h1>
 
                       <div className="links">
                         <a
@@ -572,7 +588,11 @@ const WeekCalendar = () => {
                       // className="fontbold"
                     >
                       <br />
-                      <h1> Friday:</h1>
+
+                      <h1>
+                        <span id="friday"></span>
+                        Friday:
+                      </h1>
                       {/* <br /> */}
                       <div className="links">
                         <a
