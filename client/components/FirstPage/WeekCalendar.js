@@ -60,7 +60,6 @@ const WeekCalendar = () => {
                 justifyContent: "center",
               }}
             >
-              <div id="monday"></div>
               <div className="fontbold">
                 Weekly Events
                 <h4>11/21/22 - 11/26/22</h4>
@@ -72,7 +71,7 @@ const WeekCalendar = () => {
                       data-aos-duration="500"
                       className="fontbold"
                     >
-                      <h1>
+                      <h1 style={{ fontStyle: "italic", fontWeight: 900 }}>
                         <span id="monday"></span>
                         Monday
                       </h1>
@@ -158,7 +157,7 @@ const WeekCalendar = () => {
                       data-aos-offset="200"
                       className="fontbold"
                     >
-                      <h1>
+                      <h1 style={{ fontStyle: "italic", fontWeight: 900 }}>
                         <span id="tuesday"></span>
                         Tuesday
                       </h1>
@@ -270,12 +269,12 @@ const WeekCalendar = () => {
                       data-aos-offset="300"
                       className="fontbold"
                     >
-                      <h1>
+                      <h1 style={{ fontStyle: "italic", fontWeight: 900 }}>
                         {" "}
                         <span id="wednesday"></span>
                         Wednesday:
                       </h1>
-                       <br />
+                      <br />
                       <h2>Lunch Happenings:</h2>
                       <br />
 
@@ -311,7 +310,7 @@ const WeekCalendar = () => {
                     >
                       <br />
 
-                      <h1>
+                      <h1 style={{ fontStyle: "italic", fontWeight: 900 }}>
                         <span id="thursday"></span>
                         Thursday:
                       </h1>
@@ -334,7 +333,7 @@ const WeekCalendar = () => {
                     >
                       <br />
 
-                      <h1>
+                      <h1 style={{ fontStyle: "italic", fontWeight: 900 }}>
                         <span id="friday"></span>
                         Friday:
                       </h1>
