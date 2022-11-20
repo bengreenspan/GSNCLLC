@@ -163,7 +163,7 @@ const WeekCalendar = () => {
                       </h1>
 
                       <br />
-                      <h2>Lunchtime Happenings:</h2>
+                      <h2>Lunch Happenings:</h2>
                       <br />
                       <div className="links">
                         <a
@@ -240,7 +240,8 @@ const WeekCalendar = () => {
                       <br />
 
                       <h2>Afterclass Happenings:</h2>
-
+                      <br />
+                  
                       <div className="links">
                         <a
                           target="_blank"
@@ -363,7 +364,7 @@ const WeekCalendar = () => {
                       // data-aos-offset="200"
                       className="fontbold"
                     >
-                                          <br />
+                      <br />
                       <h1 style={{ fontStyle: "italic", fontWeight: 900 }}>
                         <span id="saturday"></span>
                         Saturday:
