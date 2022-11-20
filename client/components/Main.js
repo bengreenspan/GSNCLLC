@@ -30,13 +30,15 @@ export const Main = () => (
     <EmailForm />
     <WeekCalendar />
     <div className="gray">
-      <Customers />
+
+      {/* <Customers /> */}
+      <Form />
     </div>
 
     {/* <Map /> */}
     {/* </div> */}
     {/* <Carousel /> */}
-    <Form />
+
 
     <div className="gray">
       <Faq />

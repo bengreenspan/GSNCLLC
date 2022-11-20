@@ -363,8 +363,12 @@ const WeekCalendar = () => {
                       // data-aos-offset="200"
                       className="fontbold"
                     >
-                      <br />
-                      <h1> Saturday:</h1>
+                                          <br />
+                      <h1 style={{ fontStyle: "italic", fontWeight: 900 }}>
+                        <span id="saturday"></span>
+                        Saturday:
+                      </h1>
+
                       <div className="links">
                         <div>No Events Found</div>
                       </div>
