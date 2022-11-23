@@ -275,7 +275,7 @@ const WeekCalendar = () => {
                       <h1 style={{ fontStyle: "italic", fontWeight: 900 }}>
                         {" "}
                         <span id="wednesday"></span>
-                        Wednesday:
+                        Wednesday
                       </h1>
                       <br />
                       <h2>Lunch Happenings:</h2>
@@ -315,7 +315,7 @@ const WeekCalendar = () => {
 
                       <h1 style={{ fontStyle: "italic", fontWeight: 900 }}>
                         <span id="thursday"></span>
-                        Thursday:
+                        Thursday
                       </h1>
 
                       <div className="links">
@@ -338,7 +338,7 @@ const WeekCalendar = () => {
 
                       <h1 style={{ fontStyle: "italic", fontWeight: 900 }}>
                         <span id="friday"></span>
-                        Friday:
+                        Friday
                       </h1>
                       {/* <br /> */}
                       <div className="links">
@@ -369,7 +369,7 @@ const WeekCalendar = () => {
                       <br />
                       <h1 style={{ fontStyle: "italic", fontWeight: 900 }}>
                         <span id="saturday"></span>
-                        Saturday:
+                        Saturday
                       </h1>
 
                       <div className="links">
