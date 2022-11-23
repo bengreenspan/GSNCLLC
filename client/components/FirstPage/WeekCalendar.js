@@ -238,10 +238,12 @@ const WeekCalendar = () => {
                         </h4>
                       </div>
                       <br />
-
-                      <h2>Afterclass Happenings:</h2>
+<hr/>
+                      <h2 style={{ textDecoration: "none"  }}>
+                        Afterclass Happenings:
+                      </h2>
                       <br />
-                  
+
                       <div className="links">
                         <a
                           target="_blank"

@@ -33,7 +33,7 @@ const NavLinks = () => {
   const navVertical = "column";
 
   const [navBackground, setNavBackground] = useState(navClear);
-  const [navPosition, setNavPosition] = useState(navHorizontal);
+  const [navPosition, setNavPosition] = useState(navVertical);
 
   // const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
@@ -50,40 +50,36 @@ const NavLinks = () => {
   navRef.current = navBackground;
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 210) {
-        setNavBackground(navHalf);
-        // setNavPosition(navVertical);
+    // const handleScroll = () => {
+      if (window.innerWidth < 768) {
+        setNavPosition(navVertical);
       } else {
-        setNavBackground(navClear);
-        // setNavPosition(navVertical);
+        // setNavBackground(navClear);
+        setNavPosition(navHorizontal);
+        console.log("big")
       }
-    };
-
-    document.addEventListener("scroll", handleScroll);
-    return () => {
-      document.removeEventListener("scroll", handleScroll);
-    };
   }, []);
 
-  useEffect(() => {
-    const handleLoad = () => {
-      // if ( > 210) {
-      //   setNavPosition(navVertical);
-      // } else {
-      setNavPosition(navVertical);
-    };
+    // document.addEventListener("scroll", handleScroll);
+    // return () => {
+    //   document.removeEventListener("scroll", handleScroll);
+    // };
+  // }, []);
 
-    document.addEventListener("load", handleLoad);
-    return () => {
-      document.removeEventListener("load", handleLoad);
-    };
-  }, []);
 
-  const select = useSelector((state) => state.auth.id);
+
+
+
+
 
   return (
-    <Container sx={{ display: "flex" }}>
+    <Container
+      sx={{
+        textDecoration: "none",
+        display: "flex",
+        flexDirection: navPosition,
+      }}
+    >
       {" "}
       {/* <Box sx={{ display: { xs: "none", md: "flex" } }}>
         {pages.map((page) => (
@@ -108,7 +104,6 @@ const NavLinks = () => {
               textDecoration: "none",
               color: "black",
               display: "flex",
-              flexDirection: "column",
             }}
           >
             {" "}

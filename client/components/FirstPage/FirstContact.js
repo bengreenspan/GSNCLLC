@@ -93,24 +93,24 @@ const FirstContact = () => {
 
                     <h4 className="font">
                       {" "}
-                      <div class="links">
-                        <a class="font" href="#monday">
+                      <div className="links">
+                        <a className="font" href="#monday">
                           Monday
                         </a>
                         <br />
-                        <a class="font" href="#tuesday">
+                        <a className="font" href="#tuesday">
                           Tuesday
                         </a>
                         <br />
-                        <a class="font" href="#wednesday">
+                        <a className="font" href="#wednesday">
                           Wednesday
                         </a>
                         <br />
-                        <a class="font" href="#thursday">
+                        <a className="font" href="#thursday">
                           Thursday
                         </a>
                         <br />
-                        <a class="font" href="#friday">
+                        <a className="font" href="#friday">
                           Friday
                         </a>
                       </div>

@@ -59,10 +59,9 @@ const ResponsiveAppBar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
- 
       if (window.scrollY > 360) {
         setNavBackground(navTen);
-        handleCloseNavMenu()
+        handleCloseNavMenu();
       } else if (window.scrollY > 320 && window.scrollY <= 360) {
         setNavBackground(navNine);
       } else if (window.scrollY > 280 && window.scrollY <= 320) {
@@ -83,7 +82,7 @@ const ResponsiveAppBar = () => {
         setNavBackground(navOne);
       } else {
         setNavBackground(navZero);
-        handleCloseNavMenu()
+        handleCloseNavMenu();
       }
     };
     document.addEventListener("scroll", handleScroll);
@@ -151,7 +150,15 @@ const ResponsiveAppBar = () => {
               <img src="/logolong.png" height={40} />
             </Link>
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box
+            sx={{
+              display: "flex",
+              // flexDirection: "row",
+              flexDirection: "row",
+              flexGrow: 1,
+              display: { xs: "none", md: "flex" },
+            }}
+          >
             <NavLinks />
           </Box>
 
@@ -175,28 +182,6 @@ const ResponsiveAppBar = () => {
               <NavLinks />
             </Menu>
           </Box>
-
-
-
-{/* 
-          {select ? (
-               <Typography component={'span'}  variant="h5" style={{ ml: 10 }}>
-            <Link color="inherit" onClick={logoutButton} style={{ textDecoration: "none", color: "black" }}>
-              {" "}
-              Log Out
-            </Link>
-            </Typography>
-          ) : (
-            <Typography  component={'span'} variant="h5" style={{ ml: 10 }}>
-              <Link
-                to="/login"
-                style={{ textDecoration: "none", color: "black" }}
-              >
-                {" "}
-                Log In
-              </Link>
-              </Typography>
-          )} */}
         </Toolbar>
       </Container>
     </AppBar>
