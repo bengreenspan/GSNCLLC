@@ -62,7 +62,7 @@ const Who = () => {
                             Our mission is to aggregate and link to CBS events
                             in one convenient place. This includes speakers,
                             club events, as well as school run activities, along
-                            witht the occasional non CBS event .
+                            witht the occasional non CBS event.
                           </div>
                         </h5>
                       </Typography>
