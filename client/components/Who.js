@@ -105,7 +105,7 @@ const Who = () => {
                               Haas is looking to make the pivot from his current
                               roles as a healthcare administrator to a career in
                               real estate. A networker's networker, Haas
-                              keeps,git ad populates, keeps track, and attends
+                              populates, keeps track, and attends
                               most events on the site.
                               <br />
                               <br />
