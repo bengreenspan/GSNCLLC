@@ -371,7 +371,7 @@ const Tips = () => {
                         target="_blank"
                         href="https://blogs.cul.columbia.edu/spotlights/category/new-e-resources/"
                       >
-                        News Services:
+                        News Services
                       </a>
                       <h4>
                         {" "}
