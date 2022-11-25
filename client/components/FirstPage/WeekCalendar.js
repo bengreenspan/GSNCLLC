@@ -254,7 +254,7 @@ const WeekCalendar = () => {
                       <hr />
                       <div className="afternoon"
                  
-                                   data-aos="fade-right"
+                                   data-aos="fade-left"
                                    data-aos-duration="1000"
                       
                       >
