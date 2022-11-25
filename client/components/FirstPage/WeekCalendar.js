@@ -76,75 +76,82 @@ const WeekCalendar = () => {
                         Monday
                       </h1>
                       <br />
-                      <h2>Lunch Happenings:</h2>
-                      <br />
-                      <div className="links">
-                        <a
-                          target="_blank"
-                          href="https://groups.gsb.columbia.edu/CMC/rsvp_boot?id=32944"
-                        >
-                          Immigration Attorney Workshop: US Visa Options
-                          Post-Graduation
-                          <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                            by Career Management Center
-                          </p>
-                        </a>
 
-                        <h4 style={{ fontWeight: 100 }}>
-                          Geffen 590, 12:15pm – 1:45pm
-                        </h4>
-                      </div>
-                      <br />
+                      <div
+                        // className="lunch happenings"
+                        // data-aos="fade-left"
+                        // data-aos-duration="1000"
+                      >
+                        <h2>Lunch Happenings:</h2>
+                        <br />
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://groups.gsb.columbia.edu/CMC/rsvp_boot?id=32944"
+                          >
+                            Immigration Attorney Workshop: US Visa Options
+                            Post-Graduation
+                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
+                              by Career Management Center
+                            </p>
+                          </a>
 
-                      <div className="links">
-                        <a
-                          target="_blank"
-                          href="https://groups.gsb.columbia.edu/CMC/rsvp_boot?id=38077"
-                        >
-                          CMC Advising: Consulting with Tricia Baione
-                          <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                            by Career Management Center
-                          </p>
-                        </a>
+                          <h4 style={{ fontWeight: 100 }}>
+                            Geffen 590, 12:15pm – 1:45pm
+                          </h4>
+                        </div>
+                        <br />
 
-                        <h4 style={{ fontWeight: 100 }}>
-                          Geffen 570, 12:30pm – 1:30pm
-                        </h4>
-                      </div>
-                      <br />
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://groups.gsb.columbia.edu/CMC/rsvp_boot?id=38077"
+                          >
+                            CMC Advising: Consulting with Tricia Baione
+                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
+                              by Career Management Center
+                            </p>
+                          </a>
 
-                      <div className="links">
-                        <a
-                          target="_blank"
-                          href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=31000"
-                        >
-                          Japan’s New Economic Security Policy: Impact on
-                          Businesses, Supply Chains, and Investment
-                          <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                            by Center on Japanese Economy and Business
-                          </p>
-                        </a>
+                          <h4 style={{ fontWeight: 100 }}>
+                            Geffen 570, 12:30pm – 1:30pm
+                          </h4>
+                        </div>
+                        <br />
 
-                        <h4 style={{ fontWeight: 100 }}>
-                          Geffen 540, 12:30pm – 1:30pm
-                        </h4>
-                      </div>
-                      <br />
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=31000"
+                          >
+                            Japan’s New Economic Security Policy: Impact on
+                            Businesses, Supply Chains, and Investment
+                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
+                              by Center on Japanese Economy and Business
+                            </p>
+                          </a>
 
-                      <div className="links">
-                        <a
-                          target="_blank"
-                          href="https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=33388"
-                        >
-                          Technical skills for non-technical job seekers
-                          <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                            by Technology Club
-                          </p>
-                        </a>
+                          <h4 style={{ fontWeight: 100 }}>
+                            Geffen 540, 12:30pm – 1:30pm
+                          </h4>
+                        </div>
+                        <br />
 
-                        <h4 style={{ fontWeight: 100 }}>
-                          Geffen 520, 12:30pm – 1:30pm
-                        </h4>
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=33388"
+                          >
+                            Technical skills for non-technical job seekers
+                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
+                              by Technology Club
+                            </p>
+                          </a>
+
+                          <h4 style={{ fontWeight: 100 }}>
+                            Geffen 520, 12:30pm – 1:30pm
+                          </h4>
+                        </div>
                       </div>
                       <br />
                     </div>
@@ -163,104 +170,117 @@ const WeekCalendar = () => {
                       </h1>
 
                       <br />
-                      <h2>Lunch Happenings:</h2>
-                      <br />
-                      <div className="links">
-                        <a
-                          target="_blank"
-                          href="https://groups.gsb.columbia.edu/CMC/rsvp_boot?id=38270"
-                        >
-                          CMC Advising: Investment Banking with Anjna Motwan
-                          <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                            by Career Management Center
-                          </p>
-                        </a>
+                      <div
+                        // className="lunch happenings"
+                        // data-aos="fade-left"
+                        // data-aos-duration="1000"
+                      >
+                        <h2>Lunch Happenings:</h2>
+                        <br />
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="https://groups.gsb.columbia.edu/CMC/rsvp_boot?id=38270"
+                          >
+                            CMC Advising: Investment Banking with Anjna Motwan
+                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
+                              by Career Management Center
+                            </p>
+                          </a>
 
-                        <h4 style={{ fontWeight: 100 }}>
-                          Geffen 440, 12:00pm – 1:30pm
-                        </h4>
-                      </div>
-                      <br />
+                          <h4 style={{ fontWeight: 100 }}>
+                            Geffen 440, 12:00pm – 1:30pm
+                          </h4>
+                        </div>
+                        <br />
 
-                      <div className="links">
-                        <a
-                          target="_blank"
-                          href="
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="
                           https://groups.gsb.columbia.edu/VCC/rsvp_boot?id=37663
                           "
-                        >
-                          VCC Open Lunch
-                          <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                            by Venture Capital Club
-                          </p>
-                        </a>
+                          >
+                            VCC Open Lunch
+                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
+                              by Venture Capital Club
+                            </p>
+                          </a>
 
-                        <h4 style={{ fontWeight: 100 }}>
-                          Kravis 490, 12:15pm – 1:15pm
-                        </h4>
-                      </div>
-                      <br />
+                          <h4 style={{ fontWeight: 100 }}>
+                            Kravis 490, 12:15pm – 1:15pm
+                          </h4>
+                        </div>
+                        <br />
 
-                      <div className="links">
-                        <a
-                          target="_blank"
-                          href="
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="
                           https://groups.gsb.columbia.edu/sec/rsvp_boot?id=33435
                           "
-                        >
-                          Pangea Teams Appreciation Social
-                          <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                            by Social Enterprise Club
-                          </p>
-                        </a>
+                          >
+                            Pangea Teams Appreciation Social
+                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
+                              by Social Enterprise Club
+                            </p>
+                          </a>
 
-                        <h4 style={{ fontWeight: 100 }}>
-                          Geffen 390, 12:30pm – 1:30pm
-                        </h4>
-                      </div>
-                      <br />
+                          <h4 style={{ fontWeight: 100 }}>
+                            Geffen 390, 12:30pm – 1:30pm
+                          </h4>
+                        </div>
+                        <br />
 
-                      <div className="links">
-                        <a
-                          target="_blank"
-                          href="
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="
                           https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=33445
                           "
-                        >
-                          Nailing the Tech Behavioral Interview Workshop
-                          <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                            by Technology Club
-                          </p>
-                        </a>
+                          >
+                            Nailing the Tech Behavioral Interview Workshop
+                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
+                              by Technology Club
+                            </p>
+                          </a>
 
-                        <h4 style={{ fontWeight: 100 }}>
-                          Geffen 620/Virtual, 12:30pm – 1:45pm
-                        </h4>
+                          <h4 style={{ fontWeight: 100 }}>
+                            Geffen 620/Virtual, 12:30pm – 1:45pm
+                          </h4>
+                        </div>
+                        <br />
                       </div>
-                      <br />
-<hr/>
-                      <h2 style={{ textDecoration: "none"  }}>
-                        Afterclass Happenings:
-                      </h2>
-                      <br />
+                      <hr />
+                      <div className="afternoon"
+                 
+                                   data-aos="fade-right"
+                                   data-aos-duration="1000"
+                      
+                      >
+                        <h2 style={{ textDecoration: "none" }}>
+                          Afterclass Happenings:
+                        </h2>
+                        <br />
 
-                      <div className="links">
-                        <a
-                          target="_blank"
-                          href="
+                        <div className="links">
+                          <a
+                            target="_blank"
+                            href="
                           https://groups.gsb.columbia.edu/energy/rsvp_boot?id=33345
                           "
-                        >
-                          Energy & Infrastructure Club - Green Hydrogen Panel
-                          Event
-                          <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                            by Energy & Infrastructure Club
-                          </p>
-                        </a>
+                          >
+                            Energy & Infrastructure Club - Green Hydrogen Panel
+                            Event
+                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
+                              by Energy & Infrastructure Club
+                            </p>
+                          </a>
 
-                        <h4 style={{ fontWeight: 100 }}>
-                          Geffen 520, 6:00pm – 8:00pm
-                        </h4>
+                          <h4 style={{ fontWeight: 100 }}>
+                            Geffen 520, 6:00pm – 8:00pm
+                          </h4>
+                        </div>
                       </div>
                       <br />
                     </div>
