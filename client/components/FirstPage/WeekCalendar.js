@@ -100,7 +100,6 @@ const WeekCalendar = () => {
                         // data-aos-duration="1000"
                         >
                           <h2>Lunch Happenings:</h2>
-                          <br />
                           <div className="links">
                             <a
                               target="_blank"
@@ -237,7 +236,7 @@ const WeekCalendar = () => {
                       <br />
                       <div>
                         <h2>Lunch Happenings:</h2>
-                        <br />
+  
                         <div className="links">
                           <a
                             target="_blank"
@@ -479,8 +478,6 @@ const WeekCalendar = () => {
                       </h1>
                       <br />
                       <h2>Lunch Happenings:</h2>
-
-                      <br />
                       <div className="links">
                         <a
                           target="_blank"
@@ -545,7 +542,7 @@ const WeekCalendar = () => {
                           https://groups.gsb.columbia.edu/osa/rsvp_boot?id=28225
                           "
                         >
-                          CBS | well: Quiet Group Study Room
+                          CBS | well: Vinyasa Yoga
                           <p style={{ fontStyle: "italic", fontWeight: 100 }}>
                             by Office of Student Affairs
                           </p>
@@ -705,8 +702,6 @@ const WeekCalendar = () => {
 
                       <br />
                       <h2>Lunch Happenings:</h2>
-
-                      <br />
                       <div className="links">
                         <a
                           target="_blank"
@@ -951,8 +946,6 @@ const WeekCalendar = () => {
 
                       <br />
                       <h2>Lunch Happenings:</h2>
-
-                      <br />
                       <div className="links">
                         <a
                           target="_blank"
