@@ -77,80 +77,144 @@ const WeekCalendar = () => {
                       </h1>
                       <br />
 
-                      <div
+                      <h2>All Day Happenings:</h2>
+                      <br />
+                      <div className="links">
+                        <a
+                          target="_blank"
+                          href="
+                         
+                            "
+                        >
+                          World Cup Streaming
+                          {/* <p style={{ fontStyle: "italic", fontWeight: 100 }}>
+                            by Media Management Association
+                            </p> */}
+                          <h4 style={{ fontWeight: 100 }}>Kravis 470</h4>
+                        </a>
+                        <br />
+
+                        <div
                         // className="lunch happenings"
                         // data-aos="fade-left"
                         // data-aos-duration="1000"
-                      >
-                        <h2>Lunch Happenings:</h2>
-                        <br />
-                        <div className="links">
-                          <a
-                            target="_blank"
-                            href="https://groups.gsb.columbia.edu/CMC/rsvp_boot?id=32944"
+                        >
+                          <h2>Lunch Happenings:</h2>
+                          <br />
+                          <div className="links">
+                            <a
+                              target="_blank"
+                              href="
+                            https://groups.gsb.columbia.edu/MMA/rsvp_boot?id=37704
+                            "
+                            >
+                              MMA: Podcasting and the Future of Audio
+                              <p
+                                style={{ fontStyle: "italic", fontWeight: 100 }}
+                              >
+                                by Media Management Association
+                              </p>
+                            </a>
+
+                            <h4 style={{ fontWeight: 100 }}>
+                              Kravis 410, 12:30pm – 1:30pm
+                            </h4>
+                          </div>
+                          <br />
+
+                          <div className="links">
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/CMC/rsvp_boot?id=38077"
+                            >
+                              CMC Advising: Consulting with Tricia Baione
+                              <p
+                                style={{ fontStyle: "italic", fontWeight: 100 }}
+                              >
+                                by Career Management Center
+                              </p>
+                            </a>
+
+                            <h4 style={{ fontWeight: 100 }}>
+                              Geffen 570, 12:30pm – 1:30pm
+                            </h4>
+                          </div>
+                          <br />
+
+                          <div className="links">
+                            <a
+                              target="_blank"
+                              href="
+                            https://groups.gsb.columbia.edu/CHAZ/rsvp_boot?id=33429
+                            "
+                            >
+                              Ask Me Anything: Working Abroad in Africa
+                              <p
+                                style={{ fontStyle: "italic", fontWeight: 100 }}
+                              >
+                                by The Chazen Institute
+                              </p>
+                            </a>
+
+                            <h4 style={{ fontWeight: 100 }}>
+                              Geffen 540, 12:30pm – 1:30pm (PPIL, over 100 students registered)
+                            </h4>
+                          </div>
+
+                          <br />
+                          <div className="links">
+                            <a
+                              target="_blank"
+                              href="https://groups.gsb.columbia.edu/FLC/rsvp_boot?id=38195"
+                            >
+                              Financial Literacy Club Bake Sale
+                              <p
+                                style={{ fontStyle: "italic", fontWeight: 100 }}
+                              >
+                                by Financial Literacy Club
+                              </p>
+                            </a>
+
+                            <h4 style={{ fontWeight: 100 }}>
+                              4th Floor Student Lounge Kravis, 12:00pm – 3:00pm
+                            </h4>
+                          </div>
+
+                          <hr />
+                          <div
+                            className="afternoon"
+                            data-aos="fade-left"
+                            data-aos-duration="1000"
                           >
-                            Immigration Attorney Workshop: US Visa Options
-                            Post-Graduation
-                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                              by Career Management Center
-                            </p>
-                          </a>
+                            <h2 style={{ textDecoration: "none" }}>
+                              Afterclass Happenings:
+                            </h2>
+                            <br />
 
-                          <h4 style={{ fontWeight: 100 }}>
-                            Geffen 590, 12:15pm – 1:45pm
-                          </h4>
-                        </div>
-                        <br />
+                            <div className="links">
+                              <a
+                                target="_blank"
+                                href="
+                            https://groups.gsb.columbia.edu/DEAN/rsvp_boot?id=38177
+                          "
+                              >
+                                Public Pensions and Retirement Security in the
+                                U.S
+                                <p
+                                  style={{
+                                    fontStyle: "italic",
+                                    fontWeight: 100,
+                                  }}
+                                >
+                                  by Dean's Office
+                                </p>
+                              </a>
 
-                        <div className="links">
-                          <a
-                            target="_blank"
-                            href="https://groups.gsb.columbia.edu/CMC/rsvp_boot?id=38077"
-                          >
-                            CMC Advising: Consulting with Tricia Baione
-                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                              by Career Management Center
-                            </p>
-                          </a>
-
-                          <h4 style={{ fontWeight: 100 }}>
-                            Geffen 570, 12:30pm – 1:30pm
-                          </h4>
-                        </div>
-                        <br />
-
-                        <div className="links">
-                          <a
-                            target="_blank"
-                            href="https://groups.gsb.columbia.edu/CJEB/rsvp_boot?id=31000"
-                          >
-                            Japan’s New Economic Security Policy: Impact on
-                            Businesses, Supply Chains, and Investment
-                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                              by Center on Japanese Economy and Business
-                            </p>
-                          </a>
-
-                          <h4 style={{ fontWeight: 100 }}>
-                            Geffen 540, 12:30pm – 1:30pm
-                          </h4>
-                        </div>
-                        <br />
-
-                        <div className="links">
-                          <a
-                            target="_blank"
-                            href="https://groups.gsb.columbia.edu/Tech/rsvp_boot?id=33388"
-                          >
-                            Technical skills for non-technical job seekers
-                            <p style={{ fontStyle: "italic", fontWeight: 100 }}>
-                              by Technology Club
-                            </p>
-                          </a>
-
-                          <h4 style={{ fontWeight: 100 }}>
-                            Geffen 520, 12:30pm – 1:30pm
-                          </h4>
+                              <h4 style={{ fontWeight: 100 }}>
+                                Kravis 880, 3:30pm – 5:15pm
+                              </h4>
+                            </div>
+                          </div>
                         </div>
                       </div>
                       <br />
@@ -171,9 +235,9 @@ const WeekCalendar = () => {
 
                       <br />
                       <div
-                        // className="lunch happenings"
-                        // data-aos="fade-left"
-                        // data-aos-duration="1000"
+                      // className="lunch happenings"
+                      // data-aos="fade-left"
+                      // data-aos-duration="1000"
                       >
                         <h2>Lunch Happenings:</h2>
                         <br />
@@ -252,11 +316,10 @@ const WeekCalendar = () => {
                         <br />
                       </div>
                       <hr />
-                      <div className="afternoon"
-                 
-                                   data-aos="fade-left"
-                                   data-aos-duration="1000"
-                      
+                      <div
+                        className="afternoon"
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
                       >
                         <h2 style={{ textDecoration: "none" }}>
                           Afterclass Happenings:
