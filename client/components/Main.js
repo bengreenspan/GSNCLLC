@@ -10,6 +10,7 @@ import Title from "./FirstPage/Title";
 import Carousel from "./FirstPage/Carousel";
 import FirstContact from "./FirstPage/FirstContact";
 import { Divider } from "@mui/material";
+import CalendarOver from "./FirstPage/CalendarOver";
 import WeekCalendar from "./FirstPage/WeekCalendar";
 import { inject } from '@vercel/analytics';
 
@@ -28,7 +29,8 @@ export const Main = () => (
       <FirstContact />
     </div>
     <EmailForm />
-    <WeekCalendar />
+    <CalendarOver />
+    {/* <WeekCalendar /> */}
     <div className="gray">
 
       {/* <Customers /> */}

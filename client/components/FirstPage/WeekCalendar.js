@@ -65,7 +65,7 @@ const WeekCalendar = () => {
                 <h4>12/05/22 - 12/10/22</h4>
                 <br />
                 <BS.Row>
-                  <BS.Col lg={4} md={6} sm={12} xs={12}>
+                  {/* <BS.Col lg={4} md={6} sm={12} xs={12}>
                     <div
                       data-aos="fade-up"
                       data-aos-duration="500"
@@ -106,13 +106,13 @@ const WeekCalendar = () => {
                           {/* <p style={{ fontStyle: "italic", fontWeight: 100 }}>
                             by Media Management Association
                             </p> */}
-                          <h4 style={{ fontWeight: 100 }}>
+                          {/* <h4 style={{ fontWeight: 100 }}>
                             Various TVs around campus
                           </h4>
                           <br />
                         </a>
-                        <br />
-
+                        <br /> */}
+{/* 
                         <div
                         // className="lunch happenings"
                         // data-aos="fade-left"
@@ -246,8 +246,8 @@ const WeekCalendar = () => {
                       </div>
                       <br />
                     </div>
-                  </BS.Col>
-
+                  </BS.Col> */} 
+                  
                   <BS.Col lg={4} md={6} sm={12} xs={12}>
                     <div
                       data-aos="fade-up"
@@ -1095,3 +1095,17 @@ const WeekCalendar = () => {
   );
 };
 export default WeekCalendar;
+//valgrind showing an error message
+// ; not pushing in
+//tokens read wrong 
+
+
+
+//what is tree size
+//dont know how to test the dictionary vs mine
+
+
+
+
+// valgrind --leak-check=yes ./your_executable
+// /home/tim/cs3136-pub/data/words istringstream-test.cpp 
