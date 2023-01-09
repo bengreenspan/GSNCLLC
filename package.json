@@ -24,7 +24,6 @@
   "license": "MIT",
   "dependencies": {
     "@craco/craco": "^6.4.5",
-    "@emotion/styled": "^11.8.1",
     "@fullcalendar/core": "^5.11.3",
     "@fullcalendar/daygrid": "^5.11.3",
     "@fullcalendar/list": "^5.11.3",
