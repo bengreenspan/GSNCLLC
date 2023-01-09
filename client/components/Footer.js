@@ -42,7 +42,7 @@ export const Footer = () => {
                   <Grid item xs={6} sx={{ ml: 4 }}>
                     <Copyright />
                     <Box sx={{ mt: 2 }}>
-                      <Box> 665 ss 130th St </Box>
+                      <Box> 665 W 130th St </Box>
                       <Box>New York, New York 10027 </Box>
                     </Box>
                   </Grid>
